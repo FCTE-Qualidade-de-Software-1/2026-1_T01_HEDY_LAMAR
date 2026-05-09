@@ -23,7 +23,24 @@ theme:
         name: Light mode
       primary: indigo
       accent: orange
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Início: index.md
+  - Configuração: configs.md
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
