@@ -1,3 +1,24 @@
 site_name: Grupo Hedy Lamarr
+site_url: https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR
+repo_name: 2026-1-Hedy-Lamarr
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle: 
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: orange
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: orange
