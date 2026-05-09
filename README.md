@@ -23,7 +23,6 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
           </b>
         </sub><br/>
       </td>
-
       <td align="center">
         <a href="https://github.com/BrzGab" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/BrzGab.png" width="120px;" alt="Gabriel Lopes"/>
@@ -34,7 +33,6 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
           </b>
         </sub><br/>
       </td>
-
       <td align="center">
         <a href="https://github.com/GuilhermeDavila" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/GuilhermeDavila.png" width="120px;" alt="Guilherme D Avila"/>
@@ -45,7 +43,6 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
           </b>
         </sub><br/>
       </td>
-
       <td align="center">
         <a href="https://github.com/lcsgborges" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/lcsgborges.png" width="120px;" alt="Lucas Guimarães"/>
@@ -56,7 +53,6 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
           </b>
         </sub><br/>
       </td>
-
       <td align="center">
         <a href="https://github.com/paulocerqr" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/paulocerqr.png" width="120px;" alt="Paulo Cerqueira"/>
@@ -67,7 +63,6 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
           </b>
         </sub><br/>
       </td>
-
       <td align="center">
         <a href="https://github.com/UnderwaterVillager" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/UnderwaterVillager.png" width="120px;" alt="Vinicius de Jesus"/>
