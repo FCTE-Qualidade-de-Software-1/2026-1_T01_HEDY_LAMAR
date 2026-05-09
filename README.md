@@ -14,40 +14,69 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
   <table align="center">
     <tr>
       <td align="center">
-        <a href="https://github.com/AndreGustavoRN">
+        <a href="https://github.com/AndreGustavoRN" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/AndreGustavoRN.png" width="120px;" alt="André Gustavo"/>
         </a><br />
-        <sub><b>André Gustavo</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/AndreGustavoRN" target="_blank" rel="noopener noreferrer">André Gustavo</a>
+          </b>
+        </sub><br/>
       </td>
+
       <td align="center">
-        <a href="https://github.com/BrzGab">
+        <a href="https://github.com/BrzGab" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/BrzGab.png" width="120px;" alt="Gabriel Lopes"/>
         </a><br />
-        <sub><b>Gabriel Lopes</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/BrzGab" target="_blank" rel="noopener noreferrer">Gabriel Lopes</a>
+          </b>
+        </sub><br/>
       </td>
+
       <td align="center">
-        <a href="https://github.com/GuilhermeDavila">
+        <a href="https://github.com/GuilhermeDavila" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/GuilhermeDavila.png" width="120px;" alt="Guilherme D Avila"/>
         </a><br />
-        <sub><b>Guilherme D Avila</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/GuilhermeDavila" target="_blank" rel="noopener noreferrer">Guilherme D Avila</a>
+          </b>
+        </sub><br/>
       </td>
+
       <td align="center">
-        <a href="https://github.com/lcsgborges">
+        <a href="https://github.com/lcsgborges" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/lcsgborges.png" width="120px;" alt="Lucas Guimarães"/>
         </a><br />
-        <sub><b>Lucas Guimarães</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/lcsgborges" target="_blank" rel="noopener noreferrer">Lucas Guimarães</a>
+          </b>
+        </sub><br/>
       </td>
+
       <td align="center">
-        <a href="https://github.com/paulocerqr">
+        <a href="https://github.com/paulocerqr" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/paulocerqr.png" width="120px;" alt="Paulo Cerqueira"/>
         </a><br />
-        <sub><b>Paulo Cerqueira</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/paulocerqr" target="_blank" rel="noopener noreferrer">Paulo Cerqueira</a>
+          </b>
+        </sub><br/>
       </td>
+
       <td align="center">
-        <a href="https://github.com/UnderwaterVillager">
+        <a href="https://github.com/UnderwaterVillager" target="_blank" rel="noopener noreferrer">
           <img style="border-radius: 50%; border: 3px solid #4CAF50;" src="https://github.com/UnderwaterVillager.png" width="120px;" alt="Vinicius de Jesus"/>
         </a><br />
-        <sub><b>Vinicius de Jesus</b></sub><br/>
+        <sub>
+          <b>
+            <a href="https://github.com/UnderwaterVillager" target="_blank" rel="noopener noreferrer">Vinicius de Jesus</a>
+          </b>
+        </sub><br/>
       </td>
     </tr>
   </table>
