@@ -35,6 +35,7 @@ nav:
   - Início: index.md
   - Fase 1 - Requisitos da Avaliação:
     - 3. Descrição do Produto de Software: fase1/03_descricao_produto.md
+    - 4. Seleção e Priorização de Características: fase1/04_selecao_e_priorizacao_de_caracteristicas.md
   - Configuração: configs.md
 markdown_extensions:
   - admonition
