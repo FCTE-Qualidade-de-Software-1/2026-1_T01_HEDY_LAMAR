@@ -116,7 +116,7 @@ As características selecionadas possuem relação direta com os objetivos da av
 | Propósito da Avaliação | Característica Relacionada |
 |---|---|
 | Verificar a precisão da leitura do histórico acadêmico | Adequação Funcional |
-| Avaliar a corretude das simulações acadêmicas | Adequação Funcional |
+| Avaliar a corretude da geração do fluxo acadêmico do curso | Adequação Funcional |
 | Garantir funcionamento adequado em diferentes ambientes | Portabilidade |
 | Validar acessibilidade multiplataforma do sistema | Portabilidade |
 
