@@ -1,0 +1,7 @@
+# 7. ODS Relacionados
+
+O software NoFluxoUNB se conecta aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU nos seguintes pontos:
+
+- *ODS 4: Educação de Qualidade —* A avaliação se conecta à *Meta 4.3*, que visa assegurar a igualdade de acesso para todos à educação técnica, profissional e superior de qualidade. O NoFluxoUNB contribui diretamente para essa meta ao democratizar o acesso a informações curriculares organizadas e personalizadas, reduzindo a desinformação acadêmica que frequentemente leva a reprovações, atrasos na formação ou abandono do curso. A plataforma apoia o estudante na tomada de decisões mais conscientes sobre sua trajetória universitária.
+
+- *ODS 9: Indústria, Inovação e Infraestrutura —* O projeto se alinha à *Meta 9.c*, que busca aumentar significativamente o acesso às tecnologias de informação e comunicação. Como uma ferramenta de código aberto (licença GPL-3.0), o NoFluxoUNB aplica tecnologias modernas — incluindo inteligência artificial, arquitetura de microsserviços e deploy em nuvem — para resolver um problema concreto de gestão acadêmica. Isso promove a inovação tecnológica aplicada ao contexto educacional público, contribuindo para uma infraestrutura digital mais acessível e inclusiva dentro do ambiente universitário.
