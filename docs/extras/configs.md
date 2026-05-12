@@ -14,10 +14,22 @@ cd hedy_lamarr_2026_1_t01
 
 Crie um ambiente virtual e instale as dependências:
 
+### Linux / macOS
+
 ```bash
 python3 -m venv .venv
 
 source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### Windows (PowerShell)
+
+```bash
+python -m venv .venv
+
+.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
 ```
