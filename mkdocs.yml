@@ -34,6 +34,8 @@ theme:
 nav:
   - Início: index.md
   - Fase 1 - Requisitos da Avaliação:
+    - 1. Propósito da Avaliação: fase1/01_proposito_da_avaliacao.md
+    - 2. Requisitante e Partes Interessadas: fase1/02_requisitante_e_stakeholders.md
     - 3. Descrição do Produto de Software: fase1/03_descricao_produto.md
     - 4. Seleção e Priorização de Características: fase1/04_selecao_e_priorizacao_de_caracteristicas.md
     - 5. Modelo de Qualidade: fase1/05_modelo_de_qualidade.md
