@@ -1,3 +1,43 @@
+# 6. Escopo e Profundidade de Avaliação
+
+O escopo e a profundidade de avaliação são definidos a fim de direcionar os alvos de avaliação e o quão serão detalhados, baseados na finalidade de uso do software, no caso de app NoFluxo, a base são suas funções principais.
+
+## 6.1 Escopo de Avaliação
+
+O escopo declara características a serem avaliadas e o domínio do software a se considerar na avaliação.
+
+- **Características**: Portabilidade e análise funcional(justificadas pela matriz Impacto x Risco);
+- **Domínio de aplicação**: Aplicação web, dedicado ao apoio de alunos em uma única organização(UnB);
+- **Modelo de negócio**: Customizado para alunos da UnB(FD), usado um formato modificado, o fluxograma (MOTS), disponível para self-host e em domínio web;
+- **Ambientes de uso**: Navegadores Web;
+
+---
+
+## 6.2 Profundidade de Avaliação
+
+- **Objetivos da avaliação**: 
+	- Assegurar o funcionamento base do serviço a um estudante da UnB, de acordo com os requisitos;
+	- Assertar a melhora de qualidade na tarefa em que se propõe a ajudar o aluno;
+	- Comparar o desempenho entre diferentes navegadores;
+	- Considera-se demanda baixa no momento;
+
+| Caracteristica      | Ênfase(1-5)          |
+| ------------------- | -------------------- |
+| Adequação Funcional | 5 – Grande interesse |
+| Portabilidade       | 4 – Largo interesse  |
+| Compatibilidade     | 3 – Médio interesse  |
+| Segurança           | 3 – Médio interesse  |
+| Confiabilidade      | 3 – Médio interesse  |
+| Eficiência          | 2 – Baixo interesse  |
+| Manutenibilidade    | 2 – Baixo interesse  |
+
+- O software trata de dados de sensibilidade baixa, contudo, são dados que orientam futuros cronogramas de estudantes, uma informação que deve ter seu controle de forma consentida e segura. Logo, segurança não é uma qualidade que invalidaria o produto ao cliente caso faltasse, mas o valorizaria caso tratado, por isso não é tratado como prioridade no momento.
+- Apesar de uma recente migração de tecnologias usadas e uma adaptação quanto a testabilidade em andamento, o software documenta os planos de migração, e segue com atualizações recorrentes. Vale citar a intenção de integrar o software pelo ecossistema da Universidade de Brasília, não além deste escopo. Logo, o repositório possui um ambiente de colaboração ativo e, dado o limite do escopo, o software requer manutenibilidade suficiente para manter a colaboração ativa, por isso manutenibilidade é suficiente para desconsiderar.
+-  Avaliar compatibilidade é considerar que o software se integraria ao ecossistema da UnB, o que pode acontecer, porém não há valor atual em considerar a possibilidade agora.
+- Consideramos baixa demanda ao avaliar o software, ainda que reconhecemos eventuais queixas de gargalos em momentos de pico(e.g.: período de matrículas) no site SIGAA, onde são feitas inscrições de matérias na UnB. Logo, foi decida a lógica de priorizar avaliação de um público menor e mais focado na experiência em si e avaliações de alta demanda, considerando eficiência e confiabilidade, não são prioridade no momento.
+
+---
+
 ## 6.3 Objetos de Avaliação
 
 Os objetos da avaliação definem as partes concretas do software que serão analisadas. Para o NoFluxoUNB, foram considerados:
