@@ -66,6 +66,22 @@ O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridad
 
 ---
 
+## 3.5 Arquitetura do Sistema
+
+A Figura 2 apresenta a arquitetura do No Fluxo UnB disponibilizada pela equipe responsável pelo sistema. A representação evidencia a separação entre frontend, backend, banco de dados, integração com SIGAA, repositório local e fluxo RAG utilizado pelo assistente inteligente.
+
+<div align="center">
+  <strong>Figura 2: Arquitetura do sistema No Fluxo UnB.</strong>
+  <br>
+  <img src="../../assets/arquitetura.png" alt="Diagrama de arquitetura do No Fluxo UnB, com frontend Flutter, backend TypeScript, Supabase, banco de dados, SIGAA UnB, repositório local Lappis e fluxo RAG com documentos, embeddings, LLM e resposta ao usuário." style="max-width: 100%; height: auto;">
+  <br>
+  <em>Fonte: Equipe do No Fluxo UnB, disponibilizado em quadro Miro (<a href="https://miro.com/app/board/uXjVIC_JkAY=/?moveToWidget=3458764626773503994&cot=14">link</a>).</em>
+</div>
+
+Essa arquitetura reforça que a avaliação deve considerar não apenas a interface visível ao usuário, mas também as dependências entre frontend, backend, banco de dados, serviços acadêmicos e componentes de inteligência artificial. Falhas em qualquer uma dessas integrações podem afetar a correção funcional e a experiência de acesso do estudante.
+
+---
+
 [^1]: PRESSMAN, Roger S.; MAXIM, Bruce R. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. Porto Alegre: AMGH, 2016.
 
 ---
@@ -74,4 +90,5 @@ O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridad
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.2` | 03/06/2026 | Inclusão da arquitetura do sistema disponibilizada pela equipe do No Fluxo UnB | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |
