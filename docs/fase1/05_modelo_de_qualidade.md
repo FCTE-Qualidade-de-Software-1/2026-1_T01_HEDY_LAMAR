@@ -8,83 +8,51 @@ As características de qualidade de software escolhidas para esta avaliação, c
 
 ## 5.1 Modelo de Qualidade Adaptado
 
-A Figura 1 apresenta o modelo de qualidade adaptado ao contexto do No Fluxo UnB, conectando as características priorizadas, suas subcaracterísticas, métricas, evidências e rastreabilidade GQM.
+A Figura 1 apresenta uma visão sintética do modelo de qualidade adaptado ao contexto do No Fluxo UnB. Os detalhes de subcaracterísticas, métricas e evidências são apresentados na Tabela 1 para manter a leitura clara.
 
 **Figura 1: Modelo de qualidade adaptado ao No Fluxo UnB.**
 
 ```mermaid
 flowchart TD
-    A["Modelo de Qualidade Adaptado<br/>No Fluxo UnB<br/>ISO/IEC 25010 + Matriz Impacto × Risco + GQM"]
+    A["Modelo de Qualidade Adaptado<br/>No Fluxo UnB"]
 
-    A --> AF["1ª Prioridade<br/>Adequação Funcional<br/>Impacto 5 × Risco 5 = 25"]
-    A --> PO["2ª Prioridade<br/>Portabilidade<br/>Impacto 4 × Risco 4 = 16"]
+    A --> ISO["Base normativa<br/>ISO/IEC 25010"]
+    A --> PRI["Priorização<br/>Matriz Impacto × Risco"]
+    A --> GQM["Rastreabilidade<br/>GQM"]
 
-    %% Adequação Funcional
-    AF --> AF1["Completude Funcional"]
-    AF --> AF2["Correção Funcional"]
-    AF --> AF3["Pertinência Funcional"]
+    PRI --> AF["1ª Prioridade<br/>Adequação Funcional<br/>25 pontos"]
+    PRI --> PO["2ª Prioridade<br/>Portabilidade<br/>16 pontos"]
+    PRI --> SEC["Características secundárias<br/>Compatibilidade, Segurança,<br/>Confiabilidade, Eficiência e Manutenibilidade"]
 
-    AF1 --> AFM["Métricas / Indicadores<br/>• Cobertura das funções essenciais<br/>• Presença das funcionalidades prometidas<br/>• Apoio ao planejamento acadêmico"]
+    AF --> AFS["Subcaracterísticas<br/>Completude, Correção<br/>e Pertinência funcional"]
+    PO --> POS["Subcaracterísticas<br/>Adaptabilidade, Instalabilidade<br/>e Substituibilidade"]
 
-    AF2 --> AFM2["Métricas / Indicadores<br/>• Correção da leitura do histórico<br/>• Consistência dos dados curriculares<br/>• Ausência de recomendações incorretas"]
+    AFS --> EVI["Evidências e métricas<br/>detalhadas na Tabela 1"]
+    POS --> EVI
+    EVI --> GQM
 
-    AF3 --> AFM3["Métricas / Indicadores<br/>• Utilidade para o estudante<br/>• Aderência às necessidades de orientação acadêmica<br/>• Apoio à tomada de decisão"]
-
-    AFM --> AFO["Itens priorizados / evidências<br/>• Leitura correta do PDF de histórico escolar<br/>• Visualização de fluxos curriculares<br/>• Leitura e processamento do histórico acadêmico<br/>• Identificação de pré-requisitos<br/>• Orientação via chatbot<br/>• Busca, filtros e exportação"]
-
-    AFM2 --> AFO
-    AFM3 --> AFO
-
-    %% Portabilidade
-    PO --> PO1["Adaptabilidade"]
-    PO --> PO2["Instalabilidade"]
-    PO --> PO3["Substituibilidade"]
-
-    PO1 --> POM["Métricas / Indicadores<br/>• Funcionamento em diferentes dispositivos<br/>• Adaptação a resoluções de tela<br/>• Uso em desktop e mobile"]
-
-    PO2 --> POM2["Métricas / Indicadores<br/>• Execução em ambientes controlados<br/>• Funcionamento em diferentes sistemas operacionais<br/>• Facilidade de disponibilização como aplicação web"]
-
-    PO3 --> POM3["Métricas / Indicadores<br/>• Compatibilidade com diferentes navegadores<br/>• Possibilidade de evolução/migração tecnológica<br/>• Continuidade de uso em ambientes variados"]
-
-    POM --> POO["Itens priorizados / evidências<br/>• Chrome, Firefox, Safari e Edge<br/>• Windows, macOS, Linux, iOS e Android<br/>• Desktop, notebook, tablet e smartphone<br/>• Ambiente web acessível a estudantes da UnB"]
-
-    POM2 --> POO
-    POM3 --> POO
-
-    %% Rastreabilidade
-    AFO --> GQM["Rastreabilidade GQM<br/>Objetivo → Questões → Métricas → Evidências"]
-    POO --> GQM
-
-    GQM --> OBJ["Objetivo da avaliação<br/>Avaliar a qualidade do No Fluxo UnB quanto à<br/>Adequação Funcional e Portabilidade"]
-
-    OBJ --> Q1["Questões de avaliação<br/>• O sistema executa corretamente suas funções acadêmicas?<br/>• O sistema funciona em diferentes ambientes de acesso?"]
-
-    Q1 --> M1["Métricas verificáveis<br/>• Completude e correção das funcionalidades<br/>• Consistência das informações acadêmicas<br/>• Compatibilidade entre navegadores, dispositivos e sistemas"]
-
-    M1 --> E1["Evidências coletadas<br/>• Testes no sistema No Fluxo UnB<br/>• Validação da leitura do PDF de histórico escolar<br/>• Validação da leitura do histórico acadêmico<br/>• Validação do fluxograma curricular<br/>• Testes em navegadores e dispositivos definidos"]
-
-    %% Características secundárias
-    A --> SEC["Características consideradas, mas não priorizadas<br/>Compatibilidade = 12<br/>Segurança = 12<br/>Confiabilidade = 9<br/>Eficiência de Desempenho = 6<br/>Manutenibilidade = 4"]
-
-    SEC --> FORA["Fora do foco principal nesta etapa<br/>Segurança da informação<br/>Desempenho<br/>Usabilidade da interface"]
-
-    %% Estilos
     classDef main fill:#003b5c,color:#ffffff,stroke:#00263a,stroke-width:2px;
-    classDef priority fill:#e8f3f8,color:#00263a,stroke:#005f86,stroke-width:2px;
-    classDef sub fill:#f4f8fb,color:#00263a,stroke:#5d8aa8,stroke-width:1.5px;
-    classDef metric fill:#ffffff,color:#111111,stroke:#8aaec2,stroke-width:1.5px;
-    classDef evidence fill:#fff7e6,color:#111111,stroke:#d49b2a,stroke-width:1.5px;
+    classDef base fill:#e8f3f8,color:#00263a,stroke:#005f86,stroke-width:2px;
+    classDef detail fill:#ffffff,color:#111111,stroke:#8aaec2,stroke-width:1.5px;
     classDef secondary fill:#eeeeee,color:#222222,stroke:#777777,stroke-width:1.5px;
 
     class A main;
-    class AF,PO priority;
-    class AF1,AF2,AF3,PO1,PO2,PO3 sub;
-    class AFM,AFM2,AFM3,POM,POM2,POM3,Q1,M1 metric;
-    class AFO,POO,GQM,OBJ,E1 evidence;
-    class SEC,FORA secondary;
+    class ISO,PRI,GQM,AF,PO base;
+    class AFS,POS,EVI detail;
+    class SEC secondary;
 ```
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na ISO/IEC 25010, na Matriz Impacto × Risco e na abordagem GQM.*
+
+**Tabela 1: Rastreabilidade do modelo de qualidade adaptado.**
+
+| Característica | Subcaracterísticas | Métricas / indicadores | Itens priorizados / evidências |
+|---|---|---|---|
+| **Adequação Funcional** | Completude Funcional; Correção Funcional; Pertinência Funcional | Cobertura das funções essenciais; presença das funcionalidades prometidas; correção da leitura do histórico; consistência dos dados curriculares; utilidade para o estudante | Leitura correta do PDF de histórico escolar; visualização de fluxos curriculares; processamento do histórico acadêmico; identificação de pré-requisitos; orientação via chatbot; busca, filtros e exportação |
+| **Portabilidade** | Adaptabilidade; Instalabilidade; Substituibilidade | Funcionamento em diferentes dispositivos; adaptação a resoluções de tela; execução em ambientes controlados; compatibilidade entre navegadores; continuidade de uso em ambientes variados | Chrome, Firefox, Safari e Edge; Windows, macOS, Linux, iOS e Android; desktop, notebook, tablet e smartphone; ambiente web acessível a estudantes da UnB |
+| **Características secundárias** | Compatibilidade; Segurança; Confiabilidade; Eficiência de Desempenho; Manutenibilidade | Características consideradas na priorização, mas com menor pontuação que Adequação Funcional e Portabilidade | Podem ser analisadas em outro momento ou escopo, sem compor o foco principal desta avaliação |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ---
 
@@ -136,4 +104,5 @@ A reputação do No Fluxo UnB como ferramenta essencial para orientação acadê
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.2` | 03/06/2026 | Reorganização do diagrama do modelo de qualidade para melhorar a legibilidade | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |
