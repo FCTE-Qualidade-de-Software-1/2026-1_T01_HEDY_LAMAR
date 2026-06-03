@@ -57,7 +57,7 @@ A Figura 1 ilustra o No Fluxo em seu ecossistema, evidenciando as principais int
 <div align="center">
   <strong>Figura 1: Diagrama de contexto do No Fluxo UnB.</strong>
   <br>
-  <img src="../assets/DiagramaContexto.png" alt="Diagrama de contexto do No Fluxo UnB, com usuário, interface web, parser de histórico, banco de dados de fluxogramas e serviços externos." style="max-width: 100%; height: auto;">
+  <img src="../../assets/DiagramaContexto.png" alt="Diagrama de contexto do No Fluxo UnB, com usuário, interface web, parser de histórico, banco de dados de fluxogramas e serviços externos." style="max-width: 100%; height: auto;">
   <br>
   <em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em>
 </div>
@@ -67,3 +67,11 @@ O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridad
 ---
 
 [^1]: PRESSMAN, Roger S.; MAXIM, Bruce R. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. Porto Alegre: AMGH, 2016.
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

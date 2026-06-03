@@ -18,3 +18,11 @@ A Tabela 1 apresenta os indicadores oficiais associados às metas selecionadas e
 | ODS 9 - Indústria, Inovação e Infraestrutura | Meta 9.c | Indicador 9.c.1 - proporção da população coberta por rede móvel, por tecnologia | A avaliação de Portabilidade verifica se a aplicação web permanece acessível em diferentes dispositivos, navegadores e sistemas operacionais usados pelos estudantes |
 
 *Fonte: Adaptado pelo Grupo Hedy Lamarr (2026) a partir dos indicadores globais dos Objetivos de Desenvolvimento Sustentável da ONU.*
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

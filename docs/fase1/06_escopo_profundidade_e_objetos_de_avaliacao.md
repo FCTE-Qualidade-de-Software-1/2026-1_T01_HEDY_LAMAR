@@ -93,3 +93,11 @@ Como plano de cobertura progressiva, recomenda-se que avaliações futuras aprof
 - **Eficiência de desempenho:** tempo de resposta em períodos de maior uso e processamento de históricos maiores;
 - **Confiabilidade:** comportamento em falhas de rede, indisponibilidade de serviços externos e erros no upload de arquivos;
 - **Manutenibilidade:** facilidade de evolução do parser, da base curricular e dos componentes de interface.
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

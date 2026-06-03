@@ -99,3 +99,11 @@ A Tabela 6 torna explícita a conexão entre cada stakeholder e as decisões reg
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 Essa rastreabilidade permite verificar, em qualquer momento do projeto, **por que** cada escolha da Fase 1 foi feita e **a quem** ela atende.
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

@@ -54,3 +54,11 @@ O propósito declarado orienta diretamente a seleção das características de q
 - **Portabilidade** responde à pergunta *"o No Fluxo UnB faz isso para todos os estudantes que precisam usá-lo, independentemente do dispositivo ou navegador?"*, que está no centro do alcance do sistema.
 
 Características como Segurança, Confiabilidade e Manutenibilidade são reconhecidas como relevantes, porém ficam fora do escopo desta avaliação por decisão explícita de priorização, e não por desconhecimento (ver [Seção 6](06_escopo_profundidade_e_objetos_de_avaliacao.md)).
+
+---
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |
