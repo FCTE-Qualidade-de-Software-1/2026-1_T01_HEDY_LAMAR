@@ -90,9 +90,9 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 | **Elemento** | **Descrição** |
 | :------------ | :------------- |
 | **O que será avaliado** | O sistema **No Fluxo UnB**, disponível em [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), com foco nas funcionalidades de **leitura e processamento do histórico acadêmico**, **visualização do fluxograma curricular** e **apoio ao planejamento de disciplinas**. |
-| **O que não será avaliado** | Aspectos relacionados à **segurança da informação**, **desempenho do sistema** e **usabilidade da interface**, que serão abordados em etapas futuras do projeto. |
-| **Ambiente de teste e condições** | Testes realizados em ambiente controlado, com os seguintes parâmetros:<br>• **Sistemas Operacionais:** Ubuntu 22.04, Windows 11 e macOS Sonoma<br>• **Navegadores:** Google Chrome, Mozilla Firefox e Safari<br>• **Dispositivos:** Desktop e notebook<br>• **Conexão:** Internet banda larga estável |
-| **Responsáveis e papéis** | • **Equipe de Avaliação:** autores do projeto (Antonio Carvalho, Gustavo Haubert, Atyrson Souto, Vinicius Alves, Cairo Florenço e Pedro Henrique Braga de Morais)<br>• **Orientação e supervisão:** Profa. **Cristiane Soares Ramos**<br>• **Responsáveis pela coleta e interpretação de métricas:** Equipe de desenvolvimento e avaliadores de qualidade |
+| **O que não será avaliado** | Aspectos relacionados à **segurança da informação**, **desempenho do sistema** e **usabilidade da interface**, que podem ser abordados em outro momento ou escopo. |
+| **Ambiente de teste e condições** | Testes realizados em ambiente controlado, com os seguintes parâmetros:<br>• **Sistemas Operacionais:** Ubuntu 22.04 e Windows 11<br>• **Navegadores:** Google Chrome, Mozilla Firefox e Safari<br>• **Dispositivos:** Desktop e notebook<br>• **Conexão:** Internet banda larga estável |
+| **Responsáveis e papéis** | • **Equipe de Avaliação:** autores do projeto (André Gustavo, Gabriel Lopes, Guilherme D Avila, Lucas Guimarães, Paulo Cerqueira e Vinicius de Jesus)<br>• **Orientação e supervisão:** Profa. **Cristiane Soares Ramos**<br>• **Responsáveis pela coleta e interpretação de métricas:** Equipe de desenvolvimento e avaliadores de qualidade |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
