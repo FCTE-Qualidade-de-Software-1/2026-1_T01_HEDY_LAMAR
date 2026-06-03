@@ -13,6 +13,7 @@ A Figura 1 apresenta uma visão sintética do modelo de qualidade adaptado ao co
 **Figura 1: Modelo de qualidade adaptado ao No Fluxo UnB.**
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"lineColor": "#334155", "fontFamily": "Arial", "primaryTextColor": "#000000", "secondaryTextColor": "#000000", "tertiaryTextColor": "#000000"}} }%%
 flowchart TD
     A["Modelo de Qualidade Adaptado<br/>No Fluxo UnB"]
 
@@ -31,10 +32,10 @@ flowchart TD
     POS --> EVI
     EVI --> GQM
 
-    classDef main fill:#003b5c,color:#ffffff,stroke:#00263a,stroke-width:2px;
-    classDef base fill:#e8f3f8,color:#00263a,stroke:#005f86,stroke-width:2px;
-    classDef detail fill:#ffffff,color:#111111,stroke:#8aaec2,stroke-width:1.5px;
-    classDef secondary fill:#eeeeee,color:#222222,stroke:#777777,stroke-width:1.5px;
+    classDef main fill:#e8f3f8,color:#000000,stroke:#005f86,stroke-width:2px;
+    classDef base fill:#eef8fc,color:#000000,stroke:#005f86,stroke-width:2px;
+    classDef detail fill:#ffffff,color:#000000,stroke:#5d8aa8,stroke-width:1.5px;
+    classDef secondary fill:#f2f2f2,color:#000000,stroke:#777777,stroke-width:1.5px;
 
     class A main;
     class ISO,PRI,GQM,AF,PO base;
@@ -104,5 +105,6 @@ A reputação do No Fluxo UnB como ferramenta essencial para orientação acadê
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.3` | 03/06/2026 | Ajuste de contraste do diagrama do modelo de qualidade com fundo claro e texto escuro | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.2` | 03/06/2026 | Reorganização do diagrama do modelo de qualidade para melhorar a legibilidade | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |
