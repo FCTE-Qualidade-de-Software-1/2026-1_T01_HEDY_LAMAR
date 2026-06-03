@@ -32,6 +32,8 @@ theme:
     - navigation.sections
     - navigation.footer
     - content.code.copy
+extra_css:
+  - stylesheets/extra.css
 copyright: "Relatório de Avaliação da Qualidade do No Fluxo UnB — Versão 1.0 — Data: 03/06/2026 — Grupo Hedy Lamarr"
 nav:
   - Início: index.md

@@ -105,6 +105,5 @@ A reputação do No Fluxo UnB como ferramenta essencial para orientação acadê
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.3` | 03/06/2026 | Ajuste de contraste do diagrama do modelo de qualidade com fundo claro e texto escuro | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.2` | 03/06/2026 | Reorganização do diagrama do modelo de qualidade para melhorar a legibilidade | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

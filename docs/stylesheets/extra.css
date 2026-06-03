@@ -1,0 +1,41 @@
+.md-typeset .mermaid,
+.md-typeset svg.mermaid,
+.md-typeset svg[id^="mermaid-"] {
+  color: #000000 !important;
+}
+
+.md-typeset .mermaid .nodeLabel,
+.md-typeset .mermaid .edgeLabel,
+.md-typeset .mermaid .label,
+.md-typeset .mermaid .cluster-label,
+.md-typeset .mermaid foreignObject,
+.md-typeset .mermaid foreignObject div,
+.md-typeset .mermaid foreignObject p,
+.md-typeset .mermaid foreignObject span,
+.md-typeset svg.mermaid .nodeLabel,
+.md-typeset svg.mermaid .edgeLabel,
+.md-typeset svg.mermaid .label,
+.md-typeset svg.mermaid .cluster-label,
+.md-typeset svg.mermaid foreignObject,
+.md-typeset svg.mermaid foreignObject div,
+.md-typeset svg.mermaid foreignObject p,
+.md-typeset svg.mermaid foreignObject span,
+.md-typeset svg[id^="mermaid-"] .nodeLabel,
+.md-typeset svg[id^="mermaid-"] .edgeLabel,
+.md-typeset svg[id^="mermaid-"] .label,
+.md-typeset svg[id^="mermaid-"] .cluster-label,
+.md-typeset svg[id^="mermaid-"] foreignObject,
+.md-typeset svg[id^="mermaid-"] foreignObject div,
+.md-typeset svg[id^="mermaid-"] foreignObject p,
+.md-typeset svg[id^="mermaid-"] foreignObject span {
+  color: #000000 !important;
+}
+
+.md-typeset .mermaid text,
+.md-typeset .mermaid tspan,
+.md-typeset svg.mermaid text,
+.md-typeset svg.mermaid tspan,
+.md-typeset svg[id^="mermaid-"] text,
+.md-typeset svg[id^="mermaid-"] tspan {
+  fill: #000000 !important;
+}
