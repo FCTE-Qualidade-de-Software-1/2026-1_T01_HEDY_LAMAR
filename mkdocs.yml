@@ -41,6 +41,10 @@ nav:
     - 5. Modelo de Qualidade: fase1/05_modelo_de_qualidade.md
     - 6. Escopo, Profundidade e Objetos de Avaliação: fase1/06_escopo_profundidade_e_objetos_de_avaliacao.md
     - 7. ODS Relacionados: fase1/07_ods.md
+  - Fase 2 - Especificação da Avaliação:
+    - 1. Aplicação GQM: fase2/00_aplicacao_gqm.md
+    - 2. Objetivo de Medição - Adequação Funcional: fase2/01_obj_adequacao_funcional.md
+    - 3. Objetivo de Medição - Portabilidade: fase2/02_obj_portabilidade.md
   - Extras: 
     - Configuração do ambiente: extras/configs.md
 markdown_extensions:
