@@ -30,7 +30,9 @@ theme:
     - navigation.tabs.sticky
     - navigation.tabs
     - navigation.sections
+    - navigation.footer
     - content.code.copy
+copyright: "Relatório de Avaliação da Qualidade do No Fluxo UnB — Versão 1.0 — Data: 03/06/2026 — Grupo Hedy Lamarr"
 nav:
   - Início: index.md
   - Fase 1 - Requisitos da Avaliação:
