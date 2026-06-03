@@ -45,12 +45,17 @@ nav:
     - 1. Aplicação GQM: fase2/00_aplicacao_gqm.md
     - 2. Objetivo de Medição - Adequação Funcional: fase2/01_obj_adequacao_funcional.md
     - 3. Objetivo de Medição - Portabilidade: fase2/02_obj_portabilidade.md
+  - Declaração de Uso de IA: declaracao_uso_ia.md
   - Extras: 
     - Configuração do ambiente: extras/configs.md
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

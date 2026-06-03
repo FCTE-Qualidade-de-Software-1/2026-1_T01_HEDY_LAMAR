@@ -52,9 +52,15 @@ Durante a avaliação, o foco recairá principalmente sobre duas funções centr
 
 ## 3.4 Diagrama de Contexto
 
-O diagrama abaixo ilustra o No Fluxo em seu ecossistema, evidenciando as principais interações com o usuário e os sistemas externos.
+A Figura 1 ilustra o No Fluxo em seu ecossistema, evidenciando as principais interações com o usuário e os sistemas externos.
 
-![Diagrama do Ecossistema NoFluxoUNB](../assets/DiagramaContexto.png)
+<div align="center">
+  <strong>Figura 1: Diagrama de contexto do No Fluxo UnB.</strong>
+  <br>
+  <img src="../assets/DiagramaContexto.png" alt="Diagrama de contexto do No Fluxo UnB, com usuário, interface web, parser de histórico, banco de dados de fluxogramas e serviços externos." style="max-width: 100%; height: auto;">
+  <br>
+  <em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em>
+</div>
 
 O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridade do banco de dados do fluxograma acadêmico são tão determinantes para o produto quanto a interface em si. Portanto, o plano de avaliação deve incluir testes rigorosos sobre a extração de dados do histórico e sobre a consistência das informações curriculares exibidas ao usuário.
 

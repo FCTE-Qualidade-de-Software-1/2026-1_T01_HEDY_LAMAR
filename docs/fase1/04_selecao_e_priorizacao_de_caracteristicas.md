@@ -38,9 +38,9 @@ A prioridade final foi calculada utilizando a fórmula:
 Prioridade = Impacto × Risco
 ```
 
-Essa abordagem permite tornar o processo de priorização mais objetivo, quantitativo e reproduzível.
+Essa abordagem permite tornar o processo de priorização mais objetivo, quantitativo e reproduzível. A Tabela 1 apresenta a matriz utilizada pela equipe.
 
-### Tabela 1 — Matriz Impacto × Risco
+**Tabela 1: Matriz Impacto × Risco.**
 
 | Característica | Impacto | Risco | Prioridade (I × R) |
 |---|---|---|---|
@@ -51,6 +51,8 @@ Essa abordagem permite tornar o processo de priorização mais objetivo, quantit
 | Confiabilidade | 3 | 3 | 9 |
 | Eficiência de Desempenho | 3 | 2 | 6 |
 | Manutenibilidade | 2 | 2 | 4 |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na ISO/IEC 25010 e na matriz Impacto × Risco definida pela equipe.*
 
 Os valores atribuídos na matriz foram definidos de forma colaborativa pelos integrantes do grupo. Cada participante atribuiu notas de impacto e risco para cada característica de qualidade, considerando o contexto e as funcionalidades do **No Fluxo UnB**. Posteriormente, foi realizada a média das avaliações individuais para obtenção dos valores finais apresentados na tabela.
 
@@ -111,7 +113,9 @@ Ainda assim, a priorização adotada garante que a avaliação esteja alinhada a
 
 ## 4.5 Relação das Características com o Propósito da Avaliação
 
-As características selecionadas possuem relação direta com os objetivos da avaliação do **No Fluxo UnB**.
+As características selecionadas possuem relação direta com os objetivos da avaliação do **No Fluxo UnB**, conforme a Tabela 2.
+
+**Tabela 2: Relação entre propósito da avaliação e características selecionadas.**
 
 | Propósito da Avaliação | Característica Relacionada |
 |---|---|
@@ -119,6 +123,8 @@ As características selecionadas possuem relação direta com os objetivos da av
 | Avaliar a corretude da geração do fluxo acadêmico do curso | Adequação Funcional |
 | Garantir funcionamento adequado em diferentes ambientes | Portabilidade |
 | Validar acessibilidade multiplataforma do sistema | Portabilidade |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 Dessa forma, a seleção de Adequação Funcional e Portabilidade está diretamente alinhada ao propósito da avaliação e ao contexto de uso do software.
 

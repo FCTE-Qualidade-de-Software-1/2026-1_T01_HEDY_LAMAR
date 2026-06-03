@@ -9,7 +9,7 @@ Para a realização da etapa de especificação da avaliação utilizaremos a me
 > (SILVA et al., 2009, p. 4)
 
 <div align="center">
-  <strong>Figura 1 – Definição das Métricas GQM</strong>
+  <strong>Figura 1: Definição das Métricas GQM.</strong>
   <br>
   <img src="../assets/GQM/gqm_diagrama.png" alt="Diagrama GQM com Nível Conceitual, Operacional e Quantitativo" style="max-width: 100%; height: auto;">
   <br>
@@ -37,7 +37,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 >(BASILI et al., 1994, p. 529)
 
 <div align="center">
-  <strong>Figura 2 – Descrição das Métricas</strong>
+  <strong>Figura 2: Descrição das Métricas.</strong>
   <br>
   <img src="../assets/GQM/basili_metrics.png" alt="Métricas" style="max-width: 100%; height: auto;">
   <br>
@@ -54,7 +54,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 >(BASILI et al., 1994, p. 528)
 
 <div align="center">
-  <strong>Figura 4 – Descrição das Questões</strong>
+  <strong>Figura 3: Descrição das Questões.</strong>
   <br>
   <img src="../assets/GQM/basili_questions.png" alt="Questões" style="max-width: 100%; height: auto;">
   <br>
@@ -74,7 +74,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 <br>
 <br>
 <div align="center">
-  <strong>Figura 3 – Descrição dos Objetivos</strong>
+  <strong>Figura 4: Descrição dos Objetivos.</strong>
   <br>
   <img src="../assets/GQM/basili_goals.png" alt="Objetivos" style="max-width: 100%; height: auto;">
   <br>
@@ -85,12 +85,16 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 ## 1.5. Escopo da Avaliação
 
+**Tabela 1: Escopo da avaliação GQM.**
+
 | **Elemento** | **Descrição** |
 | :------------ | :------------- |
 | **O que será avaliado** | O sistema **No Fluxo UnB**, disponível em [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), com foco nas funcionalidades de **leitura e processamento do histórico acadêmico**, **visualização do fluxograma curricular** e **apoio ao planejamento de disciplinas**. |
 | **O que não será avaliado** | Aspectos relacionados à **segurança da informação**, **desempenho do sistema** e **usabilidade da interface**, que serão abordados em etapas futuras do projeto. |
 | **Ambiente de teste e condições** | Testes realizados em ambiente controlado, com os seguintes parâmetros:<br>• **Sistemas Operacionais:** Ubuntu 22.04, Windows 11 e macOS Sonoma<br>• **Navegadores:** Google Chrome, Mozilla Firefox e Safari<br>• **Dispositivos:** Desktop e notebook<br>• **Conexão:** Internet banda larga estável |
 | **Responsáveis e papéis** | • **Equipe de Avaliação:** autores do projeto (Antonio Carvalho, Gustavo Haubert, Atyrson Souto, Vinicius Alves, Cairo Florenço e Pedro Henrique Braga de Morais)<br>• **Orientação e supervisão:** Profa. **Cristiane Soares Ramos**<br>• **Responsáveis pela coleta e interpretação de métricas:** Equipe de desenvolvimento e avaliadores de qualidade |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ---
 
@@ -111,6 +115,10 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 ## Histórico de Versões
 
+**Tabela 2: Histórico de versões da página.**
+
 | Versão | Data       | Descrição                                                               | Autor                               |
 | :----- | :--------- | :---------------------------------------------------------------------- | :---------------------------------- |
 | `1.0`  | 03/06/2026 | Criação da estrutura inicial da página e criação das questões e métricas da adequação funcional | [Lucas Guimarães](https://github.com/lcsgborges) |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

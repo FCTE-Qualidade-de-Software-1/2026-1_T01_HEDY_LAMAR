@@ -28,7 +28,9 @@ A avaliação é direcionada a três públicos:
 
 ## 1.3 Uso pretendido dos resultados
 
-Os resultados desta avaliação serão utilizados para apoiar decisões concretas, e não apenas para gerar diagnósticos descritivos. As decisões previstas, e os respectivos responsáveis, são:
+Os resultados desta avaliação serão utilizados para apoiar decisões concretas, e não apenas para gerar diagnósticos descritivos. As decisões previstas, e os respectivos responsáveis, são apresentados na Tabela 1.
+
+**Tabela 1: Uso pretendido dos resultados da avaliação.**
 
 | Decisão a ser apoiada | Quem decide | Insumo fornecido pela avaliação |
 |---|---|---|
@@ -37,6 +39,8 @@ Os resultados desta avaliação serão utilizados para apoiar decisões concreta
 | Decidir se o sistema está apto a uma divulgação ampla entre os estudantes da UnB | Equipe de desenvolvimento (Squad 03) | Avaliação consolidada das duas características priorizadas |
 | Orientar o escopo de avaliações futuras (ex.: Segurança, Confiabilidade) | Equipe avaliadora e equipe de desenvolvimento | Limites de validade dos resultados e itens excluídos do escopo atual |
 | Fornecer feedback construtivo à equipe de desenvolvimento | Equipe avaliadora (Grupo Hedy Lamarr) | Relatório técnico final e evidências auditáveis no repositório |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 Além disso, a avaliação fornecerá um **baseline auditável**: todos os dados brutos e consolidados serão mantidos no repositório do projeto, permitindo que avaliações futuras comparem a evolução do produto de forma objetiva.
 

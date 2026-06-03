@@ -4,7 +4,7 @@
 
 Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto de Software do sistema “No Fluxo UnB”, disponível em: [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/).
 
-## Quem foi Hedy Lammar
+## Quem foi Hedy Lamarr
 
 Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela ficou famosa em Hollywood nas décadas de 1930 e 1940, sendo considerada uma das grandes estrelas do cinema da época. Além da carreira artística, Hedy também contribuiu para a tecnologia. Durante a Segunda Guerra Mundial, ajudou a desenvolver um sistema de comunicação por salto de frequência (*frequency hopping*), criado para evitar a interceptação de torpedos guiados por rádio. Sua invenção serviu de base para tecnologias modernas de comunicação sem fio, como Wi-Fi, Bluetooth e GPS.
 
