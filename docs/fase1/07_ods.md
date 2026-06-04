@@ -8,14 +8,14 @@ O software No Fluxo UnB se conecta aos Objetivos de Desenvolvimento Sustentável
 
 ## 7.1 Metas e Indicadores Relacionados
 
-A Tabela 1 apresenta os indicadores oficiais associados às metas selecionadas e explicita como eles se relacionam com a avaliação do No Fluxo UnB. Esses indicadores não são medidos diretamente pela equipe nesta etapa; eles funcionam como referência de alinhamento entre o produto avaliado e os objetivos de desenvolvimento sustentável.
+A Tabela 1 apresenta os indicadores oficiais associados às metas selecionadas e explicita como eles são operacionalizados na avaliação do No Fluxo UnB. A avaliação não mede os indicadores da ONU em escala populacional; ela os utiliza como referência e os traduz em evidências verificáveis no contexto do produto avaliado.
 
-**Tabela 1: ODS, metas e indicadores relacionados ao No Fluxo UnB.**
+**Tabela 1: ODS, metas, indicadores e operacionalização na avaliação.**
 
-| ODS | Meta | Indicador oficial relacionado | Relação com a avaliação |
-|---|---|---|---|
-| ODS 4 - Educação de Qualidade | Meta 4.3 | Indicador 4.3.1 - taxa de participação de jovens e adultos em educação e treinamento formal e não formal nos últimos 12 meses | O No Fluxo UnB apoia a permanência e o planejamento acadêmico ao organizar informações curriculares e reduzir incertezas na tomada de decisão do estudante |
-| ODS 9 - Indústria, Inovação e Infraestrutura | Meta 9.c | Indicador 9.c.1 - proporção da população coberta por rede móvel, por tecnologia | A avaliação de Portabilidade verifica se a aplicação web permanece acessível em diferentes dispositivos, navegadores e sistemas operacionais usados pelos estudantes |
+| ODS | Meta | Indicador oficial relacionado | Operacionalização na avaliação do No Fluxo UnB | Evidências e métricas usadas |
+|---|---|---|---|---|
+| ODS 4 - Educação de Qualidade | Meta 4.3 - assegurar igualdade de acesso à educação técnica, profissional e superior de qualidade | Indicador 4.3.1 - taxa de participação de jovens e adultos em educação e treinamento formal e não formal nos últimos 12 meses | O indicador é tratado no escopo do produto por meio da verificação de apoio ao acesso, organização e compreensão das informações acadêmicas necessárias ao planejamento da trajetória universitária | Métricas de Adequação Funcional: completude das funções essenciais, correção da leitura do histórico acadêmico, consistência dos dados curriculares, identificação de pré-requisitos e utilidade das recomendações para o estudante |
+| ODS 9 - Indústria, Inovação e Infraestrutura | Meta 9.c - aumentar significativamente o acesso às tecnologias de informação e comunicação | Indicador 9.c.1 - proporção da população coberta por rede móvel, por tecnologia | O indicador é tratado no escopo do produto por meio da verificação de acesso à aplicação web em diferentes ambientes de uso, considerando a disponibilidade prática da ferramenta para estudantes em navegadores e dispositivos distintos | Métricas de Portabilidade: funcionamento em diferentes navegadores, adaptação a resoluções de tela, uso em desktop e mobile, compatibilidade com sistemas operacionais e continuidade de acesso à aplicação web |
 
 *Fonte: Adaptado pelo Grupo Hedy Lamarr (2026) a partir dos indicadores globais dos Objetivos de Desenvolvimento Sustentável da ONU.*
 
@@ -25,4 +25,5 @@ A Tabela 1 apresenta os indicadores oficiais associados às metas selecionadas e
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.2` | 03/06/2026 | Detalhamento dos indicadores oficiais da ONU e operacionalização na avaliação do No Fluxo UnB | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |
