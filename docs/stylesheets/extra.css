@@ -4,6 +4,18 @@
   color: #000000 !important;
 }
 
+.md-typeset pre.mermaid,
+.md-typeset .mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.md-typeset .mermaid svg,
+.md-typeset svg.mermaid,
+.md-typeset svg[id^="mermaid-"] {
+  max-width: none !important;
+}
+
 .md-typeset .mermaid .nodeLabel,
 .md-typeset .mermaid .edgeLabel,
 .md-typeset .mermaid .label,
