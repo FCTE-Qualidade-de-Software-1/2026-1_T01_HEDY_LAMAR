@@ -26,7 +26,7 @@ flowchart TD
     PRI --> SEC["Características secundárias<br/>Compatibilidade, Segurança,<br/>Confiabilidade, Eficiência e Manutenibilidade"]
 
     AF --> AFS["Subcaracterísticas<br/>Completude, Correção<br/>e Pertinência funcional"]
-    PO --> POS["Subcaracterísticas<br/>Adaptabilidade, Instalabilidade<br/>e Substituibilidade"]
+    PO --> POS["Subcaracterística<br/>Adaptabilidade"]
 
     AFS --> EVI["Evidências e métricas<br/>detalhadas na Tabela 1"]
     POS --> EVI
@@ -50,7 +50,7 @@ flowchart TD
 | Característica | Subcaracterísticas | Métricas / indicadores | Itens priorizados / evidências |
 |---|---|---|---|
 | **Adequação Funcional** | Completude Funcional; Correção Funcional; Pertinência Funcional | Cobertura das funções essenciais; presença das funcionalidades prometidas; correção da leitura do histórico; consistência dos dados curriculares; utilidade para o estudante | Leitura correta do PDF de histórico escolar; visualização de fluxos curriculares; processamento do histórico acadêmico; identificação de pré-requisitos; orientação via chatbot; busca, filtros e exportação |
-| **Portabilidade** | Adaptabilidade; Instalabilidade; Substituibilidade | Funcionamento em diferentes dispositivos; adaptação a resoluções de tela; execução em ambientes controlados; compatibilidade entre navegadores; continuidade de uso em ambientes variados | Chrome, Firefox, Safari e Edge; Windows, macOS, Linux, iOS e Android; desktop, notebook, tablet e smartphone; ambiente web acessível a estudantes da UnB |
+| **Portabilidade** | Adaptabilidade | Funcionamento em diferentes dispositivos; adaptação a resoluções de tela; execução em ambientes controlados; compatibilidade entre navegadores; continuidade de uso em ambientes variados | Chrome, Firefox, Safari e Edge; Windows, macOS, Linux, iOS e Android; desktop, notebook, tablet e smartphone; ambiente web acessível a estudantes da UnB |
 | **Características secundárias** | Compatibilidade; Segurança; Confiabilidade; Eficiência de Desempenho; Manutenibilidade | Características consideradas na priorização, mas com menor pontuação que Adequação Funcional e Portabilidade | Podem ser analisadas em outro momento ou escopo, sem compor o foco principal desta avaliação |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
