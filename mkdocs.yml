@@ -52,6 +52,7 @@ nav:
   - Declaração de Uso de IA: declaracao_uso_ia.md
   - Extras: 
     - Configuração do ambiente: extras/configs.md
+    - Tabela de Contribuição: extras/contribuicao.md
 markdown_extensions:
   - admonition
   - pymdownx.details
