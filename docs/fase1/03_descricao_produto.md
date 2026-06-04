@@ -20,7 +20,17 @@ Ao centralizar e visualizar dados que antes exigiam consultas manuais a document
 
 ---
 
-## 3.3 Principais Funcionalidades
+## 3.3 Versão do Software Avaliada
+
+A versão do software considerada como referência para esta avaliação é a release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), criada em 02/06/2026 no fork [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB).
+
+O uso do fork foi necessário porque a tentativa de solicitar à equipe do No Fluxo UnB a criação de uma release atualizada não teve êxito na comunicação. A última release oficial disponibilizada pela equipe do projeto foi em julho de 2025 e não condiz com as atualizações feitas na plataforma em maio de 2026; por isso, o Grupo Hedy Lamarr criou uma release própria, rastreável e datada, para permitir a continuidade das fases seguintes da avaliação de qualidade.
+
+O repositório original do produto permanece referenciado como [unb-mds/2025-1-NoFluxoUNB](https://github.com/unb-mds/2025-1-NoFluxoUNB).
+
+---
+
+## 3.4 Principais Funcionalidades
 
 O sistema é composto por um conjunto coeso de funções voltadas ao acompanhamento da vida acadêmica do estudante da UnB, incluindo:
 
@@ -50,7 +60,7 @@ Durante a avaliação, o foco recairá principalmente sobre duas funções centr
 
 ---
 
-## 3.4 Diagrama de Contexto
+## 3.5 Diagrama de Contexto
 
 A Figura 1 ilustra o No Fluxo em seu ecossistema, evidenciando as principais interações com o usuário e os sistemas externos.
 
@@ -66,7 +76,7 @@ O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridad
 
 ---
 
-## 3.5 Arquitetura do Sistema
+## 3.6 Arquitetura do Sistema
 
 A Figura 2 apresenta a arquitetura do No Fluxo UnB disponibilizada pela equipe responsável pelo sistema. A representação evidencia a separação entre frontend, backend, banco de dados, integração com SIGAA, repositório local e fluxo RAG utilizado pelo assistente inteligente.
 
@@ -90,5 +100,6 @@ Essa arquitetura reforça que a avaliação deve considerar não apenas a interf
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.3` | 03/06/2026 | Inclusão da release do fork utilizada como versão analisada do No Fluxo UnB | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.2` | 03/06/2026 | Inclusão da arquitetura do sistema disponibilizada pela equipe do No Fluxo UnB | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

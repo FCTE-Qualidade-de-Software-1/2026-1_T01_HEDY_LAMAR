@@ -20,6 +20,8 @@ Para a realização da etapa de especificação da avaliação utilizaremos a me
 
 Analisar o software No Fluxo UnB, uma aplicação web de apoio ao planejamento acadêmico de estudantes da Universidade de Brasília, disponível em [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), com o propósito de avaliar sua qualidade quanto às características de Adequação Funcional e Portabilidade, de acordo com o modelo de qualidade ISO/IEC 25010.
 
+A versão analisada é a release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), criada em 02/06/2026 no fork [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB). O fork foi utilizado porque não houve êxito na comunicação com a equipe do No Fluxo UnB para criação de uma release atualizada, e a última release oficial identificada pela equipe avaliadora havia sido disponibilizada em julho de 2025, não condizendo com as atualizações feitas na plataforma em maio de 2026.
+
 A avaliação busca verificar o grau de completude e correção das funcionalidades essenciais de leitura do histórico acadêmico, visualização do fluxograma curricular e apoio ao planejamento de disciplinas, bem como a capacidade da aplicação de operar adequadamente em diferentes ambientes de acesso.
 
 A análise é conduzida do ponto de vista dos usuários finais e avaliadores técnicos, considerando o contexto de uso real do sistema no site de avaliação [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), incluindo acesso por múltiplos navegadores (Chrome, Safari e Firefox), uso em dispositivos desktop e móveis e validação das informações acadêmicas apresentadas pela plataforma.
@@ -89,7 +91,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 | **Elemento** | **Descrição** |
 | :------------ | :------------- |
-| **O que será avaliado** | O sistema **No Fluxo UnB**, disponível em [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), com foco nas funcionalidades de **leitura e processamento do histórico acadêmico**, **visualização do fluxograma curricular** e **apoio ao planejamento de disciplinas**. |
+| **O que será avaliado** | O sistema **No Fluxo UnB**, disponível em [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/), usando como marco rastreável a release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), criada em 02/06/2026 no fork [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB). O foco recai nas funcionalidades de **leitura e processamento do histórico acadêmico**, **visualização do fluxograma curricular** e **apoio ao planejamento de disciplinas**. |
 | **O que não será avaliado** | Aspectos relacionados à **segurança da informação**, **desempenho do sistema** e **usabilidade da interface**, que podem ser abordados em outro momento ou escopo. |
 | **Ambiente de teste e condições** | Testes realizados em ambiente controlado, com os seguintes parâmetros:<br>• **Sistemas Operacionais:** Ubuntu 22.04 e Windows 11<br>• **Navegadores:** Google Chrome, Mozilla Firefox e Safari<br>• **Dispositivos:** Desktop e notebook<br>• **Conexão:** Internet banda larga estável |
 | **Responsáveis e papéis** | • **Equipe de Avaliação:** autores do projeto (André Gustavo, Gabriel Lopes, Guilherme D Avila, Lucas Guimarães, Paulo Cerqueira e Vinicius de Jesus)<br>• **Orientação e supervisão:** Profa. **Cristiane Soares Ramos**<br>• **Responsáveis pela coleta e interpretação de métricas:** Equipe de desenvolvimento e avaliadores de qualidade |
@@ -112,6 +114,8 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 >BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, H. Dieter. *Goal Question Metric Paradigm*. In: MARCINIAK, John J. (Ed.). Encyclopedia of Software Engineering - 2° Vol. New York: John Wiley & Sons, Inc., 1994. P. 528, 529.
 >
 >NO FLUXO UNB. *No Fluxo UnB*. Disponível em: [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/). Acesso em: 03 jun. 2026.
+>
+>NO FLUXO UNB. *Release qualidade-de-software*. Fork utilizado como versão analisada. Disponível em: [https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software). Acesso em: 03 jun. 2026.
 
 ## Histórico de Versões
 
@@ -119,6 +123,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 | Versão | Data       | Descrição                                                               | Autor                               |
 | :----- | :--------- | :---------------------------------------------------------------------- | :---------------------------------- |
+| `1.1`  | 03/06/2026 | Inclusão da release do fork utilizada como versão analisada no escopo GQM | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.0`  | 03/06/2026 | Criação da estrutura inicial da página e criação das questões e métricas da adequação funcional | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

@@ -48,7 +48,9 @@ Os objetos da avaliação definem as partes concretas do software que serão ana
 
 *Nome do Produto:* No Fluxo UnB
 
-*Versão Avaliada:* V2.3.0 (release estável de julho de 2025)
+*Versão Avaliada:* release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), criada em 02/06/2026 no fork [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB).
+
+Essa release foi adotada como artefato rastreável da avaliação porque a última release oficial disponibilizada pela equipe do No Fluxo UnB foi em julho de 2025 e não condiz com as atualizações feitas na plataforma em maio de 2026. Como a comunicação com a equipe do projeto para solicitar uma release atualizada não teve êxito, o Grupo Hedy Lamarr criou uma release no fork do repositório original para permitir a continuidade das demais fases do projeto de qualidade.
 
 *Componentes Avaliados:*
 
@@ -85,6 +87,8 @@ Esse alinhamento entre teoria e prática fortalece a credibilidade da avaliaçã
 
 Os resultados desta avaliação serão válidos para a versão, os ambientes e os objetos definidos nesta seção. Alterações relevantes no parser de PDF, na base de dados curricular, na infraestrutura de implantação ou na interface web podem exigir nova rodada de testes, pois podem modificar o comportamento observado.
 
+A validade dos resultados fica vinculada à release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), usada como marco técnico da versão analisada. Mudanças posteriores no repositório original ou no fork não estão cobertas por esta avaliação sem nova coleta de evidências.
+
 Nesta etapa, a avaliação não generaliza resultados para todos os cursos da UnB, todos os modelos possíveis de histórico acadêmico ou todos os dispositivos disponíveis no mercado. A cobertura será concentrada nos cursos, navegadores, sistemas operacionais e dispositivos definidos pela equipe como representativos para o contexto de uso do No Fluxo UnB.
 
 Como plano de cobertura progressiva, recomenda-se que avaliações futuras aprofundem:
@@ -100,4 +104,5 @@ Como plano de cobertura progressiva, recomenda-se que avaliações futuras aprof
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.2` | 03/06/2026 | Inclusão da release do fork utilizada como versão avaliada e marco de validade da avaliação | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 03/06/2026 | Revisão e ajustes de acordo com a avaliação da Fase 1 feita pelos alunos da disciplina que avaliaram o Grupo Hedy Lamarr | [Lucas Guimarães](https://github.com/lcsgborges) |

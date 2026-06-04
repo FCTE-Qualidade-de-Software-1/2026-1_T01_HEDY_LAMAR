@@ -20,8 +20,12 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
 | Git Pages | [https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/](https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/) |
 | Site No Fluxo UnB | [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) |
 | Repositório do No Fluxo UnB | [unb-mds/2025-1-NoFluxoUNB](https://github.com/unb-mds/2025-1-NoFluxoUNB) |
+| Fork utilizado para a avaliação | [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB) |
+| Release do software analisado | [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+A release do fork foi adotada como versão analisada porque a última release oficial disponibilizada pela equipe do No Fluxo UnB foi publicada em julho de 2025 e não condiz com as atualizações feitas na plataforma em maio de 2026. Como não houve êxito na comunicação para solicitar uma release oficial atualizada, o Grupo Hedy Lamarr criou a release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), em 02/06/2026, para manter um marco rastreável da avaliação.
 
 ## Hedy Lamarr
 
