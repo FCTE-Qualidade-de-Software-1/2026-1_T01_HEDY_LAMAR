@@ -95,30 +95,19 @@ As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram pr
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-**Figura 1: Diagrama GQM para Adequação Funcional do No Fluxo UnB.**
 
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"lineColor": "#334155", "fontFamily": "Arial", "fontSize": "18px", "primaryTextColor": "#000000", "secondaryTextColor": "#000000", "tertiaryTextColor": "#000000"}, "flowchart": {"nodeSpacing": 45, "rankSpacing": 55}} }%%
-flowchart TD
-    O["O: Avaliar a adequação funcional<br/>do No Fluxo UnB"]
+### Diagrama 
 
-    O --> Q1["Q1: O sistema disponibiliza as funções essenciais<br/>para apoiar o planejamento acadêmico?<br/><br/>M1: Percentual de requisitos funcionais essenciais disponíveis"]
-    O --> Q2["Q2: O sistema interpreta corretamente o histórico acadêmico<br/>e os dados curriculares?<br/><br/>M2: Acurácia da extração do histórico acadêmico<br/>M3: Taxa de consistência do fluxograma, equivalências e pré-requisitos<br/>M4: Taxa de correção dos cálculos acadêmicos"]
-    O --> Q3["Q3: As funcionalidades são apropriadas para tarefas reais<br/>de planejamento acadêmico?<br/><br/>M5: Taxa de sucesso em cenários de planejamento acadêmico<br/>M6: Percentual de recomendações ou orientações academicamente válidas"]
-    O --> Q4["Q4: Qual é o impacto dos defeitos, lacunas<br/>ou inconsistências funcionais encontrados?<br/><br/>M7: Número de defeitos funcionais críticos encontrados<br/>M8: Severidade média dos defeitos funcionais"]
 
-    Q1 ~~~ Q2
-    Q2 ~~~ Q3
-    Q3 ~~~ Q4
+![Figura 1 - Representação de Estrutura GQM](../assets/DiagramaAdequacao.drawio.png)
 
-    classDef objective fill:#e8f3f8,color:#000000,stroke:#005f86,stroke-width:2px;
-    classDef question fill:#ffffff,color:#000000,stroke:#5d8aa8,stroke-width:1.5px;
+<div align="center">
+  <em>Figura 1 - Representação visual do GQM de Adequação Funcional.</em>
+  <em>Autor: Paulo Cerqueira.</em>
+</div>
 
-    class O objective;
-    class Q1,Q2,Q3,Q4 question;
-```
+>Legenda: O: Objetivo, Q: Questão e M: Métrica relacionada.
 
-*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na abordagem GQM e no objetivo de Adequação Funcional do No Fluxo UnB.*
 
 ### 2.5.1 Requisitos Funcionais Essenciais Esperados
 
@@ -171,7 +160,7 @@ Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido 
 
 | Versão | Data | Descrição | Autor | Revisor |
 |---|---|---|---|---|
-| `1.2` | 03/06/2026 | Inclusão do diagrama GQM em Mermaid para o objetivo de Adequação Funcional do No Fluxo UnB, com organização em blocos para melhorar a legibilidade. | [Lucas Guimarães](https://github.com/lcsgborges) | Grupo Hedy Lamarr |
+| `1.2` | 03/06/2026 | Criação da Representação visual do GQM de Adequação Funcional | [Paulo Cerqueira](https://github.com/paulocerqr) | Grupo Hedy Lamarr |
 | `1.1` | 03/06/2026 | Refinamento com base no levantamento de requisitos do No Fluxo UnB, nos testes de histórico disponíveis no repositório e na definição de evidências auditáveis por métrica. | [Lucas Guimarães](https://github.com/lcsgborges) | Grupo Hedy Lamarr |
 | `1.0` | 03/06/2026 | Criação do objetivo de medição de Adequação Funcional, com objetivo GQM, folha de abstração, rastreabilidade com a Fase 1, questões, hipóteses | [Gabriel Amorim](https://github.com/BrzGab) | Grupo Hedy Lamarr |
 
