@@ -20,8 +20,6 @@ De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de u
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na abordagem GQM e na ISO/IEC 25010.*
 
----
-
 ## 2.2 Folha de Abstração
 
 A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.

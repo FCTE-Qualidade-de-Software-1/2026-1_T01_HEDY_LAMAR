@@ -8,21 +8,9 @@ theme:
     repo: fontawesome/brands/github
   
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle: 
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: indigo
-      accent: orange
-
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: indigo
-      accent: orange
+    scheme: default
+    primary: indigo
+    accent: orange
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -34,7 +22,9 @@ theme:
     - content.code.copy
 extra_css:
   - stylesheets/extra.css
-copyright: "Relatório de Avaliação da Qualidade do No Fluxo UnB — Versão 1.0 — Data: 03/06/2026 — Grupo Hedy Lamarr"
+extra_javascript:
+  - javascripts/current-date.js
+copyright: 'Relatório de Avaliação da Qualidade do No Fluxo UnB — Versão 1.0 — Atualizado em: <span id="current-date-br">03/06/2026</span> — Grupo Hedy Lamarr'
 nav:
   - Início: index.md
   - Fase 1 - Requisitos da Avaliação:

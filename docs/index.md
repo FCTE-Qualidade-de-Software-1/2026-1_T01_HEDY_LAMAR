@@ -9,6 +9,24 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
   <figcaption><strong>Figura 1: Página inicial do No Fluxo UnB.</strong><br><em>Fonte: No Fluxo UnB (2026).</em></figcaption>
 </figure>
 
+## Links de Rastreabilidade
+
+**Tabela 1: Links de rastreabilidade do projeto.**
+
+| Item | Link |
+|---|---|
+| Repositório da disciplina | [FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR) |
+| Release da Entrega 1 | [https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/releases](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/releases) |
+| Git Pages | [https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/](https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/) |
+| Site No Fluxo UnB | [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) |
+| Repositório do No Fluxo UnB | [unb-mds/2025-1-NoFluxoUNB](https://github.com/unb-mds/2025-1-NoFluxoUNB) |
+| Fork utilizado para a avaliação | [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB) |
+| Release do software analisado | [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software) |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+A release do fork foi adotada como versão analisada porque a última release oficial disponibilizada pela equipe do No Fluxo UnB foi publicada em julho de 2025 e não condiz com as atualizações feitas na plataforma em maio de 2026. Como não houve êxito na comunicação para solicitar uma release oficial atualizada, o Grupo Hedy Lamarr criou a release [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software), em 02/06/2026, para manter um marco rastreável da avaliação.
+
 ## Hedy Lamarr
 
 Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela ficou famosa em Hollywood nas décadas de 1930 e 1940, sendo considerada uma das grandes estrelas do cinema da época. Além da carreira artística, Hedy também contribuiu para a tecnologia. Durante a Segunda Guerra Mundial, ajudou a desenvolver um sistema de comunicação por salto de frequência (*frequency hopping*), criado para evitar a interceptação de torpedos guiados por rádio. Sua invenção serviu de base para tecnologias modernas de comunicação sem fio, como Wi-Fi, Bluetooth e GPS.
@@ -21,7 +39,7 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
 ## Integrantes
 
 <div align="center">
-  <strong>Tabela 1: Integrantes do Grupo Hedy Lamarr.</strong>
+  <strong>Tabela 2: Integrantes do Grupo Hedy Lamarr.</strong>
   <br><br>
   <table align="center">
     <tr>
