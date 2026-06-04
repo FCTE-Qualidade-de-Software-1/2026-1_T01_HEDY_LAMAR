@@ -8,21 +8,9 @@ theme:
     repo: fontawesome/brands/github
   
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle: 
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: indigo
-      accent: orange
-
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: indigo
-      accent: orange
+    scheme: default
+    primary: indigo
+    accent: orange
   features:
     - navigation.instant
     - navigation.instant.progress
