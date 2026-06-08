@@ -6,7 +6,7 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
-  
+
   palette:
     scheme: default
     primary: indigo
@@ -39,13 +39,21 @@ nav:
     - 1. Aplicação GQM: fase2/00_aplicacao_gqm.md
     - 2. Objetivo de Medição - Adequação Funcional: fase2/01_obj_adequacao_funcional.md
     - 3. Objetivo de Medição - Portabilidade: fase2/02_obj_portabilidade.md
-  - Fase 3 - Projeção da avaliação:
-    - 1. Projeção - Adequação Funcional: fase3/01_proj_AdequacaoFuncional.md 
-    - 2. Projeção - Portabilidade: fase3/02_proj_Portabilidade.md
-  - Fase 4 - Executação da avaliação:
+  - Fase 3 - Projeção da Avaliação:
+    - Adequação Funcional:
+      - Visão Geral: fase3/adequacao_funcional/index.md
+      - Métricas:
+        - M3 - Consistência do Fluxograma: fase3/adequacao_funcional/metrica_3.md
+        - M4 - Correção dos Cálculos Acadêmicos: fase3/adequacao_funcional/metrica_4.md
+    - Portabilidade:
+      - Visão Geral: fase3/portabilidade/index.md
+      - Métricas:
+        - M1 - Layout Responsivo: fase3/portabilidade/metrica_1.md
+        - M2 - Equivalência Funcional por Navegador: fase3/portabilidade/metrica_2.md
+  - Fase 4 - Execução da avaliação:
     - 1. a: fase4/a.md
   - Declaração de Uso de IA: declaracao_uso_ia.md
-  - Extras: 
+  - Extras:
     - Configuração do ambiente: extras/configs.md
     - Tabela de Contribuição: extras/contribuicao.md
 markdown_extensions:
