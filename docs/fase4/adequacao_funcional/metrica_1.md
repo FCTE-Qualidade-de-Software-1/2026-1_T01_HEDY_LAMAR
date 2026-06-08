@@ -63,8 +63,6 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 A tabela abaixo registra o resultado da inspeção de cada requisito funcional essencial. A coluna **Resultado** deve ser preenchida com `Disponível`, `Parcialmente disponível` ou `Ausente`. Os campos marcados com _(preencher)_ devem ser completados após a execução.
 
-> **Exemplo preenchido — F1 (dados fictícios):** o primeiro requisito está preenchido com dados de exemplo para ilustrar o padrão esperado de registro.
-
 **Tabela 4: Checklist de inspeção dos requisitos funcionais essenciais.**
 
 | Código | Requisito funcional | Resultado | Caminho / Menu | Observação | Evidência |
