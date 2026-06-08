@@ -45,6 +45,8 @@ nav:
       - Métricas:
         - M3 - Consistência do Fluxograma: fase3/adequacao_funcional/metrica_3.md
         - M4 - Correção dos Cálculos Acadêmicos: fase3/adequacao_funcional/metrica_4.md
+        - M5 - Cenários de Planejamento Acadêmico: fase3/adequacao_funcional/metrica_5.md
+        - M6 - Recomendações academicamente válidas: fase3/adequacao_funcional/metrica_6.md
     - Portabilidade:
       - Visão Geral: fase3/portabilidade/index.md
       - Métricas:
