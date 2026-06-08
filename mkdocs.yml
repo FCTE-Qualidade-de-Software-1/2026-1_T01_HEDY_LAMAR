@@ -57,6 +57,7 @@ nav:
       - Visão Geral: fase4/adequacao_funcional/index.md
       - Métricas:
         - M3 - Consistência do Fluxograma: fase4/adequacao_funcional/metrica_3.md
+        - M4 - Correção dos Cálculos Acadêmicos: fase4/adequacao_funcional/metrica_4.md
     - Portabilidade:
       - Visão Geral: fase4/portabilidade/index.md
       - Métricas:

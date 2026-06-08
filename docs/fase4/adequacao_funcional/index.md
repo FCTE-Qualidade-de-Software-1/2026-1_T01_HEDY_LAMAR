@@ -50,11 +50,35 @@ Dessa forma, a métrica M3 foi classificada como **Insuficiente**, indicando que
 
 Para o detalhamento completo da execução, incluindo planilha de verificação e evidência em vídeo, consulte: [M3 - Consistência do Fluxograma](metrica_3.md).
 
+### 3.2 M4 - Taxa de Correção dos Cálculos Acadêmicos
+
+**Objetivo:** Verificar se os indicadores acadêmicos calculados e exibidos pelo sistema correspondem aos valores esperados a partir do histórico acadêmico e das regras curriculares usadas como referência.
+
+**Resultado consolidado da métrica:**
+
+| Métrica | Indicadores verificados | Indicadores corretos | Divergências | Resultado | Classificação | Detalhamento |
+|---|---:|---:|---:|---:|---|---|
+| M4 | 15 | 15 | 0 | 100,00% | Excelente | [M4 - Correção dos Cálculos Acadêmicos](metrica_4.md) |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+```text
+M4 = (15 / 15) x 100 = 100,00%
+```
+
+**Julgamento M4:** **Excelente**
+
+O resultado obtido foi de 100,00%, considerando 15 indicadores acadêmicos calculados corretamente em um total de 15 indicadores verificados. Esse percentual atende ao critério de excelência definido para a métrica, que exige M4 >= 98%.
+
+Dessa forma, a métrica M4 foi classificada como **Excelente**, indicando aderência dos cálculos acadêmicos avaliados aos valores esperados para o histórico utilizado.
+
+Para o detalhamento completo da execução, incluindo planilha de verificação e evidência em vídeo, consulte: [M4 - Correção dos Cálculos Acadêmicos](metrica_4.md).
+
 ## 4. Conclusão Parcial da Adequação Funcional
 
-Com base na métrica executada nesta etapa (M3), o **No Fluxo UnB** apresentou inconsistências na visualização curricular, com 6 divergências identificadas no conjunto de itens verificados.
+Com base nas métricas executadas nesta etapa, o **No Fluxo UnB** apresentou resultados distintos para os aspectos avaliados de Adequação Funcional.
 
-Esse resultado indica que o sistema ainda precisa de ajustes para oferecer suporte plenamente confiável ao planejamento acadêmico, especialmente nos pontos em que o fluxograma divergiu da base curricular oficial usada como referência.
+A M3 indicou inconsistências na visualização curricular, com 6 divergências em 62 itens verificados, o que aponta necessidade de ajustes no fluxograma gerado pelo sistema. Por outro lado, a M4 apresentou 100,00% de correção nos cálculos acadêmicos verificados, indicando aderência dos indicadores calculados aos valores esperados.
 
 ---
 
