@@ -51,11 +51,18 @@ nav:
         - M1 - Layout Responsivo: fase3/portabilidade/metrica_1.md
         - M2 - Equivalência Funcional por Navegador: fase3/portabilidade/metrica_2.md
   - Fase 4 - Execução da avaliação:
-    - 1. a: fase4/a.md
-  - Declaração de Uso de IA: declaracao_uso_ia.md
-  - Extras:
-    - Configuração do ambiente: extras/configs.md
+    - Adequação Funcional:
+      - Visão Geral: fase4/adequacao_funcional/index.md
+      - Métricas:
+        - M3 - Consistência do Fluxograma: fase4/adequacao_funcional/metrica_3.md
+    - Portabilidade:
+      - Visão Geral: fase4/portabilidade/index.md
+      - Métricas:
+        - M1 - Layout Responsivo: fase3/portabilidade/metrica_1.md
+  - Apêndice:
+    - Declaração de Uso de IA: declaracao_uso_ia.md
     - Tabela de Contribuição: extras/contribuicao.md
+    - Configuração do ambiente: extras/configs.md
 markdown_extensions:
   - admonition
   - pymdownx.details
