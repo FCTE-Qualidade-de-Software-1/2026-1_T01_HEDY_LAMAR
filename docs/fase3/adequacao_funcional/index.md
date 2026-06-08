@@ -16,6 +16,8 @@ As métricas tratadas nesta etapa verificam se o sistema apresenta informações
 |---|---|---|---|
 | **M3** | Taxa de consistência do fluxograma, equivalências e pré-requisitos | Q2 | [M3 - Consistência do fluxograma](metrica_3.md) |
 | **M4** | Taxa de correção dos cálculos acadêmicos | Q2 | [M4 - Correção dos cálculos acadêmicos](metrica_4.md) |
+| **M5** | Taxa de Sucesso em Cenários de Planejamento Acadêmico | Q3 | [M5 - Cenários de Planejamento Acadêmico](metrica_5.md) |
+| **M6** | Percentual de Recomendações ou Orientações Academicamente Válidas | Q3 | [M6 - Recomendações academicamente válidas](metrica_6.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
