@@ -109,12 +109,14 @@ A execução da métrica M3 indica que o **No Fluxo UnB** apresenta inconsistên
 
 Como o resultado ficou abaixo do limite mínimo de aceitação de 95%, a métrica foi classificada como **Insuficiente**, indicando necessidade de correção das divergências registradas antes de considerar a visualização curricular plenamente confiável para uso no planejamento acadêmico.
 
+A maior parte das inconsistências identificadas ocorreu porque o sistema não considerou as monitorias como disciplinas cursadas. No contexto da avaliação, essas atividades devem ser contabilizadas, pois compõem as horas complementares do estudante; cada monitoria equivale a 30 horas ou 2 créditos.
+
 ---
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.0` | 08/06/2026 | Criação da página de execução da métrica M3 na Fase 4, com registro, cálculo e julgamento. | Grupo Hedy Lamarr |
+| `1.0` | 08/06/2026 | Criação da página de execução da métrica M3 na Fase 4, com registro, cálculo e julgamento. | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
