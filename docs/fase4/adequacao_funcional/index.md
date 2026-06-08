@@ -10,7 +10,7 @@ O foco da execução foi validar, com base em evidências objetivas, a consistê
 
 ## 2. Ambiente de Execução
 
-Os testes foram executados em ambiente controlado, com os seguintes parâmetros:
+Os testes das métricas **M3** e **M4** foram executados em ambiente controlado, com os seguintes parâmetros. Os ambientes e artefatos das demais métricas serão especificados posteriormente em suas respectivas páginas de execução.
 
 | Item                          | Detalhe                                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -18,7 +18,7 @@ Os testes foram executados em ambiente controlado, com os seguintes parâmetros:
 | **URL da aplicação** | [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) |
 | **Navegador principal** | Google Chrome (versão 149.0.7827.53) |
 | **Sistema operacional** | Ubuntu 24.04 |
-| **Artefatos de apoio** | Histórico acadêmico de referência ([historico_lucas.pdf](../../assets/historico_lucas.pdf)), base curricular oficial, capturas de tela e planilha de conferência |
+| **Artefatos de apoio** | Histórico acadêmico utilizado nas métricas M3 e M4 ([historico_lucas.pdf](../../assets/historico_lucas.pdf)), base curricular oficial, capturas de tela e planilha de conferência |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -34,27 +34,27 @@ Os testes foram executados em ambiente controlado, com os seguintes parâmetros:
 
 | Métrica | Itens verificados | Itens corretos | Divergências | Resultado | Classificação | Detalhamento |
 |---|---:|---:|---:|---:|---|---|
-| M3 | 25 | 24 | 1 | 96% | Satisfatório | [M3 - Consistência do Fluxograma](metrica_3.md) |
+| M3 | 62 | 56 | 6 | 90,32% | Insuficiente | [M3 - Consistência do Fluxograma](metrica_3.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-$$
-M3 = \left(\frac{24}{25}\right) \times 100 = 96\%
-$$
+```text
+M3 = (56 / 62) x 100 = 90,32%
+```
 
-**Julgamento M3:** **Satisfatório**
+**Julgamento M3:** **Insuficiente**
 
-O resultado obtido foi de 96%, considerando 24 itens exibidos corretamente em um total de 25 itens curriculares verificados. Esse percentual atende ao limite mínimo definido para aceitação da métrica, que exige M3 >= 95%.
+O resultado obtido foi de 90,32%, considerando 56 itens exibidos corretamente em um total de 62 itens curriculares verificados. Esse percentual não atende ao limite mínimo definido para aceitação da métrica, que exige M3 >= 95%.
 
-Dessa forma, a métrica M3 foi classificada como **Satisfatória**, indicando que o fluxograma gerado pelo sistema manteve aderência ao oráculo utilizado na avaliação, apesar de uma divergência pontual relacionada a equivalência.
+Dessa forma, a métrica M3 foi classificada como **Insuficiente**, indicando que ainda existem divergências relevantes no fluxograma gerado pelo sistema em relação ao oráculo utilizado na avaliação.
 
 Para o detalhamento completo da execução, incluindo planilha de verificação e evidência em vídeo, consulte: [M3 - Consistência do Fluxograma](metrica_3.md).
 
 ## 4. Conclusão Parcial da Adequação Funcional
 
-Com base na métrica executada nesta etapa (M3), o **No Fluxo UnB** apresentou comportamento funcional consistente para a visualização curricular, com apenas uma divergência pontual identificada no conjunto de itens verificados.
+Com base na métrica executada nesta etapa (M3), o **No Fluxo UnB** apresentou inconsistências na visualização curricular, com 6 divergências identificadas no conjunto de itens verificados.
 
-Esse resultado reforça a hipótese de que o sistema oferece suporte confiável ao planejamento acadêmico, mantendo alinhamento com as regras curriculares oficiais na maior parte dos casos avaliados.
+Esse resultado indica que o sistema ainda precisa de ajustes para oferecer suporte plenamente confiável ao planejamento acadêmico, especialmente nos pontos em que o fluxograma divergiu da base curricular oficial usada como referência.
 
 ---
 
@@ -62,6 +62,6 @@ Esse resultado reforça a hipótese de que o sistema oferece suporte confiável 
 
 | Versão | Data | Descrição | Autor |
 | ------ | ---- | --------- | ----- |
-| `1.0` | 08/06/2026 | Criação da página de execução da Fase 4 para Adequação Funcional, com consolidação inicial da métrica M3. | Grupo Hedy Lamarr |
+| `1.0` | 08/06/2026 | Criação da página de execução da Fase 4 para Adequação Funcional, com consolidação inicial da métrica M3. | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

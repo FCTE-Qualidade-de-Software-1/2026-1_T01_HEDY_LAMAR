@@ -26,21 +26,19 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 | Categoria verificada | Quantidade | Itens corretos | Itens com divergência |
 |---|---:|---:|---:|
-| Disciplinas | 12 | 12 | 0 |
-| Pré-requisitos | 7 | 7 | 0 |
-| Equivalências | 3 | 2 | 1 |
-| Estado no fluxograma | 3 | 3 | 0 |
-| **Total** | **25** | **24** | **1** |
+| Itens curriculares verificados | 62 | 56 | 6 |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-### 3.1 Divergência Identificada
+### 3.1 Divergências Identificadas
 
-**Tabela 2: Registro de divergência da M3.**
+As divergências foram registradas na planilha de verificação, com indicação do valor esperado, valor obtido e evidência correspondente.
+
+**Tabela 2: Registro consolidado de divergências da M3.**
 
 | ID | Tipo | Descrição | Severidade | Evidência |
 |---|---|---|---|---|
-| AF-M3-01 | Equivalência | Regra de equivalência exibida de forma incompleta para disciplina optativa do curso avaliado. | Média | Captura de tela da tela de fluxograma e planilha de conferência |
+| AF-M3-01 a AF-M3-06 | Itens curriculares | Divergências entre o fluxograma exibido pelo sistema e a base curricular utilizada como oráculo. | Média | Planilha de conferência e evidência em vídeo |
 
 ---
 
@@ -79,15 +77,15 @@ allowfullscreen>
 
 Aplicando a fórmula definida na Fase 2:
 
-$$
-M3 = \left(\frac{\text{itens curriculares corretos}}{\text{itens curriculares verificados}}\right) \times 100
-$$
+```text
+M3 = (itens curriculares corretos / itens curriculares verificados) x 100
+```
 
 Substituindo os valores obtidos na execução:
 
-$$
-M3 = \left(\frac{24}{25}\right) \times 100 = 96\%
-$$
+```text
+M3 = (56 / 62) x 100 = 90,32%
+```
 
 ---
 
@@ -99,17 +97,17 @@ Conforme a régua de aceitação definida na [Fase 3](../../fase3/adequacao_func
 - **Satisfatório:** 95% <= M3 < 98%
 - **Insuficiente:** M3 < 95%
 
-**Resultado obtido:** **M3 = 96%**
+**Resultado obtido:** **M3 = 90,32%**
 
-**Classificação:** **Satisfatório**
+**Classificação:** **Insuficiente**
 
 ---
 
 ## 6. Conclusão da Métrica M3
 
-A execução da métrica M3 indica que o **No Fluxo UnB** apresenta **alta consistência** na exibição de disciplinas, pré-requisitos e estados curriculares, com apenas uma inconsistência pontual relacionada a equivalência.
+A execução da métrica M3 indica que o **No Fluxo UnB** apresenta inconsistências na exibição de informações curriculares, com 56 itens corretos em um total de 62 itens verificados.
 
-Mesmo com a divergência registrada, o resultado permanece acima do limite mínimo de aceitação, sustentando a confiabilidade funcional da visualização curricular para uso no planejamento acadêmico.
+Como o resultado ficou abaixo do limite mínimo de aceitação de 95%, a métrica foi classificada como **Insuficiente**, indicando necessidade de correção das divergências registradas antes de considerar a visualização curricular plenamente confiável para uso no planejamento acadêmico.
 
 ---
 
