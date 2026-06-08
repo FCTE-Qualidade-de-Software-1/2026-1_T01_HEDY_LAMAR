@@ -52,11 +52,13 @@ O sistema é composto por um conjunto coeso de funções voltadas ao acompanhame
 
 9. **Autenticação e persistência de dados:** login de usuário com armazenamento seguro de simulações e histórico de uso.
 
-Durante a avaliação, o foco recairá principalmente sobre duas funções centrais:
+Durante a avaliação, o foco recairá principalmente sobre três funções centrais:
 
-- **Motor de Leitura e Processamento do Histórico:** a extração e interpretação correta dos dados do PDF acadêmico é o núcleo funcional do sistema. Falhas nessa etapa comprometem todas as funcionalidades dependentes, como o cálculo do IRA, a visualização do fluxograma e a detecção de trancamentos. A acurácia mínima exigida pelo sistema é de 95%.
+- **Motor de Leitura e Processamento do Histórico:** a extração e interpretação correta dos dados do PDF acadêmico é o núcleo funcional do sistema. Falhas nessa etapa comprometem todas as funcionalidades dependentes, como o cálculo do IRA, a visualização do fluxograma e a detecção de trancamentos.
 
 - **Motor de Simulação e Visualização do Fluxograma:** a lógica que cruza o histórico do aluno com o banco de dados do fluxograma do curso e gera a visualização interativa é a entrega principal da plataforma. Sua corretude e desempenho são críticos para a experiência do usuário.
+
+- **Assistente de Inteligência Artificial:** a ajuda com o planejamento futuro do fluxograma é um ponto destacado pelos desenvolvedores.
 
 ---
 
