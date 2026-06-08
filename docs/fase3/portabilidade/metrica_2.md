@@ -105,7 +105,7 @@ M2_Ambiente = (Nº de funcionalidades operantes ÷ 3) × 100
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.1` | 08/06/2026 | Separação da métrica M2 em página própria. | Lucas Guimarães |
+| `1.1` | 08/06/2026 | Separação da métrica M2 em página própria. | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.0` | 07/06/2026 | Projeção da métrica M2 de Portabilidade. | Guilherme |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

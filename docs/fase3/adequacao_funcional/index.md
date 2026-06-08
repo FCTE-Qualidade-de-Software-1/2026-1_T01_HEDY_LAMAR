@@ -110,6 +110,6 @@ O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.0` | 08/06/2026 | Criação da projeção da avaliação de Adequação Funcional para as métricas M3 e M4. | Lucas Guimarães |
+| `1.0` | 08/06/2026 | Criação da projeção da avaliação de Adequação Funcional para as métricas M3 e M4. | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

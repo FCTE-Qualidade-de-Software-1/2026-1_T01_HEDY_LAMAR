@@ -96,7 +96,7 @@ O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.1` | 08/06/2026 | Separação da projeção de Portabilidade em páginas por métrica. | Lucas Guimarães |
+| `1.1` | 08/06/2026 | Separação da projeção de Portabilidade em páginas por métrica. | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.0` | 07/06/2026 | Projeção das métricas M1 e M2. | Guilherme |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

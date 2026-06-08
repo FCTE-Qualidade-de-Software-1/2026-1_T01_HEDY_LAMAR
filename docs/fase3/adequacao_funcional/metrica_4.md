@@ -46,7 +46,46 @@ Os indicadores devem ser avaliados individualmente. Quando um valor não for exi
 
 ---
 
-## 4. Preparação
+## 4. Justificativa e Rastreabilidade
+
+A M4 foi definida para verificar a parte quantitativa da questão Q2 da [Fase 2](../../fase2/01_obj_adequacao_funcional.md), avaliando se os cálculos acadêmicos exibidos pelo No Fluxo UnB correspondem aos valores esperados a partir do histórico acadêmico e das regras curriculares.
+
+O método utiliza comparação controlada entre indicadores calculados manualmente ou em planilha de referência e os valores apresentados pela aplicação. Essa abordagem garante repetibilidade porque cada indicador possui fórmula ou regra de cálculo, valor esperado, tolerância definida, valor obtido, resultado binário e evidência associada.
+
+**Tabela 3: Rastreabilidade da M4.**
+
+| Elemento | Definição |
+|---|---|
+| Questão GQM | Q2 - Precisão na interpretação do histórico e apresentação de informações curriculares |
+| Hipótese associada | H2 - Acurácia igual ou superior a 95%, sem defeitos críticos que comprometam a decisão acadêmica |
+| Subcaracterística ISO/IEC 25010 | Correção funcional |
+| Objeto medido | Indicadores acadêmicos calculados e exibidos pela aplicação |
+| Continuidade na Fase 4 | A execução deverá apresentar planilha preenchida, cálculo percentual, evidências e julgamento final da M4 |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+---
+
+## 5. Recursos e Ambiente de Avaliação
+
+**Tabela 4: Recursos necessários para execução da M4.**
+
+| Recurso | Especificação |
+|---|---|
+| Produto avaliado | No Fluxo UnB, versão web disponível no ambiente definido para a avaliação |
+| Navegador homologado | Google Chrome ou Microsoft Edge em versão estável atual |
+| Sistema operacional | Ubuntu 24.04 ou ambiente equivalente com navegador moderno |
+| Entrada principal | Histórico acadêmico em PDF do estudante usado como referência |
+| Oráculo de cálculo | Planilha com valores esperados calculados a partir do histórico, da base curricular e das regras acadêmicas aplicáveis |
+| Ferramenta de registro | Planilha de verificação com indicador, valor esperado, valor obtido, tolerância, resultado e evidência |
+| Evidências | Capturas de tela, vídeo de execução e link para a planilha preenchida |
+| Massa de dados | Conjunto de indicadores acadêmicos aplicáveis ao histórico avaliado; indicadores não aplicáveis devem ser justificados e excluídos do denominador |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+---
+
+## 6. Preparação
 
 Antes da execução, o avaliador deve preparar:
 
@@ -58,14 +97,14 @@ Antes da execução, o avaliador deve preparar:
 
 A planilha deve conter, no mínimo:
 
-| ID | Indicador | Valor esperado | Valor obtido | Tolerância | Correto? | Evidência |
-|---|---|---|---|---|---|---|
+| ID | Indicador | Fórmula/regra de referência | Valor esperado | Valor obtido | Tolerância | Correto? | Observação | Evidência |
+|---|---|---|---|---|---|---|---|---|
 
 ---
 
-## 5. Regras de Tolerância
+## 7. Regras de Tolerância
 
-**Tabela 3: Tolerâncias aceitas para a M4.**
+**Tabela 5: Tolerâncias aceitas para a M4.**
 
 | Tipo de valor | Tolerância |
 |---|---|
@@ -78,22 +117,25 @@ A planilha deve conter, no mínimo:
 
 ---
 
-## 6. Passo a Passo da Execução
+## 8. Passo a Passo da Execução
 
 1. Calcular previamente os valores esperados com base no histórico de referência.
-2. Acessar o No Fluxo UnB no ambiente definido para a avaliação.
-3. Realizar login, caso necessário.
-4. Fazer upload do histórico acadêmico de referência.
-5. Aguardar o processamento do histórico.
-6. Acessar as telas que exibem resumo acadêmico, progresso, fluxograma e indicadores calculados.
-7. Registrar cada valor apresentado pelo sistema.
-8. Comparar o valor obtido com o valor esperado e com a tolerância definida.
-9. Atribuir **1** para indicador correto e **0** para indicador incorreto.
-10. Para cada divergência, registrar descrição, severidade e evidência.
+2. Registrar na planilha a fórmula ou regra usada para obter cada valor esperado.
+3. Acessar o No Fluxo UnB no ambiente definido para a avaliação.
+4. Realizar login, caso necessário.
+5. Fazer upload do histórico acadêmico de referência.
+6. Aguardar o processamento do histórico.
+7. Acessar as telas que exibem resumo acadêmico, progresso, fluxograma e indicadores calculados.
+8. Registrar cada valor apresentado pelo sistema.
+9. Comparar o valor obtido com o valor esperado e com a tolerância definida.
+10. Atribuir **1** para indicador correto e **0** para indicador incorreto.
+11. Marcar como **NA** apenas indicadores não aplicáveis ao histórico ou não previstos no escopo da métrica, justificando a exclusão do denominador.
+12. Para cada divergência, registrar descrição, severidade e evidência.
+13. Revisar a planilha ao final da execução para garantir que todos os indicadores aplicáveis tenham resultado, evidência e critério de cálculo.
 
 ---
 
-## 7. Fórmula de Cálculo
+## 9. Fórmula de Cálculo
 
 ```text
 M4 = (Nº de indicadores acadêmicos calculados corretamente
@@ -102,9 +144,9 @@ M4 = (Nº de indicadores acadêmicos calculados corretamente
 
 ---
 
-## 8. Critério de Julgamento
+## 10. Critério de Julgamento
 
-**Tabela 4: Régua de julgamento da M4.**
+**Tabela 6: Régua de julgamento da M4.**
 
 | Classificação | Critério |
 |---|---|
@@ -116,9 +158,9 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ---
 
-## 9. Classificação de Divergências
+## 11. Classificação de Divergências
 
-**Tabela 5: Severidade das divergências da M4.**
+**Tabela 7: Severidade das divergências da M4.**
 
 | Severidade | Critério |
 |---|---|
@@ -129,7 +171,21 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ---
 
-## 10. Saída Esperada
+## 12. Cronograma de Execução
+
+**Tabela 8: Cronograma específico da M4.**
+
+| Data limite | Atividade | Responsável |
+|---|---|---|
+| 08/06/2026 | Preparar histórico acadêmico, planilha de cálculo esperado, regras de tolerância e pasta de evidências. | Lucas Guimarães |
+| 09/06/2026 | Executar upload do histórico, coletar indicadores exibidos e preencher a planilha de verificação. | Avaliadores |
+| 10/06/2026 | Consolidar divergências, calcular a M4, classificar o resultado e publicar a página de execução da Fase 4. | Grupo Hedy Lamarr |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+---
+
+## 13. Saída Esperada
 
 Ao final da execução, devem estar disponíveis:
 
@@ -138,15 +194,19 @@ Ao final da execução, devem estar disponíveis:
 - Lista de indicadores divergentes.
 - Evidências associadas aos cálculos incorretos.
 - Classificação final da métrica.
+- Registro da fórmula ou regra usada para calcular cada valor esperado.
+- Justificativa para indicadores marcados como não aplicáveis, quando existirem.
+- Página correspondente na Fase 4 com resultado, julgamento e links para as evidências.
 
 ---
 
 ## Histórico de Versões
 
-**Tabela 6: Histórico de versões.**
+**Tabela 9: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| `1.0` | 08/06/2026 | Criação do plano de avaliação da métrica M4 de Adequação Funcional. | Lucas Guimarães |
+| `1.1` | 08/06/2026 | Ajuste da métrica M4 aos critérios de excelência da Fase 3, com detalhamento de método, recursos, cronograma e rastreabilidade. | [Lucas Guimarães](https://github.com/lcsgborges) |
+| `1.0` | 08/06/2026 | Criação do plano de avaliação da métrica M4 de Adequação Funcional. | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

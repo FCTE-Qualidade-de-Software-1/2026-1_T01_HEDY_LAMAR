@@ -22,6 +22,8 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
 | Repositório do No Fluxo UnB | [unb-mds/2025-1-NoFluxoUNB](https://github.com/unb-mds/2025-1-NoFluxoUNB) |
 | Fork utilizado para a avaliação | [lcsgborges/2025-1-NoFluxoUNB](https://github.com/lcsgborges/2025-1-NoFluxoUNB) |
 | Release do software analisado | [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software) |
+| Declaração de Uso de IA | [Apêndice - Declaração de Uso de IA](declaracao_uso_ia.md) |
+| Tabela de Contribuição | [Apêndice - Tabela de Contribuição](extras/contribuicao.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
