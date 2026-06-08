@@ -23,7 +23,7 @@ As métricas tratadas nesta etapa verificam se o sistema apresenta informações
 
 ## 3. Método Geral de Avaliação
 
-As duas métricas seguem o mesmo fluxo básico de avaliação:
+As duas métricas seguem o mesmo fluxo básico de avaliação, alinhado aos critérios definidos na [Fase 2](../../fase2/01_obj_adequacao_funcional.md):
 
 1. Definir o histórico acadêmico de referência.
 2. Definir a base curricular ou documento oficial usado como oráculo.
@@ -49,7 +49,7 @@ As duas métricas seguem o mesmo fluxo básico de avaliação:
 
 ## 4. Artefatos de Coleta
 
-O documento de coleta das métricas M3 e M4 deve conter, no mínimo, as seguintes colunas:
+O documento de coleta deverá conter, no mínimo, as seguintes colunas:
 
 | Métrica | Item verificado | Valor esperado | Valor obtido | Resultado | Severidade | Link da evidência |
 |---|---|---|---|---|---|---|
@@ -70,6 +70,8 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 
 ## 5. Responsáveis e Cronograma
 
+### 5.1 Cronograma
+
 **Tabela 3: Cronograma de execução das métricas M3 e M4.**
 
 | Data limite | Atividade | Responsável |
@@ -79,6 +81,24 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 | 10/06/2026 | Consolidar resultados, evidências e classificação final. | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
+
+### 5.2 Ferramentas Homologadas para Inspeção
+
+Caso o avaliador não possua o dispositivo físico listado na matriz de ambientes, fica autorizado o uso das seguintes ferramentas de simulação:
+
+- DevTools do Google Chrome ou Microsoft Edge.
+- Modo **Responsive Design Mode**.
+- Configuração manual das dimensões informadas na matriz de ambientes.
+
+### 5.3 Arquivo de Teste
+
+Será utilizado o arquivo fictício:
+
+```text
+historico_exemplo_unb.pdf
+```
+
+O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de evidências definida para a avaliação.
 
 ---
 
