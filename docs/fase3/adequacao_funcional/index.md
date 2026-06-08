@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Esta seção operacionaliza a avaliação da característica **Adequação Funcional** do sistema **No Fluxo UnB**, com foco nas métricas M3 e M4 definidas na [Fase 2](../../fase2/01_obj_adequacao_funcional.md).
+Esta seção operacionaliza a avaliação da característica **Adequação Funcional** do sistema **No Fluxo UnB**, cobrindo todas as métricas definidas na [Fase 2](../../fase2/01_obj_adequacao_funcional.md) para essa característica.
 
 As métricas tratadas nesta etapa verificam se o sistema apresenta informações curriculares corretas e se os cálculos acadêmicos exibidos ao estudante estão coerentes com o histórico acadêmico e com a base curricular utilizada como referência.
 
@@ -74,7 +74,7 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
-| 08/06/2026 | Preparar histórico de referência, base curricular e planilha de conferência. | Equipe de Adequação Funcional |
+| 08/06/2026 | Preparar histórico de referência, base curricular e planilha de conferência. | Lucas Guimarães, André, Gabriel e Paulo |
 | 09/06/2026 | Executar a coleta das métricas M3 e M4. | Avaliadores |
 | 10/06/2026 | Consolidar resultados, evidências e classificação final. | Grupo Hedy Lamarr |
 

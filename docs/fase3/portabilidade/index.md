@@ -4,7 +4,7 @@
 
 Esta seção operacionaliza a execução da avaliação para as métricas da subcaracterística de **Adaptabilidade (Portabilidade)** do sistema **No Fluxo UnB**.
 
-O objetivo é fornecer um roteiro executável e padronizado para que qualquer membro da equipe consiga executar os testes, coletar evidências e aplicar os critérios de julgamento estabelecidos na [Fase 2](../../fase2/02_obj_portabilidade.md).
+O objetivo é fornecer um roteiro executável e padronizado para que qualquer membro da equipe consiga executar os testes, coletar evidências e aplicar os critérios de julgamento estabelecidos na [Fase 2](../../fase2/02_obj_portabilidade.md), cobrindo todas as métricas previstas para Portabilidade.
 
 ---
 
