@@ -43,6 +43,8 @@ nav:
     - Adequação Funcional:
       - Visão Geral: fase3/adequacao_funcional/index.md
       - Métricas:
+        - M1 - Cobertura dos Requisitos Funcionais: fase3/adequacao_funcional/metrica_1.md
+        - M2 - Validação de extração do Histórico Acadêmico: fase3/adequacao_funcional/metrica_2.md
         - M3 - Consistência do Fluxograma: fase3/adequacao_funcional/metrica_3.md
         - M4 - Correção dos Cálculos Acadêmicos: fase3/adequacao_funcional/metrica_4.md
         - M5 - Cenários de Planejamento Acadêmico: fase3/adequacao_funcional/metrica_5.md
@@ -56,6 +58,8 @@ nav:
     - Adequação Funcional:
       - Visão Geral: fase4/adequacao_funcional/index.md
       - Métricas:
+        - M1 - Cobertura dos Requisitos Funcionais: fase4/adequacao_funcional/metrica_1.md
+        - M2 - Validação de extração do Histórico Acadêmico: fase4/adequacao_funcional/metrica_2.md
         - M3 - Consistência do Fluxograma: fase4/adequacao_funcional/metrica_3.md
         - M4 - Correção dos Cálculos Acadêmicos: fase4/adequacao_funcional/metrica_4.md
     - Portabilidade:
