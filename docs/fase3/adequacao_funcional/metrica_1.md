@@ -111,8 +111,8 @@ A planilha deve conter, no mínimo:
 
 ## 7. Passo a Passo da Execução
 
-1. Acessar [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) sem login.
-2. Para cada requisito acessível sem autenticação (F1, F3, F4), navegar até a função e confirmar resposta a interação básica do usuário.
+1. Acessar [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) com login.
+2. Para cada requisito acessível com autenticação (F1, F3, F4), navegar até a função e confirmar resposta a interação básica do usuário.
 3. Capturar screenshot da tela com a URL visível e anotar o caminho percorrido.
 4. Registrar na planilha: `Disponível`, `Parcialmente disponível` ou `Ausente`.
 5. Realizar login com as credenciais de conta de teste.
