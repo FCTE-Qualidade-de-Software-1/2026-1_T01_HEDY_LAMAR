@@ -4,13 +4,13 @@
 
 Nesta fase, foram executados os procedimentos definidos no [Plano de Avaliação da Fase 3](../../fase3/adequacao_funcional/index.md) para a característica **Adequação Funcional** do **No Fluxo UnB**.
 
-O foco da execução foi validar, com base em evidências objetivas, a consistência das informações curriculares exibidas na aplicação e a confiabilidade dos resultados apresentados ao estudante durante o planejamento acadêmico.
+O foco da execução foi validar, com base em evidências objetivas, a consistência das informações curriculares exibidas na aplicação, a correção dos cálculos acadêmicos e o impacto dos defeitos funcionais encontrados.
 
 ---
 
 ## 2. Ambiente de Execução
 
-Os testes das métricas **M3** e **M4** foram executados em ambiente controlado, com os seguintes parâmetros. Os ambientes e artefatos das demais métricas serão especificados posteriormente em suas respectivas páginas de execução.
+Os testes das métricas executadas nesta etapa foram consolidados em ambiente controlado, com os seguintes parâmetros.
 
 | Item                          | Detalhe                                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -18,18 +18,22 @@ Os testes das métricas **M3** e **M4** foram executados em ambiente controlado,
 | **URL da aplicação** | [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) |
 | **Navegador principal** | Google Chrome (versão 149.0.7827.53) |
 | **Sistema operacional** | Ubuntu 24.04 |
-| **Artefatos de apoio** | Histórico acadêmico utilizado nas métricas M3 e M4 ([historico_lucas.pdf](../../assets/historico_lucas.pdf)), base curricular oficial, capturas de tela e planilha de conferência |
+| **Artefatos de apoio** | Histórico acadêmico utilizado nas métricas já publicadas ([historico_lucas.pdf](../../assets/historico_lucas.pdf)), base curricular oficial, capturas de tela, planilhas e registro consolidado de defeitos |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ### 2.1 Dados Brutos e Evidências Consolidadas
 
-**Tabela 1: Evidências utilizadas na execução das métricas M3 e M4.**
+**Tabela 1: Evidências utilizadas na execução das métricas da Adequação Funcional.**
 
 | Métrica | Dados brutos e evidências | Finalidade |
 |---|---|---|
+| M1 | Checklist de requisitos, capturas e vídeo de execução | Verificar disponibilidade dos requisitos funcionais essenciais |
+| M2 | [historico_lucas.pdf](../../assets/historico_lucas.pdf), gabarito de conferência e vídeo de execução | Medir acurácia da extração do histórico acadêmico |
 | M3 | [historico_lucas.pdf](../../assets/historico_lucas.pdf), [planilha de verificação M3](https://docs.google.com/spreadsheets/d/e/2PACX-1vS_9MoW9IL9oxwtR-dSK3rLv5Gyxs0zuZ4sMwrn4jYN349TyZR32XatXlxa-sOwlsS-T3_-SNZlGCbs/pubhtml?widget=true&amp;headers=false) e [vídeo de execução M3](https://www.youtube.com/watch?v=hSteyK7RSoM) | Conferir fluxograma, equivalências, pré-requisitos e estados curriculares |
 | M4 | [historico_lucas.pdf](../../assets/historico_lucas.pdf), [planilha de verificação M4](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlQF8WXUxLo_YCMk32xhxnmEkGlJ51YnO5LqvYqdhaROyGa8Gz1e1u7FLB-F0wXHZlqQVWkhBwqKVs/pubhtml?widget=true&amp;headers=false) e [vídeo de execução M4](https://www.youtube.com/watch?v=u64lvJq27Mw) | Conferir indicadores acadêmicos calculados pelo sistema |
+| M7 | [registro_defeitos_m7_m8.csv](../../assets/dados/adequacao_funcional/registro_defeitos_m7_m8.csv) | Contar defeitos funcionais críticos |
+| M8 | [resultado_m7_m8.csv](../../assets/dados/adequacao_funcional/resultado_m7_m8.csv) | Calcular severidade média dos defeitos funcionais |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -85,11 +89,43 @@ Dessa forma, a métrica M4 foi classificada como **Excelente**, indicando aderê
 
 Para o detalhamento completo da execução, incluindo planilha de verificação e evidência em vídeo, consulte: [M4 - Correção dos Cálculos Acadêmicos](metrica_4.md).
 
+### 3.3 M7 - Número de Defeitos Funcionais Críticos Encontrados
+
+**Objetivo:** Verificar quantos defeitos funcionais críticos foram encontrados a partir da consolidação das divergências publicadas na Fase 4.
+
+**Resultado consolidado da métrica:**
+
+| Métrica | Defeitos críticos | Resultado | Classificação | Detalhamento |
+|---|---:|---:|---|---|
+| M7 | 0 | 0 defeitos críticos | Excelente | [M7 - Defeitos funcionais críticos](metrica_7.md) |
+
+**Julgamento M7:** **Excelente**
+
+Não foram identificados defeitos com severidade crítica no conjunto consolidado utilizado na avaliação.
+
+Para o detalhamento completo da execução, consulte: [M7 - Defeitos funcionais críticos](metrica_7.md).
+
+### 3.4 M8 - Severidade Média dos Defeitos Funcionais
+
+**Objetivo:** Calcular a severidade média dos defeitos funcionais consolidados a partir das divergências publicadas.
+
+**Resultado consolidado da métrica:**
+
+| Métrica | Defeitos verificados | Soma das severidades | Resultado | Classificação | Detalhamento |
+|---|---:|---:|---:|---|---|
+| M8 | 7 | 26 | 3,71 | Insuficiente | [M8 - Severidade média dos defeitos](metrica_8.md) |
+
+**Julgamento M8:** **Insuficiente**
+
+A média de severidade ficou acima do limite satisfatório definido para a métrica.
+
+Para o detalhamento completo da execução, consulte: [M8 - Severidade média dos defeitos](metrica_8.md).
+
 ## 4. Conclusão Parcial da Adequação Funcional
 
 Com base nas métricas executadas nesta etapa, o **No Fluxo UnB** apresentou resultados distintos para os aspectos avaliados de Adequação Funcional.
 
-A M3 indicou inconsistências na visualização curricular, com 6 divergências em 62 itens verificados, o que aponta necessidade de ajustes no fluxograma gerado pelo sistema. Por outro lado, a M4 apresentou 100,00% de correção nos cálculos acadêmicos verificados, indicando aderência dos indicadores calculados aos valores esperados.
+A M3 indicou inconsistências na visualização curricular, com 6 divergências em 62 itens verificados, o que aponta necessidade de ajustes no fluxograma gerado pelo sistema. A M4 apresentou 100,00% de correção nos cálculos acadêmicos verificados, indicando aderência dos indicadores calculados aos valores esperados. A M7 não encontrou defeitos críticos, mas a M8 mostrou severidade média acima do nível satisfatório, o que indica prioridade de correções funcionais.
 
 ---
 
@@ -97,12 +133,14 @@ A M3 indicou inconsistências na visualização curricular, com 6 divergências 
 
 As métricas M3 e M4 respondem à Q2 de Adequação Funcional: **"Com que precisão o sistema interpreta o histórico acadêmico e apresenta informações curriculares corretas ao estudante?"**
 
-**Tabela 2: Resposta consolidada à Q2.**
+**Tabela 2: Resposta consolidada às questões da Adequação Funcional.**
 
-| Métrica | Resultado | Relação com H2 | Interpretação |
+| Métrica | Resultado | Relação com H2/H4 | Interpretação |
 |---|---:|---|---|
 | M3 | 90,32% | Não confirma a hipótese de acurácia mínima de 95% | A visualização curricular ainda apresenta divergências relevantes, principalmente pela não contabilização de monitorias como horas complementares |
 | M4 | 100,00% | Confirma a hipótese de acurácia mínima de 95% | Os cálculos acadêmicos avaliados foram exibidos corretamente para o histórico usado como referência |
+| M7 | 0 defeitos críticos | Confirma o limite de criticidade esperado | Nenhum defeito crítico foi identificado no conjunto consolidado |
+| M8 | 3,71 | Não confirma a severidade média baixa ou moderada | A média de severidade aponta impacto funcional relevante, acima do nível satisfatório |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -112,7 +150,7 @@ Em relação ao propósito da avaliação definido na [Fase 1](../../fase1/01_pr
 
 ## 6. Julgamento Final e Sugestões de Melhoria
 
-O julgamento consolidado da Adequação Funcional para as métricas executadas é **parcialmente satisfatório**: a M4 atingiu nível excelente, mas a M3 ficou abaixo do limite mínimo de aceitação definido no plano de avaliação.
+O julgamento consolidado da Adequação Funcional para as métricas executadas é **parcialmente satisfatório**: a M4 atingiu nível excelente e a M7 não encontrou defeitos críticos, mas a M3 ficou abaixo do limite mínimo de aceitação definido no plano de avaliação e a M8 apresentou severidade média alta.
 
 Sugestões de melhoria:
 
@@ -121,6 +159,8 @@ Sugestões de melhoria:
 - Criar testes de regressão com o histórico usado nesta avaliação e com novos históricos contendo monitorias, equivalências e atividades complementares.
 - Manter as planilhas M3 e M4 como dados brutos rastreáveis para novas execuções da avaliação.
 - Reexecutar a M3 após os ajustes e comparar o novo resultado com o limite mínimo de 95%.
+- Manter o registro consolidado da M7 e os dados processados da M8 como base de rastreabilidade para a continuidade da avaliação.
+- Reexecutar a M7 e a M8 quando novas métricas publicadas adicionarem mais evidências de defeitos funcionais.
 
 ---
 

@@ -1,0 +1,3 @@
+metrica,data_calculo,responsavel,total_defeitos,soma_severidades,total_criticos,resultado,classificacao,formula
+M7,2026-06-10,Gabriel Lopes,7,26,0,0,Excelente,"contagem de defeitos com severidade 5"
+M8,2026-06-10,Gabriel Lopes,7,26,0,3.71,Insuficiente,"26 / 7"

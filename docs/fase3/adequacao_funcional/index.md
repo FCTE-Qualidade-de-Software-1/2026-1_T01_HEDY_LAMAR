@@ -4,7 +4,7 @@
 
 Esta seção operacionaliza a avaliação da característica **Adequação Funcional** do sistema **No Fluxo UnB**, cobrindo todas as métricas definidas na [Fase 2](../../fase2/01_obj_adequacao_funcional.md) para essa característica.
 
-As métricas tratadas nesta etapa verificam se o sistema apresenta informações curriculares corretas e se os cálculos acadêmicos exibidos ao estudante estão coerentes com o histórico acadêmico e com a base curricular utilizada como referência.
+As métricas tratadas nesta etapa verificam se o sistema apresenta informações curriculares corretas, se os cálculos acadêmicos exibidos ao estudante estão coerentes com o histórico acadêmico e como os defeitos funcionais encontrados impactam a avaliação.
 
 ---
 
@@ -18,6 +18,8 @@ As métricas tratadas nesta etapa verificam se o sistema apresenta informações
 | **M4** | Taxa de correção dos cálculos acadêmicos | Q2 | [M4 - Correção dos cálculos acadêmicos](metrica_4.md) |
 | **M5** | Taxa de Sucesso em Cenários de Planejamento Acadêmico | Q3 | [M5 - Cenários de Planejamento Acadêmico](metrica_5.md) |
 | **M6** | Percentual de Recomendações ou Orientações Academicamente Válidas | Q3 | [M6 - Recomendações academicamente válidas](metrica_6.md) |
+| **M7** | Número de defeitos funcionais críticos encontrados | Q4 | [M7 - Defeitos funcionais críticos](metrica_7.md) |
+| **M8** | Severidade média dos defeitos funcionais | Q4 | [M8 - Severidade média dos defeitos funcionais](metrica_8.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -25,7 +27,7 @@ As métricas tratadas nesta etapa verificam se o sistema apresenta informações
 
 ## 3. Método Geral de Avaliação
 
-As duas métricas seguem o mesmo fluxo básico de avaliação, alinhado aos critérios definidos na [Fase 2](../../fase2/01_obj_adequacao_funcional.md):
+As métricas seguem o mesmo fluxo básico de avaliação, alinhado aos critérios definidos na [Fase 2](../../fase2/01_obj_adequacao_funcional.md):
 
 1. Definir o histórico acadêmico de referência.
 2. Definir a base curricular ou documento oficial usado como oráculo.
@@ -42,7 +44,8 @@ As duas métricas seguem o mesmo fluxo básico de avaliação, alinhado aos crit
 | Preparação | Separar histórico de referência, curso avaliado, base curricular e planilha de conferência. | Lista de artefatos usados |
 | Execução | Realizar upload do histórico e acessar as telas de fluxograma e resumo acadêmico. | Capturas de tela ou vídeo |
 | Conferência | Comparar cada item observado com o valor esperado. | Planilha de verificação preenchida |
-| Cálculo | Aplicar a fórmula da métrica M3 ou M4. | Percentual calculado |
+| Consolidação | Agrupar divergências em defeitos funcionais únicos, quando aplicável. | CSV/planilha consolidada |
+| Cálculo | Aplicar a fórmula da métrica correspondente. | Resultado calculado |
 | Julgamento | Classificar o resultado conforme a régua de aceitação. | Registro de classificação |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
@@ -74,13 +77,13 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 
 ### 5.1 Cronograma
 
-**Tabela 3: Cronograma de execução das métricas M3 e M4.**
+**Tabela 3: Cronograma de execução das métricas de Adequação Funcional.**
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
-| 08/06/2026 | Preparar histórico de referência, base curricular e planilha de conferência. | Lucas Guimarães, André, Gabriel e Paulo |
-| 09/06/2026 | Executar a coleta das métricas M3 e M4. | Avaliadores |
-| 10/06/2026 | Consolidar resultados, evidências e classificação final. | Grupo Hedy Lamarr |
+| 08/06/2026 | Preparar histórico de referência, base curricular, planilha de conferência e registro de defeitos. | Lucas Guimarães, André, Gabriel e Paulo |
+| 09/06/2026 | Executar a coleta das métricas já publicadas da Adequação Funcional. | Avaliadores |
+| 10/06/2026 | Consolidar resultados, evidências, defeitos e classificação final. | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -110,6 +113,7 @@ O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.1` | 10/06/2026 | Atualização da projeção de Adequação Funcional para incluir as métricas M7 e M8 e a consolidação de defeitos funcionais. | [Gabriel Lopes](https://github.com/BrzGab) |
 | `1.0` | 08/06/2026 | Criação da projeção da avaliação de Adequação Funcional para as métricas M3 e M4. | [Lucas Guimarães](https://github.com/lcsgborges) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
