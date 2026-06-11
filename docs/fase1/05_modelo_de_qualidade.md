@@ -50,7 +50,7 @@ flowchart TD
 | Característica | Subcaracterísticas | Métricas / indicadores | Itens priorizados / evidências |
 |---|---|---|---|
 | **Adequação Funcional** | Completude Funcional; Correção Funcional; Pertinência Funcional | Cobertura das funções essenciais; presença das funcionalidades prometidas; correção da leitura do histórico; consistência dos dados curriculares; utilidade para o estudante | Leitura correta do PDF de histórico escolar; visualização de fluxos curriculares; processamento do histórico acadêmico; identificação de pré-requisitos; orientação via chatbot; busca, filtros e exportação |
-| **Portabilidade** | Adaptabilidade | Funcionamento em diferentes dispositivos; adaptação a resoluções de tela; execução em ambientes controlados; compatibilidade entre navegadores; continuidade de uso em ambientes variados | Chrome, Firefox, Safari e Edge; Windows, macOS, Linux, iOS e Android; desktop, notebook, tablet e smartphone; ambiente web acessível a estudantes da UnB |
+| **Portabilidade** | Adaptabilidade | Funcionamento em diferentes dispositivos; adaptação a resoluções de tela; execução em ambientes controlados; compatibilidade entre navegadores; continuidade de uso em ambientes variados | Chrome, Firefox, Safari e Edge; Windows, Linux, iOS e Android; desktop, notebook e smartphone; ambiente web acessível a estudantes da UnB |
 | **Características secundárias** | Compatibilidade; Segurança; Confiabilidade; Eficiência de Desempenho; Manutenibilidade | Características consideradas na priorização, mas com menor pontuação que Adequação Funcional e Portabilidade | Podem ser analisadas em outro momento ou escopo, sem compor o foco principal desta avaliação |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
@@ -77,9 +77,9 @@ A confiança dos alunos no sistema é construída sobre a premissa de que cada r
 
 Possibilitar que o No Fluxo UnB seja acessado e utilizado em uma ampla gama de dispositivos, navegadores e ambientes operacionais. Os alunos da UnB acessam a plataforma de:
 
-- **Diferentes Dispositivos**: Desktops, laptops, tablets e smartphones.
+- **Diferentes Dispositivos**: Desktops, laptops e smartphones.
 - **Diversos Navegadores**: Chrome, Firefox, Safari, Edge em suas versões mais recentes.
-- **Múltiplos Sistemas Operacionais**: Windows, macOS, Linux, iOS, Android.
+- **Múltiplos Sistemas Operacionais**: Windows, Linux, iOS, Android.
 
 ## 5.4 Critérios de Priorização
 

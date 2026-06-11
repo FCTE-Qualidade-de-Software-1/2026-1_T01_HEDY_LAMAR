@@ -27,7 +27,7 @@ Para cada caso de teste executado com sucesso foi atribuída a nota **1**, enqua
 | ENV-03      | Linux Ubuntu 24.04 LTS        | Mozilla Firefox v148.x | 1920 × 1080 | 1     | 1     | 1     | 100,00%    |
 | ENV-04      | Linux Ubuntu 24.04 LTS        | Google Chrome v148     | 1920 × 1080 | 1     | 1     | 1     | 100,00%    |
 | ENV-05      | Android 16                    | Google Chrome v148     | 2712 × 1220 | 1     | 1     | 1     | 100,00%    |
-| ENV-06      | iOS 15 (iPhone SE 1ª Geração) | Safari Mobile v15      | 1136 × 640  | 0     | 0     | 0     | 0,00%      |
+| ENV-06      | iOS 15 (iPhone SE 1ª Geração) | Safari Mobile v15      | 1136 × 640  | 0     | 0     | 1     | 33,34%      |
 
 **Fonte:** Elaborado pelo Grupo Hedy Lamarr (2026).
 
@@ -47,7 +47,7 @@ Os vídeos de execução dos testes e o arquivo PDF utilizado para os testes de 
 
 | Métrica | Ambientes Avaliados | Ambientes com 100% de Sucesso | Ambientes com Falha | Classificação | Detalhamento                                       |
 | ------- | ------------------- | ----------------------------- | ------------------- | ------------- | -------------------------------------------------- |
-| M2      | 6                   | 5                             | 1                   | Insuficiente  | Falha funcional no ecossistema iOS (Safari Mobile) |
+| M2      | 6                   | 5                             | 1                   | Satisfatório | Falha funcional no ecossistema iOS (Safari Mobile) |
 
 **Fonte:** Elaborado pelo Grupo Hedy Lamarr (2026).
 
@@ -61,11 +61,11 @@ O cálculo da M2 avalia individualmente cada ambiente testado:
 
 * **ENV-06:**
 
-> (0 funcionalidades operantes / 3 funcionalidades testadas) × 100 = 0%
+> (1 funcionalidades operantes / 3 funcionalidades testadas) × 100 = 33,34%
 
 ### Julgamento da M2
 
-**Classificação:** Insuficiente
+**Classificação:** Satisfatório
 
 Embora o sistema tenha obtido sucesso total (**100%**) em cinco dos seis ambientes avaliados, demonstrando excelente estabilidade em computadores e dispositivos Android, foi registrada uma falha impeditiva no ambiente **ENV-06 (Safari Mobile em iPhone SE 1ª Geração)**.
 
@@ -93,7 +93,7 @@ A métrica M2 responde diretamente à seguinte questão de qualidade:
 
 | Métrica | Resultado                                      | Relação com a Hipótese                                                                                    | Interpretação                                                                                                                                                               |
 | ------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| M2      | Existência de um ambiente com falha total (0%) | Não confirma a hipótese de excelência, que exigia funcionamento integral em todos os ambientes avaliados. | O sistema apresenta alta equivalência funcional na maioria das plataformas, porém exclui usuários de dispositivos iOS mais antigos devido à incompatibilidade identificada. |
+| M2      | Existência de um ambiente com falha (33,34%) | Não confirma a hipótese de excelência, que exigia funcionamento integral em todos os ambientes avaliados. | O sistema apresenta alta equivalência funcional na maioria das plataformas, porém exclui usuários de dispositivos iOS mais antigos devido à incompatibilidade identificada. |
 
 **Fonte:** Elaborado pelo Grupo Hedy Lamarr (2026).
 
@@ -103,7 +103,7 @@ Em relação ao propósito da avaliação definido na Fase 1, os resultados demo
 
 ## 6. Julgamento Final e Sugestões de Melhoria
 
-O julgamento consolidado da Portabilidade, considerando a métrica **M2**, é **Insuficiente**, devido à falha crítica observada no ecossistema iOS/Safari.
+O julgamento consolidado da Portabilidade, considerando a métrica **M2**, é **Satisfatório**, devido à falha crítica observada no ecossistema iOS/Safari.
 
 Para mitigar o problema identificado, recomenda-se a seguinte ação corretiva:
 
@@ -115,3 +115,11 @@ Para mitigar o problema identificado, recomenda-se a seguinte ação corretiva:
 * Realizar uma nova rodada de testes específicos em dispositivos Apple para validar as correções implementadas.
 
 A adoção dessas melhorias contribuirá para aumentar a equivalência funcional entre plataformas e elevar o nível geral de portabilidade do sistema.
+
+## Histórico de Versões
+
+**Tabela:Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 11/06/2026 | execução da M2 | Guilherme |

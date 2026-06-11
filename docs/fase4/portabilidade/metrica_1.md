@@ -123,3 +123,11 @@ Para solucionar os problemas identificados durante a avaliação, são recomenda
 - Implementar mecanismos de fallback para navegadores com suporte parcial às APIs utilizadas.
 
 A implementação dessas melhorias poderá elevar significativamente a taxa de conformidade de layout responsivo e contribuir para uma melhor experiência dos usuários em dispositivos móveis.
+
+## Histórico de Versões
+
+**Tabela:Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 11/06/2026 | execução da M1 | Guilherme |
