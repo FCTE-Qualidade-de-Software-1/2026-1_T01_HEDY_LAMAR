@@ -118,7 +118,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.2 Roteiro de teste cenário 2
 
-**Tabela 5: Passos de execução do roteiro C2.**
+**Tabela 4: Passos de execução do roteiro C2.**
 
 | Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -152,7 +152,7 @@ O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.3 Roteiro de teste cenário 3
 
-**Tabela 7: Passos de execução do roteiro C3.**
+**Tabela 5: Passos de execução do roteiro C3.**
 
 | Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -185,7 +185,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.4 Roteiro de teste cenário 4
 
-**Tabela 9: Passos de execução do roteiro C4.**
+**Tabela 6: Passos de execução do roteiro C4.**
 
 | Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -230,7 +230,7 @@ M5 = (Nº de cenários concluídos sem impedimento funcional
 
 ## 7. Critério de Julgamento
 
-**Tabela 11: Régua de julgamento da M5.**
+**Tabela 7: Régua de julgamento da M5.**
 
 | Classificação  | Critério         |
 | -------------- | ---------------- |
@@ -244,7 +244,7 @@ O limiar mínimo satisfatório de 90% é derivado diretamente da hipótese H3 es
 
 ## 8. Classificação de Impedimentos
 
-**Tabela 12: Severidade dos impedimentos funcionais da M5.**
+**Tabela 8: Severidade dos impedimentos funcionais da M5.**
 
 | Severidade | Critério                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -269,7 +269,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
-**Tabela 13: Histórico de versões.**
+**Tabela 9: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
