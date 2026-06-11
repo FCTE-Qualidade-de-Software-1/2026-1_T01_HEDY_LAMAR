@@ -82,21 +82,200 @@ A planilha deve conter, no mínimo:
 
 ### 5.1 Roteiro de teste cenário 1
 
+**Tabela 2: Passos de execução do roteiro C1.**
 
+| Passo | Ação do avaliador                                                                                                  | Resultado esperado                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| 1     | Abrir o navegador e acessar `https://no-fluxo.crianex.com/`.                                                       | A página inicial da plataforma é carregada sem erros.                                                     |
+| 2     | Realizar login com as credenciais do usuário de teste.                                                             | O sistema autentica o usuário e redireciona para a área logada.                                           |
+| 3     | Localizar o botão ou área de upload de histórico acadêmico na interface.                                           | O componente de upload está visível e acessível.                                                          |
+| 4     | Selecionar o arquivo `historico_referencia.pdf` e confirmar o upload.                                              | O sistema aceita o arquivo e exibe indicador de processamento (carregando, progresso ou mensagem similar). |
+| 5     | Aguardar a conclusão do processamento do histórico.                                                                | O sistema conclui o processamento sem exibir mensagem de erro.                                            |
+| 6     | Verificar se o fluxograma do curso é exibido na interface após o processamento.                                    | O fluxograma é exibido com as disciplinas organizadas por semestre.                                       |
+| 7     | Verificar se as disciplinas aprovadas no histórico estão visualmente destacadas no fluxograma (cor, ícone ou rótulo diferenciado). | Disciplinas aprovadas são distinguíveis das demais visualmente.                                  |
+| 8     | Verificar se as disciplinas reprovadas ou com situação de falha estão indicadas de forma diferente das aprovadas.  | Disciplinas reprovadas possuem indicação visual distinta das aprovadas.                                   |
+| 9     | Verificar se as disciplinas ainda não cursadas (pendentes) aparecem no fluxograma sem qualquer destaque de cursado. | Disciplinas pendentes são exibidas no fluxograma sem marcação de concluídas.                             |
+| 10    | Capturar uma imagem da tela completa do fluxograma exibido.                                                        | Evidência salva em `/evidencias/M5/C1/` com nome `M5_C1_SUCESSO_[DATA].png` ou `M5_C1_FALHA_[DATA].png`. |
+
+
+** 6. Critério de Conclusão do Cenário **
+
+O cenário C1 é considerado **concluído com sucesso** quando:
+
+- O upload do arquivo PDF é aceito pelo sistema sem erro;
+- O processamento do histórico é concluído sem mensagem de falha;
+- O fluxograma do curso é exibido na interface;
+- As disciplinas aprovadas estão visualmente diferenciadas das demais;
+- Nenhum dos passos 1 a 9 é interrompido por impedimento funcional.
+
+O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+
+- O sistema recusa o arquivo PDF ou exibe erro durante o upload;
+- O processamento trava ou expira sem apresentar o fluxograma;
+- O fluxograma não é exibido após o processamento;
+- As disciplinas não possuem qualquer diferenciação visual por situação acadêmica.
+
+**Tabela 3: Registro de resultado do cenário C1.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
 
 
 ### 5.2 Roteiro de teste cenário 2
 
+**Tabela 2: Passos de execução do roteiro C2.**
+
+| Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| 1     | Verificar que o fluxograma do curso está visível com o histórico carregado.                                                    | Fluxograma exibido corretamente.                                                                                    |
+| 2     | Localizar a disciplina-alvo primária no fluxograma (uma disciplina pendente com pré-requisitos conhecidos).                    | Disciplina identificada e visível no fluxograma.                                                                    |
+| 3     | Interagir com a disciplina-alvo primária para acessar seus detalhes (clique, hover ou botão de detalhes).                      | A interface apresenta informações detalhadas sobre a disciplina (painel, modal ou tooltip).                         |
+| 4     | Verificar se os pré-requisitos da disciplina-alvo primária são exibidos.                                                       | Os pré-requisitos listados correspondem aos da matriz curricular de referência.                                     |
+| 5     | Verificar se as equivalências da disciplina-alvo primária são exibidas.                                                        | As equivalências listadas correspondem às da matriz curricular de referência.                                       |
+| 6     | Fechar o painel de detalhes e localizar a disciplina-alvo secundária (uma disciplina aprovada no histórico).                   | Disciplina aprovada identificada e visível no fluxograma.                                                           |
+| 7     | Interagir com a disciplina-alvo secundária para acessar seus detalhes.                                                         | A interface apresenta informações detalhadas sobre a disciplina aprovada.                                           |
+| 8     | Verificar se as equivalências da disciplina aprovada são exibidas e coerentes com a base de referência.                        | Equivalências exibidas estão alinhadas à matriz curricular.                                                         |
+| 9     | Capturar uma imagem da tela com o painel de detalhes de cada disciplina aberto.                                                | Evidências salvas em `/evidencias/M5/C3/` com nomes `M5_C3_DISC1_[RESULTADO]_[DATA].png` e `M5_C3_DISC2_[RESULTADO]_[DATA].png`. |
+
+
+**Critério de Conclusão do Cenário**
+
+O cenário C3 é considerado **concluído com sucesso** quando:
+
+- A interface apresenta detalhes acessíveis para ao menos duas disciplinas diferentes;
+- Os pré-requisitos da disciplina-alvo primária são exibidos;
+- As equivalências de ao menos uma disciplina são exibidas;
+- Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
+
+O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+
+- Não há mecanismo identificável para acessar detalhes de uma disciplina no fluxograma;
+- A interface exibe um erro ao tentar acessar os detalhes de uma disciplina;
+- Os detalhes são exibidos, mas os campos de pré-requisitos e equivalências estão ausentes ou em branco sem justificativa.
+
+
+**Tabela 3: Registro de resultado do cenário C2.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
 
 
 ### 5.3 Roteiro de teste cenário 3
 
+**Tabela 2: Passos de execução do roteiro C4.**
 
+| Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| 1     | Verificar que o fluxograma ou painel principal está visível com o histórico carregado.                                          | Interface carregada sem erros.                                                                                  |
+| 2     | Localizar a área ou painel de indicadores de progresso acadêmico na interface (resumo acadêmico, dashboard ou painel lateral).  | A área de indicadores é identificada e está acessível.                                                          |
+| 3     | Verificar se o IRA (Índice de Rendimento Acadêmico) está exibido na interface.                                                  | O IRA é exibido como valor numérico ou equivalente.                                                             |
+| 4     | Verificar se a carga horária integralizada (concluída) está exibida.                                                            | A carga horária concluída é exibida como valor numérico (horas ou créditos).                                    |
+| 5     | Verificar se a carga horária pendente (restante para conclusão) está exibida.                                                   | A carga horária pendente é exibida como valor numérico.                                                         |
+| 6     | Verificar se o percentual de progresso do curso está exibido.                                                                   | O progresso é exibido como percentual ou barra de progresso.                                                    |
+| 7     | Verificar se o número de semestres cursados ou a estimativa de semestres restantes está exibido.                                | A informação de semestres está exibida de alguma forma (número, estimativa ou gráfico de trajetória).            |
+| 8     | Anotar os valores exibidos pela plataforma para cada indicador na planilha de resultado.                                        | Valores registrados para posterior conferência com os valores esperados (avaliação da M4).                      |
+| 9     | Capturar uma imagem da tela com o painel de indicadores visível.                                                                | Evidência salva em `/evidencias/M5/C4/` com nome `M5_C4_SUCESSO_[DATA].png` ou `M5_C4_FALHA_[DATA].png`.      |
+
+---
+
+**Critério de Conclusão do Cenário**
+
+O cenário C4 é considerado **concluído com sucesso** quando:
+
+- Ao menos três dos cinco indicadores listados (IRA, carga horária integralizada, carga horária pendente, progresso percentual, semestres) são exibidos na interface;
+- Os valores são exibidos como dados numéricos ou visuais interpretáveis;
+- Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
+
+O cenário C4 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+
+- Não há seção ou painel de indicadores acessível na interface;
+- A interface exibe erro ao tentar acessar os indicadores;
+- Menos de três dos cinco indicadores listados estão presentes na interface.
+
+
+**Tabela 3: Registro de resultado do cenário C4.**
+
+| Indicador                    | Exibido? (S/N) | Valor exibido | Observação |
+| ---------------------------- | -------------- | ------------- | ---------- |
+| IRA                          |                |               |            |
+| Carga horária integralizada  |                |               |            |
+| Carga horária pendente       |                |               |            |
+| Progresso percentual         |                |               |            |
+| Semestres cursados/restantes |                |               |            |
+
+**Tabela 4: Resultado geral do cenário C3.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
 
 
 ### 5.4 Roteiro de teste cenário 4
 
+**Tabela 2: Passos de execução do roteiro C5.**
 
+| Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1     | Verificar que o fluxograma do curso de origem está visível com o histórico carregado.                                               | Interface carregada sem erros, fluxograma do curso atual exibido.                                                |
+| 2     | Localizar o mecanismo de simulação de troca de curso na interface (botão, menu ou opção específica).                                | O mecanismo de troca de curso é identificado e acessível.                                                        |
+| 3     | Acionar o mecanismo de simulação de troca de curso.                                                                                 | A interface apresenta opção para selecionar o curso de destino (lista, campo de busca ou seletor).               |
+| 4     | Selecionar o curso de destino definido para o teste.                                                                                | O sistema aceita a seleção do curso de destino.                                                                  |
+| 5     | Confirmar ou acionar a simulação de troca de curso.                                                                                 | O sistema processa a simulação e exibe resultado relacionado ao aproveitamento das disciplinas.                   |
+| 6     | Verificar se o sistema exibe quais disciplinas do curso de origem seriam aproveitadas no curso de destino.                          | Uma lista, tabela ou visualização de disciplinas aproveitáveis é exibida.                                        |
+| 7     | Verificar se o sistema exibe o fluxograma do curso de destino com as disciplinas aproveitadas destacadas (ou informação equivalente). | O fluxograma do curso de destino é exibido com indicação das disciplinas aproveitadas.                           |
+| 8     | Anotar as disciplinas listadas como aproveitáveis pelo sistema para conferência posterior com a base de referência.                  | Dados registrados para validação de correção (responsabilidade da M3).                                           |
+| 9     | Capturar imagens das telas que mostram o resultado da simulação de troca de curso.                                                  | Evidências salvas em `/evidencias/M5/C5/` com nome `M5_C5_SUCESSO_[DATA].png` ou `M5_C5_FALHA_[DATA].png`.     |
+
+
+**Critério de Conclusão do Cenário**
+
+O cenário C5 é considerado **concluído com sucesso** quando:
+
+- O mecanismo de simulação de troca de curso é acessível na interface;
+- É possível selecionar um curso de destino;
+- O sistema exibe algum resultado sobre o aproveitamento de disciplinas após a simulação;
+- Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
+
+O cenário C5 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+
+- Não há mecanismo identificável de simulação de troca de curso na interface;
+- O sistema exibe erro ao tentar selecionar o curso de destino ou ao processar a simulação;
+- A simulação é processada, mas nenhum resultado sobre aproveitamento é exibido.
+
+
+**Tabela 3: Registro de resultado do cenário C5.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Curso de origem                |                                  |
+| Curso de destino               |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
 
 
 ---
