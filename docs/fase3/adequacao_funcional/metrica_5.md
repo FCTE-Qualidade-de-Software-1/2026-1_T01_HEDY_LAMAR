@@ -82,7 +82,7 @@ A planilha deve conter, no mínimo:
 
 ### 5.1 Roteiro de teste cenário 1
 
-**Tabela 2: Passos de execução do roteiro C1.**
+**Tabela 3: Passos de execução do roteiro C1.**
 
 | Passo | Ação do avaliador                                                                                                  | Resultado esperado                                                                                        |
 | ----- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -115,7 +115,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 - O fluxograma não é exibido após o processamento;
 - As disciplinas não possuem qualquer diferenciação visual por situação acadêmica.
 
-**Tabela 3: Registro de resultado do cenário C1.**
+**Tabela 4: Registro de resultado do cenário C1.**
 
 | Campo                          | Valor a preencher pelo avaliador |
 | ------------------------------ | -------------------------------- |
@@ -130,7 +130,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.2 Roteiro de teste cenário 2
 
-**Tabela 2: Passos de execução do roteiro C2.**
+**Tabela 5: Passos de execução do roteiro C2.**
 
 | Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -161,7 +161,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 - Os detalhes são exibidos, mas os campos de pré-requisitos e equivalências estão ausentes ou em branco sem justificativa.
 
 
-**Tabela 3: Registro de resultado do cenário C2.**
+**Tabela 6: Registro de resultado do cenário C2.**
 
 | Campo                          | Valor a preencher pelo avaliador |
 | ------------------------------ | -------------------------------- |
@@ -176,7 +176,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.3 Roteiro de teste cenário 3
 
-**Tabela 2: Passos de execução do roteiro C4.**
+**Tabela 7: Passos de execução do roteiro C4.**
 
 | Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -207,7 +207,7 @@ O cenário C4 é considerado **falha** quando qualquer um dos seguintes eventos 
 - Menos de três dos cinco indicadores listados estão presentes na interface.
 
 
-**Tabela 3: Registro de resultado do cenário C4.**
+**Tabela 8: Registro de resultado do cenário C4.**
 
 | Indicador                    | Exibido? (S/N) | Valor exibido | Observação |
 | ---------------------------- | -------------- | ------------- | ---------- |
@@ -232,7 +232,7 @@ O cenário C4 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.4 Roteiro de teste cenário 4
 
-**Tabela 2: Passos de execução do roteiro C5.**
+**Tabela 9: Passos de execução do roteiro C5.**
 
 | Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -263,7 +263,7 @@ O cenário C5 é considerado **falha** quando qualquer um dos seguintes eventos 
 - A simulação é processada, mas nenhum resultado sobre aproveitamento é exibido.
 
 
-**Tabela 3: Registro de resultado do cenário C5.**
+**Tabela 10: Registro de resultado do cenário C5.**
 
 | Campo                          | Valor a preencher pelo avaliador |
 | ------------------------------ | -------------------------------- |
@@ -291,7 +291,7 @@ M5 = (Nº de cenários concluídos sem impedimento funcional
 
 ## 7. Critério de Julgamento
 
-**Tabela 3: Régua de julgamento da M5.**
+**Tabela 11: Régua de julgamento da M5.**
 
 | Classificação  | Critério         |
 | -------------- | ---------------- |
@@ -305,7 +305,7 @@ O limiar mínimo satisfatório de 90% é derivado diretamente da hipótese H3 es
 
 ## 8. Classificação de Impedimentos
 
-**Tabela 4: Severidade dos impedimentos funcionais da M5.**
+**Tabela 12: Severidade dos impedimentos funcionais da M5.**
 
 | Severidade | Critério                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -330,7 +330,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
-**Tabela 5: Histórico de versões.**
+**Tabela 13: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
