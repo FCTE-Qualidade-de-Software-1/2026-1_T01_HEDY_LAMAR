@@ -37,7 +37,7 @@ Verificar se a interface do **No Fluxo UnB** se adapta visualmente às resoluç�
    - Inputs acessíveis.
    - Menus funcionais.
    - Barras de rolagem que prejudiquem a navegação.
-5. Capturar uma imagem da tela inteira.
+5. Capturar uma imagem da tela se encontrar falha.
 6. Salvar a evidência utilizando o padrão:
 
 ```text
@@ -79,9 +79,9 @@ M1 = (Nº de resoluções sem quebra ÷ Nº total de resoluções testadas) × 1
 
 | Classificação | Critério |
 |---|---|
-| Excelente | M1 > 95% das resoluções testadas sem quebras visuais |
-| Satisfatório | 90% <= M1 <= 95% das resoluções testadas |
-| Insuficiente | M1 < 90% das resoluções testadas |
+| Excelente | M1 > 90% das resoluções testadas sem quebras visuais |
+| Satisfatório | 80% <= M1 <= 90% das resoluções testadas |
+| Insuficiente | M1 < 80% das resoluções testadas |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 

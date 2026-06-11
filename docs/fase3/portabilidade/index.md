@@ -51,10 +51,10 @@ O objetivo é fornecer um roteiro executável e padronizado para que qualquer me
 
 O documento de coleta deverá conter, no mínimo, as seguintes colunas:
 
-| Métrica | Cenário/Resolução | Resultado | Descrição da inconsistência | Gravidade | Link da evidência |
-|---|---|---|---|---|---|
+| Métrica | Cenário/Resolução | Resultado |
+|---|---|---|
 
-As evidências devem ser armazenadas em pasta compartilhada e organizadas por métrica e ambiente avaliado.
+Ou videos as evidências devem ser armazenadas no [drive](https://drive.google.com/drive/folders/16Rx9M1ijRTBGD_JeQYjL-t-EpIURQula?usp=drive_link).
 
 ### 5.2 Ferramentas Homologadas para Inspeção
 
@@ -69,10 +69,10 @@ Caso o avaliador não possua o dispositivo físico listado na matriz de ambiente
 Será utilizado o arquivo fictício:
 
 ```text
-historico_exemplo_unb.pdf
+historico_guilherme.pdf
 ```
 
-O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de evidências definida para a avaliação.
+O arquivo deve estar disponível no [drive](https://drive.google.com/drive/folders/16Rx9M1ijRTBGD_JeQYjL-t-EpIURQula?usp=drive_link).
 
 ---
 
@@ -96,6 +96,7 @@ O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.2` | 11/06/2026 | links do drive | Guilherme |
 | `1.1` | 08/06/2026 | Separação da projeção de Portabilidade em páginas por métrica. | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.0` | 07/06/2026 | Projeção das métricas M1 e M2. | Guilherme |
 

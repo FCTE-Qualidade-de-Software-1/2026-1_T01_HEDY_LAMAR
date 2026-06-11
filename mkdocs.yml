@@ -70,6 +70,7 @@ nav:
       - Visão Geral: fase4/portabilidade/index.md
       - Métricas:
         - M1 - Layout Responsivo: fase4/portabilidade/metrica_1.md
+        - M2 - Equivalência Funcional: fase4/portabilidade/metrica_2.md
   - Apêndice:
     - Declaração de Uso de IA: declaracao_uso_ia.md
     - Tabela de Contribuição: extras/contribuicao.md

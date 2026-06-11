@@ -11,7 +11,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 | Elemento GQM | Definição para o No Fluxo UnB |
 |---|---|
 | **Analisar** | O sistema **No Fluxo UnB**, disponível em https://no-fluxo.crianex.com/, com foco na interface web da aplicação — incluindo o módulo de visualização do fluxograma, o módulo de leitura e processamento do histórico acadêmico e a interface web responsiva —, avaliando seu funcionamento em diferentes navegadores, sistemas operacionais, tipos de dispositivo e resoluções de tela. |
-| **Com o propósito de** | Avaliar se a aplicação opera de forma adequada em diferentes ambientes de acesso, verificando a consistência visual, funcional e de responsividade da interface em cenários de uso variados por estudantes da UnB — em navegadores web, dispositivos desktop, notebook, tablet e smartphone. |
+| **Com o propósito de** | Avaliar se a aplicação opera de forma adequada em diferentes ambientes de acesso, verificando a consistência visual, funcional e de responsividade da interface em cenários de uso variados por estudantes da UnB — em navegadores web, dispositivos desktop, notebook e smartphone. |
 | **Com respeito a** | **Portabilidade**, considerando a subcaracterística de **Adaptabilidade** (capacidade de adaptação a diferentes ambientes de hardware, software e sistema operacional), conforme a ISO/IEC 25010. |
 | **Do ponto de vista de** | Estudantes de graduação da UnB que acessam a plataforma a partir de diferentes dispositivos e ambientes, equipe avaliadora do Grupo Hedy Lamarr e equipe de desenvolvimento do No Fluxo UnB. |
 | **No contexto de** | Avaliação acadêmica de qualidade de produto de software na disciplina FGA0315 — Qualidade de Software 1, com base na release **qualidade-de-software** (02/06/2026), em ambiente controlado com as configurações da Tabela 7. |
@@ -32,7 +32,7 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 | **Propósito** | Verificar se a aplicação mantém funcionamento adequado, consistência visual e usabilidade aceitável quando acessada em diferentes ambientes de software e hardware, sem exigir configurações especiais por parte do usuário. |
 | **Foco da qualidade** | Portabilidade: adaptabilidade da interface a diferentes navegadores, sistemas operacionais, tipos de dispositivo e resoluções de tela variadas, assegurando continuidade de uso em ambientes web acessíveis a estudantes da UnB. |
 | **Ponto de vista** | Usuário final estudante que acessa a plataforma a partir de seu próprio dispositivo e navegador, sem configuração prévia; avaliadores de qualidade que executam os testes em ambiente controlado. |
-| **Contexto de uso** | Estudantes da UnB acessando a aplicação web para realizar tarefas de planejamento acadêmico — upload de histórico, consulta ao fluxograma, simulação de disciplinas — a partir de equipamentos pessoais variados: dispositivos desktop e notebook com Windows, macOS ou Linux, e dispositivos móveis (tablet e smartphone) com iOS ou Android, nos navegadores Chrome, Firefox, Safari e Edge. |
+| **Contexto de uso** | Estudantes da UnB acessando a aplicação web para realizar tarefas de planejamento acadêmico — upload de histórico, consulta ao fluxograma, simulação de disciplinas — a partir de equipamentos pessoais variados: dispositivos desktop e notebook com Windows ou Linux, e dispositivos móveis com iOS ou Android, nos navegadores Chrome, Firefox, Safari e Edge. |
 | **Hipótese global** | Se a aplicação apresentar taxa de compatibilidade funcional igual ou superior a 90% nos navegadores e sistemas operacionais definidos no escopo, e se a interface se adaptar adequadamente às resoluções e tipos de dispositivo testados sem perdas críticas de funcionalidade ou legibilidade, então a Portabilidade será considerada satisfatória para o perfil de uso dos estudantes da UnB. |
 | **Fatores de variação** | Versão e motor de renderização do navegador utilizado; resolução; sistema operacional. |
 | **Restrições da avaliação** | A avaliação não contempla navegadores fora do escopo definido (ex.: Opera, Samsung Internet), versões legadas de navegadores, ambientes offline, aspectos de desempenho de rede ou tempo de carregamento, nem a avaliação do backend e infraestrutura (DigitalOcean, Vercel, Supabase) como objetos diretos de portabilidade. O escopo fica limitado aos ambientes e condições definidos na Tabela 1 da seção 1.5 da Aplicação GQM e nos itens priorizados da Tabela 1 de rastreabilidade do modelo de qualidade adaptado. |
@@ -50,7 +50,7 @@ A Tabela 3 assegura a conexão contínua e auditável entre o planejamento inici
 | Definição da Fase 1 | Relação com este objetivo GQM |
 |---|---|
 | Portabilidade obteve a segunda maior prioridade (16 pontos) na matriz. | O objetivo foca estritamente em responder se o sistema atende a todos os estudantes de forma multiplataforma. |
-| Definição dos navegadores e SOs prioritários (Chrome, Firefox, Safari, Edge; Android e iOS). | O plano de testes e as métricas de conformidade (M2, M3) usam exatamente esse conjunto como universo amostral de validação. |
+| Definição dos navegadores e SOs prioritários (Chrome, Firefox, Safari, Edge; Windows, Linux, Android e iOS). | O plano de testes e as métricas de conformidade (M2, M3) usam exatamente esse conjunto como universo amostral de validação. |
 | Identificação da criticidade do acesso via smartphones por estudantes. | Inclusão de métricas e questões específicas voltadas para a adaptabilidade em dispositivos móveis e resoluções restritas. |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
@@ -143,11 +143,10 @@ Para a realização padronizada das medições de Portabilidade, os testes devem
 | ENV-02 | Desktop | Windows 11 (25H2) | Microsoft Edge v148.0.3967.96 | 1920 × 1080 |
 | ENV-03 | Desktop | Linux Ubuntu 24.04 LTS | Mozilla Firefox v148.x | 1920 × 1080 |
 | ENV-04 | Desktop | Linux Ubuntu 24.04 LTS | Google Chrome v148.0.7778.217 | 1920 × 1080 |
-| ENV-05 | Mobile | Android 13 | Google Chrome Mobile v148.0.7778.215 | 2400 × 1080 |
-| ENV-06 | Mobile | Android 16 | Google Chrome v148.0.7778.217 | 2712 × 1220 |
-| ENV-07 | Mobile | iOS 15 (iPhone SE geração 1) | Safari Mobile v15 | 1136 × 640 |
+| ENV-05 | Mobile | Android 16 | Google Chrome v148.0.7778.217 | 2712 × 1220 |
+| ENV-06 | Mobile | iOS 15 (iPhone SE geração 1) | Safari Mobile v15 | 1136 × 640 |
 
-*Fonte: IA com base nos ambientes descritos na Fase 1.*
+*Fonte: IA com base nos ambientes descritos na Fase 1 e adequação por meio do Grupo Hedy Lamarr (2026).*
 
 ---
 
@@ -159,9 +158,9 @@ Para viabilizar uma interpretação inequívoca e rigorosa dos dados coletados, 
 
 | Classificação | Critério |
 |---|---|
-| Excelente | M1 > 95% das resoluções testadas sem quebras visuais. |
-| Satisfatório | 90% <= M1 <= 95% das resoluções testadas sem quebras visuais. |
-| Insuficiente | M1 < 90% das resoluções testadas (indica falha crítica de responsividade). |
+| Excelente | M1 > 90% das resoluções testadas sem quebras visuais. |
+| Satisfatório | 80% <= M1 <= 90% das resoluções testadas sem quebras visuais. |
+| Insuficiente | M1 < 80% das resoluções testadas (indica falha crítica de responsividade). |
 
 ### M2 — Índice de Equivalência Funcional por Navegador/Ambiente
 
@@ -185,7 +184,7 @@ Para viabilizar uma interpretação inequívoca e rigorosa dos dados coletados, 
 | Classificação | Critério |
 |---|---|
 | Excelente | Contagem total ≤ 2 defeitos leves no somatório de todos os testes. |
-| Satisfatório | Contagem total entre 3 e 5 defeitos leves. |
+| Satisfatório | 3 ≤ Contagem total ≤ 5 de defeitos leves. |
 | Insuficiente | Contagem total > 5 defeitos leves. |
 
 **Defeitos leves:** falhas que não afetem as três funcionalidades principais do sistema.

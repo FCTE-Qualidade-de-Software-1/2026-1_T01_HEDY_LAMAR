@@ -94,8 +94,8 @@ M2_Ambiente = (Nº de funcionalidades operantes ÷ 3) × 100
 
 **Tabela 2: Modelo de registro da M2.**
 
-| Ambiente | Navegador | CT-01 | CT-02 | CT-03 | Percentual | Evidência |
-|---|---|---|---|---|---|---|
+| Ambiente | Navegador | CT-01 | CT-02 | CT-03 | Percentual |
+|---|---|---|---|---|---|
 
 ---
 
