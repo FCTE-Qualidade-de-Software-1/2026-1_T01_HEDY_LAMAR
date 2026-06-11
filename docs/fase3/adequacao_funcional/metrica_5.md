@@ -34,11 +34,9 @@ Os cenários foram definidos com base nas funcionalidades centrais do No Fluxo U
 | Código | Cenário                                                                                   | Funcionalidade associada                        |
 | ------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | C1     | Upload de histórico em PDF e visualização do fluxograma com disciplinas destacadas        | F1, F2, F4 — Leitura do histórico e fluxograma  |
-| C2     | Simulação de disciplinas a cursar no próximo semestre                                     | F9 — Planejamento de disciplinas futuras        |
-| C3     | Consulta de pré-requisitos e equivalências de uma disciplina                              | F5 — Exibição de equivalências e dependências   |
-| C4     | Verificação de progresso acadêmico (IRA, carga horária, semestres restantes)              | F7, F13 — Cálculos e indicadores acadêmicos     |
-| C5     | Simulação de troca de curso com aproveitamento de disciplinas                             | F11 — Simulação de mudança de curso             |
-| C6     | Exportação do fluxograma simulado em PDF                                                  | F10 — Exportação em PDF                         |
+| C2     | Consulta de pré-requisitos e equivalências de uma disciplina                              | F5 — Exibição de equivalências e dependências   |
+| C3     | Verificação de progresso acadêmico (IRA, carga horária, semestres restantes)              | F7, F13 — Cálculos e indicadores acadêmicos     |
+| C4     | Simulação de troca de curso com aproveitamento de disciplinas                             | F11 — Simulação de mudança de curso             |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -79,6 +77,27 @@ A planilha deve conter, no mínimo:
 8. Consolidar os resultados na planilha de registro de execução.
 
 > **Nota:** Um "impedimento funcional" é qualquer falha que impeça o usuário de atingir o objetivo do cenário. Lentidão de carregamento ou problemas visuais menores que não interrompam o fluxo principal **não** configuram impedimento funcional para fins desta métrica.
+
+---
+
+### 5.1 Roteiro de teste cenário 1
+
+
+
+
+### 5.2 Roteiro de teste cenário 2
+
+
+
+### 5.3 Roteiro de teste cenário 3
+
+
+
+
+### 5.4 Roteiro de teste cenário 4
+
+
+
 
 ---
 

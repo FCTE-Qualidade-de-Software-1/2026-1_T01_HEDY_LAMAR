@@ -47,7 +47,9 @@ nav:
         - M2 - Validação de extração do Histórico Acadêmico: fase3/adequacao_funcional/metrica_2.md
         - M3 - Consistência do Fluxograma: fase3/adequacao_funcional/metrica_3.md
         - M4 - Correção dos Cálculos Acadêmicos: fase3/adequacao_funcional/metrica_4.md
-        - M5 - Cenários de Planejamento Acadêmico: fase3/adequacao_funcional/metrica_5.md
+        - M5:
+          - Cenários de Planejamento Acadêmico: fase3/adequacao_funcional/metrica_5.md
+          - Cenários de teste: fase3/adequacao_funcional/Roteiro_testes.md
         - M6 - Recomendações academicamente válidas: fase3/adequacao_funcional/metrica_6.md
         - M7 - Defeitos funcionais críticos: fase3/adequacao_funcional/metrica_7.md
         - M8 - Severidade média dos defeitos funcionais: fase3/adequacao_funcional/metrica_8.md
