@@ -98,7 +98,7 @@ A planilha deve conter, no mínimo:
 | 10    | Capturar uma imagem da tela completa do fluxograma exibido.                                                        | Evidência salva em `/evidencias/M5/C1/` com nome `M5_C1_SUCESSO_[DATA].png` ou `M5_C1_FALHA_[DATA].png`. |
 
 
-**Critério de Conclusão do Cenário**
+** 6. Critério de Conclusão do Cenário **
 
 O cenário C1 é considerado **concluído com sucesso** quando:
 
@@ -115,10 +115,22 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 - O fluxograma não é exibido após o processamento;
 - As disciplinas não possuem qualquer diferenciação visual por situação acadêmica.
 
+**Tabela 4: Registro de resultado do cenário C1.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
+
 
 ### 5.2 Roteiro de teste cenário 2
 
-**Tabela 4: Passos de execução do roteiro C2.**
+**Tabela 5: Passos de execução do roteiro C2.**
 
 | Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -135,24 +147,36 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 **Critério de Conclusão do Cenário**
 
-O cenário C2 é considerado **concluído com sucesso** quando:
+O cenário C3 é considerado **concluído com sucesso** quando:
 
 - A interface apresenta detalhes acessíveis para ao menos duas disciplinas diferentes;
 - Os pré-requisitos da disciplina-alvo primária são exibidos;
 - As equivalências de ao menos uma disciplina são exibidas;
 - Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
 
-O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
 
 - Não há mecanismo identificável para acessar detalhes de uma disciplina no fluxograma;
 - A interface exibe um erro ao tentar acessar os detalhes de uma disciplina;
 - Os detalhes são exibidos, mas os campos de pré-requisitos e equivalências estão ausentes ou em branco sem justificativa.
 
 
+**Tabela 6: Registro de resultado do cenário C2.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
+
 
 ### 5.3 Roteiro de teste cenário 3
 
-**Tabela 5: Passos de execução do roteiro C3.**
+**Tabela 7: Passos de execução do roteiro C4.**
 
 | Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -170,22 +194,45 @@ O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 **Critério de Conclusão do Cenário**
 
-O cenário C3 é considerado **concluído com sucesso** quando:
+O cenário C4 é considerado **concluído com sucesso** quando:
 
 - Ao menos três dos cinco indicadores listados (IRA, carga horária integralizada, carga horária pendente, progresso percentual, semestres) são exibidos na interface;
 - Os valores são exibidos como dados numéricos ou visuais interpretáveis;
 - Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
 
-O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+O cenário C4 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
 
 - Não há seção ou painel de indicadores acessível na interface;
 - A interface exibe erro ao tentar acessar os indicadores;
 - Menos de três dos cinco indicadores listados estão presentes na interface.
 
 
+**Tabela 8: Registro de resultado do cenário C4.**
+
+| Indicador                    | Exibido? (S/N) | Valor exibido | Observação |
+| ---------------------------- | -------------- | ------------- | ---------- |
+| IRA                          |                |               |            |
+| Carga horária integralizada  |                |               |            |
+| Carga horária pendente       |                |               |            |
+| Progresso percentual         |                |               |            |
+| Semestres cursados/restantes |                |               |            |
+
+**Tabela 4: Resultado geral do cenário C3.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
+
+
 ### 5.4 Roteiro de teste cenário 4
 
-**Tabela 6: Passos de execução do roteiro C4.**
+**Tabela 9: Passos de execução do roteiro C5.**
 
 | Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -202,19 +249,33 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 **Critério de Conclusão do Cenário**
 
-O cenário C4 é considerado **concluído com sucesso** quando:
+O cenário C5 é considerado **concluído com sucesso** quando:
 
 - O mecanismo de simulação de troca de curso é acessível na interface;
 - É possível selecionar um curso de destino;
 - O sistema exibe algum resultado sobre o aproveitamento de disciplinas após a simulação;
 - Nenhum dos passos 1 a 8 é interrompido por impedimento funcional.
 
-O cenário C4 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
+O cenário C5 é considerado **falha** quando qualquer um dos seguintes eventos ocorrer:
 
 - Não há mecanismo identificável de simulação de troca de curso na interface;
 - O sistema exibe erro ao tentar selecionar o curso de destino ou ao processar a simulação;
 - A simulação é processada, mas nenhum resultado sobre aproveitamento é exibido.
 
+
+**Tabela 10: Registro de resultado do cenário C5.**
+
+| Campo                          | Valor a preencher pelo avaliador |
+| ------------------------------ | -------------------------------- |
+| Data de execução               |                                  |
+| Avaliador responsável          |                                  |
+| Curso de origem                |                                  |
+| Curso de destino               |                                  |
+| Resultado (Sucesso / Falha)    |                                  |
+| Passo em que a falha ocorreu   |                                  |
+| Descrição do impedimento       |                                  |
+| Severidade do impedimento      |                                  |
+| Nome do arquivo de evidência   |                                  |
 
 
 ---
@@ -230,7 +291,7 @@ M5 = (Nº de cenários concluídos sem impedimento funcional
 
 ## 7. Critério de Julgamento
 
-**Tabela 7: Régua de julgamento da M5.**
+**Tabela 11: Régua de julgamento da M5.**
 
 | Classificação  | Critério         |
 | -------------- | ---------------- |
@@ -244,7 +305,7 @@ O limiar mínimo satisfatório de 90% é derivado diretamente da hipótese H3 es
 
 ## 8. Classificação de Impedimentos
 
-**Tabela 8: Severidade dos impedimentos funcionais da M5.**
+**Tabela 12: Severidade dos impedimentos funcionais da M5.**
 
 | Severidade | Critério                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -269,7 +330,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
-**Tabela 9: Histórico de versões.**
+**Tabela 13: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
