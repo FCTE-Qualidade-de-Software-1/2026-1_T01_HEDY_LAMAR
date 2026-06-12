@@ -170,7 +170,7 @@ O limite mínimo satisfatório de 95% segue o requisito não funcional de acurá
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
-| 08/06/2026 | Preparar histórico(s) de referência, gabarito(s), planilha de verificação e pasta de evidências | `_____________` |
+| 08/06/2026 | Preparar histórico(s) de referência, gabarito(s), planilha de verificação e pasta de evidências | Paulo Cerqueira |
 | 09/06/2026 | Executar upload dos históricos, conferir itens item a item e preencher a planilha | Avaliadores |
 | 10/06/2026 | Consolidar divergências, calcular M2, classificar o resultado e publicar a página de execução da Fase 4 | Grupo Hedy Lamarr |
 

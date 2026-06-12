@@ -171,7 +171,7 @@ O limite mínimo de 90% segue a hipótese H1 definida para a Adequação Funcion
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
-| 08/06/2026 | Preparar planilha de verificação, histórico de referência, credenciais de teste e pasta de evidências | `_____________` |
+| 08/06/2026 | Preparar planilha de verificação, histórico de referência, credenciais de teste e pasta de evidências | Paulo Cerqueira |
 | 09/06/2026 | Executar inspeção dos 15 requisitos, capturar evidências e preencher a planilha | Avaliadores |
 | 10/06/2026 | Consolidar resultados, calcular M1, classificar o resultado e publicar a página de execução da Fase 4 | Grupo Hedy Lamarr |
 
