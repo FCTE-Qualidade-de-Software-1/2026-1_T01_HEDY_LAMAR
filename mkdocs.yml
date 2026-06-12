@@ -56,6 +56,8 @@ nav:
       - Métricas:
         - M1 - Layout Responsivo: fase3/portabilidade/metrica_1.md
         - M2 - Equivalência Funcional por Navegador: fase3/portabilidade/metrica_2.md
+        - M3 - Defeitos Críticos de Adaptabilidade: fase3/portabilidade/metrica_3.md
+        - M4 - Defeitos Visuais: fase3/portabilidade/metrica_4.md
   - Fase 4 - Execução da avaliação:
     - Adequação Funcional:
       - Visão Geral: fase4/adequacao_funcional/index.md
@@ -73,6 +75,8 @@ nav:
       - Métricas:
         - M1 - Layout Responsivo: fase4/portabilidade/metrica_1.md
         - M2 - Equivalência Funcional: fase4/portabilidade/metrica_2.md
+        - M3 - Defeitos Críticos de Adaptabilidade: fase4/portabilidade/metrica_3.md
+        - M4 - Defeitos Visuais: fase4/portabilidade/metrica_4.md
   - Apêndice:
     - Declaração de Uso de IA: declaracao_uso_ia.md
     - Tabela de Contribuição: extras/contribuicao.md
