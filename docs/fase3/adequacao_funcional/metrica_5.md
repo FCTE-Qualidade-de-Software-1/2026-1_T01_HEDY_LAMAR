@@ -46,7 +46,7 @@ Os cenários foram definidos com base nas funcionalidades centrais do No Fluxo U
 
 Antes da execução, o avaliador deve preparar:
 
-1. Roteiro de teste detalhado para cada cenário (C1–C6), com os passos a seguir e o critério de conclusão esperado.
+1. Roteiro de teste detalhado para cada cenário (C1–C4), com os passos a seguir e o critério de conclusão esperado.
 2. Histórico acadêmico em PDF de referência para os cenários que exigem upload.
 3. Usuário de teste autenticado ou credenciais de acesso à plataforma.
 4. Pasta para armazenamento das evidências de execução.
