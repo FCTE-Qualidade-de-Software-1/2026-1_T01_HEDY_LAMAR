@@ -11,7 +11,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 ## 2. Procedimento Executado
 
 1. Acesso à plataforma No Fluxo UnB em `https://no-fluxo.crianex.com/` com usuário de teste autenticado.
-2. Upload do histórico acadêmico de referência (`historico_lucas.pdf`) para viabilizar os cenários dependentes de histórico.
+2. Upload do histórico acadêmico de referência (`historico_andre.pdf`) para viabilizar os cenários dependentes de histórico.
 3. Execução sequencial dos quatro cenários definidos na Fase 3 (C1–C4), seguindo os roteiros de teste correspondentes.
 4. Registro do resultado de cada cenário como Sucesso ou Falha, com captura de evidência em vídeo.
 5. Consolidação do percentual final da métrica.
@@ -22,7 +22,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 | Instrução definida na Fase 3                                                        | Execução realizada na Fase 4                                                                               | Evidência                              |
 | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Usar histórico acadêmico em PDF como entrada para cenários dependentes de histórico | Foi utilizado o arquivo `historico_lucas.pdf`                                                              | Vídeos de execução por cenário         |
+| Usar histórico acadêmico em PDF como entrada para cenários dependentes de histórico | Foi utilizado o arquivo `historico_andre.pdf`                                                              | Vídeos de execução por cenário         |
 | Executar os quatro cenários (C1–C4) seguindo os roteiros de teste                  | Todos os quatro cenários foram executados integralmente conforme os roteiros da Fase 3                    | Vídeos de execução por cenário         |
 | Classificar cada cenário como Sucesso ou Falha                                      | Os quatro cenários foram classificados como Sucesso                                                        | Tabela 3 desta página                  |
 | Registrar evidência de cada execução                                                | Gravações em vídeo realizadas para cada cenário                                                            | Links de evidência na Tabela 3         |
@@ -36,8 +36,8 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 | Artefato                    | Finalidade                                                                   | Disponibilidade                            |
 | --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------ |
-| Histórico acadêmico         | Entrada usada no upload e no processamento do sistema                        | `historico_lucas.pdf`                      |
-| Vídeo de execução — C1      | Registro audiovisual do cenário C1: upload e visualização do fluxograma      | _(link do vídeo a inserir)_                |
+| Histórico acadêmico         | Entrada usada no upload e no processamento do sistema                        | `historico_andre.pdf`                      |
+| Vídeo de execução — C1      | Registro audiovisual do cenário C1: upload e visualização do fluxograma      | [Vídeo C1](../../assets/dados/adequacao_funcional/metrica5e6/C1.mkv)               |
 | Vídeo de execução — C2      | Registro audiovisual do cenário C2: consulta de pré-requisitos e equivalências | _(link do vídeo a inserir)_              |
 | Vídeo de execução — C3      | Registro audiovisual do cenário C3: verificação do progresso acadêmico       | _(link do vídeo a inserir)_                |
 | Vídeo de execução — C4      | Registro audiovisual do cenário C4: simulação de troca de curso              | _(link do vídeo a inserir)_                |
