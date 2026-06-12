@@ -30,21 +30,6 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-### 2.2 Dados Brutos e Evidências
-
-**Tabela 2: Dados brutos e evidências da M5.**
-
-| Artefato                    | Finalidade                                                                   | Disponibilidade                            |
-| --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------ |
-| Histórico acadêmico         | Entrada usada no upload e no processamento do sistema                        | `historico_andre.pdf`                      |
-| Vídeo de execução — C1      | Registro audiovisual do cenário C1: upload e visualização do fluxograma      | [Vídeo C1](../../assets/dados/adequacao_funcional/metrica5e6/C1.mkv)               |
-| Vídeo de execução — C2      | Registro audiovisual do cenário C2: consulta de pré-requisitos e equivalências | _(link do vídeo a inserir)_              |
-| Vídeo de execução — C3      | Registro audiovisual do cenário C3: verificação do progresso acadêmico       | _(link do vídeo a inserir)_                |
-| Vídeo de execução — C4      | Registro audiovisual do cenário C4: simulação de troca de curso              | _(link do vídeo a inserir)_                |
-| Resultado processado        | Cálculo percentual, classificação e conclusão da métrica                     | Esta página                                |
-
-*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
-
 ---
 
 ## 3. Registro de Execução
@@ -53,10 +38,10 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 | Código | Cenário                                                                            | Funcionalidade | Resultado  | Impedimento identificado | Evidência                       |
 | ------ | ---------------------------------------------------------------------------------- | -------------- | ---------- | ------------------------ | ------------------------------- |
-| C1     | Upload de histórico em PDF e visualização do fluxograma com disciplinas destacadas | F1, F2, F4     | **Sucesso** | Nenhum                  | _(link do vídeo C1 a inserir)_  |
-| C2     | Consulta de pré-requisitos e equivalências de uma disciplina                       | F5             | **Sucesso** | Nenhum                  | _(link do vídeo C2 a inserir)_  |
-| C3     | Verificação de progresso acadêmico (IRA, carga horária, semestres restantes)       | F7, F13        | **Sucesso** | Nenhum                  | _(link do vídeo C3 a inserir)_  |
-| C4     | Simulação de troca de curso com aproveitamento de disciplinas                      | F11            | **Sucesso** | Nenhum                  | _(link do vídeo C4 a inserir)_  |
+| C1     | Upload de histórico em PDF e visualização do fluxograma com disciplinas destacadas | F1, F2, F4     | **Sucesso** | Nenhum                  | [Vídeo C1](../../assets/dados/adequacao_funcional/metrica5e6/C1.mkv) |
+| C2     | Consulta de pré-requisitos e equivalências de uma disciplina                       | F5             | **Sucesso** | Nenhum                  | [Vídeo C2](../../assets/dados/adequacao_funcional/metrica5e6/C2.mkv) |
+| C3     | Verificação de progresso acadêmico (IRA, carga horária, semestres restantes)       | F7, F13        | **Sucesso** | Nenhum                  | [Vídeo C3](../../assets/dados/adequacao_funcional/metrica5e6/C3.mkv)  |
+| C4     | Simulação de troca de curso com aproveitamento de disciplinas                      | F11            | **Sucesso** | Nenhum                  | [Vídeo C4](../../assets/dados/adequacao_funcional/metrica5e6/C4.mkv)  |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
