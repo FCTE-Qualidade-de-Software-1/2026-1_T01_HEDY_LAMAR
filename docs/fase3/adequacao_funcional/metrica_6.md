@@ -33,12 +33,9 @@ As perguntas foram definidas para cobrir os principais cenários de uso do assis
 
 | Código | Pergunta ou solicitação submetida ao assistente                                       | Aspecto avaliado                              |
 | ------ | ------------------------------------------------------------------------------------- | --------------------------------------------- |
-| P1     | "Quais disciplinas posso cursar no próximo semestre com base no meu histórico?"       | Conformidade com pré-requisitos e histórico   |
-| P2     | "Tenho algum pré-requisito pendente para cursar [disciplina X]?"                      | Precisão na leitura de dependências           |
-| P3     | "Quantos semestres ainda me faltam para concluir o curso?"                            | Correção do cálculo de trajetória acadêmica   |
-| P4     | "Quais disciplinas optativas você me recomenda para o meu perfil acadêmico?"          | Pertinência da recomendação ao histórico      |
-| P5     | "Se eu trocar para o curso Y, quais das minhas disciplinas seriam aproveitadas?"      | Coerência com regras de aproveitamento        |
-| P6     | "Estou em risco de jubilamento? O que devo fazer?"                                    | Alinhamento com regras acadêmicas da UnB      |
+| P1     | "Tenho algum pré-requisito pendente para cursar [disciplina X]?"                      | Precisão na leitura de dependências           |
+| P2     | "Quantos semestres ainda me faltam para concluir o curso?"                            | Correção do cálculo de trajetória acadêmica   |
+| P3     | "Estou em risco de jubilamento? O que devo fazer?"                                    | Alinhamento com regras acadêmicas da UnB      |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
