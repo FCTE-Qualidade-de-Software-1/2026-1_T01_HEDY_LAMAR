@@ -89,23 +89,21 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-### 5.2 Ferramentas Homologadas para Inspeção
+### 5.2 Ambiente e Ferramentas Homologadas para Inspeção
 
-Caso o avaliador não possua o dispositivo físico listado na matriz de ambientes, fica autorizado o uso das seguintes ferramentas de simulação:
+As métricas de Adequação Funcional serão executadas no navegador **Google Chrome**, usado como ambiente principal para testar as funcionalidades da aplicação web.
 
-- DevTools do Google Chrome ou Microsoft Edge.
-- Modo **Responsive Design Mode**.
-- Configuração manual das dimensões informadas na matriz de ambientes.
+Durante a execução, fica autorizado o uso das seguintes ferramentas de apoio do próprio navegador:
+
+- DevTools do Google Chrome.
+- Capturas de tela ou gravação de tela para registrar evidências.
+- Inspeção visual da interface e dos dados exibidos pela aplicação.
 
 ### 5.3 Arquivo de Teste
 
-Será utilizado o arquivo fictício:
+Será utilizado o histórico acadêmico de referência disponível nos assets do projeto:
 
-```text
-historico_exemplo_unb.pdf
-```
-
-O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de evidências definida para a avaliação.
+[historico_lucas.pdf](../../assets/historico_lucas.pdf)
 
 ---
 
@@ -115,6 +113,7 @@ O arquivo deve estar disponível no repositório GitHub da equipe ou na pasta de
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
+| `1.3` | 12/06/2026 | Registro do histórico acadêmico usado na avaliação e do Google Chrome como ambiente principal de teste. | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.2` | 12/06/2026 | Ajuste da visão geral da projeção para contemplar todas as métricas de Adequação Funcional. | [Lucas Guimarães](https://github.com/lcsgborges) |
 | `1.1` | 10/06/2026 | Atualização da projeção de Adequação Funcional para incluir as métricas M7 e M8 e a consolidação de defeitos funcionais. | [Gabriel Lopes](https://github.com/BrzGab) |
 | `1.0` | 08/06/2026 | Criação da projeção da avaliação de Adequação Funcional para as métricas M3 e M4. | [Lucas Guimarães](https://github.com/lcsgborges) |
