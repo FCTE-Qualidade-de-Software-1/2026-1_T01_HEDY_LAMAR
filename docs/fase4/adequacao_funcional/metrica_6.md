@@ -40,10 +40,10 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 | Artefato                      | Finalidade                                                                    | Disponibilidade                          |
 | ----------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------- |
-| Histórico acadêmico           | Referência para validação cruzada das respostas do assistente                 | `historico_lucas.pdf`                    |
-| Screenshot — P1               | Evidência da pergunta enviada e resposta do assistente para P1                | _(link do screenshot P1 a inserir)_      |
-| Screenshot — P2               | Evidência da pergunta enviada e resposta do assistente para P2                | _(link do screenshot P2 a inserir)_      |
-| Screenshot — P3               | Evidência da pergunta enviada e resposta do assistente para P3                | _(link do screenshot P3 a inserir)_      |
+| Histórico acadêmico           | Referência para validação cruzada das respostas do assistente                 | [historico_andre.pdf](../../assets/dados/adequacao_funcional/metrica5e6/historico_andre.pdf)                    |
+| Screenshot — P1               | Evidência da pergunta enviada e resposta do assistente para P1                | [M6_P[1]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[1]_[CLASSIFICACAO]_[2026-06-11].png)      |
+| Screenshot — P2               | Evidência da pergunta enviada e resposta do assistente para P2                | [M6_P[2]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[2]_[CLASSIFICACAO]_[2026-06-11].png)      |
+| Screenshot — P3               | Evidência da pergunta enviada e resposta do assistente para P3                | [M6_P[3]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[3]_[CLASSIFICACAO]_[2026-06-11].png)      |
 | Resultado processado          | Classificação das respostas, análise qualitativa e conclusão da métrica       | Esta página                              |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
@@ -56,9 +56,9 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 | Código | Pergunta submetida                                             | Classificação       | Justificativa da classificação                                                                                          | Evidência                              |
 | ------ | -------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| P1     | "Tenho algum pré-requisito pendente para cursar [disciplina X]?" | **Não verificável** | O assistente forneceu resposta genérica sobre como consultar pré-requisitos, sem acessar ou referenciar o histórico carregado do estudante. A resposta não permitiu validação objetiva contra a base curricular de referência. | _(link do screenshot P1 a inserir)_ |
-| P2     | "Quantos semestres ainda me faltam para concluir o curso?"     | **Não verificável** | O assistente não forneceu estimativa numérica de semestres. A resposta foi orientativa, sugerindo que o estudante consulte o SIGAA ou o coordenador, sem utilizar os dados do histórico carregado para produzir um cálculo concreto. | _(link do screenshot P2 a inserir)_ |
-| P3     | "Estou em risco de jubilamento? O que devo fazer?"             | **Não verificável** | O assistente respondeu com informações gerais sobre jubilamento na UnB, sem avaliar a situação específica do estudante com base no histórico carregado. A resposta não permitiu validação objetiva contra as regras acadêmicas aplicáveis ao perfil do histórico de referência. | _(link do screenshot P3 a inserir)_ |
+| P1     | "Tenho algum pré-requisito pendente para cursar [disciplina X]?" | **Não verificável** | O assistente forneceu resposta genérica sobre como consultar pré-requisitos, sem acessar ou referenciar o histórico carregado do estudante. A resposta não permitiu validação objetiva contra a base curricular de referência. | [M6_P[1]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[1]_[CLASSIFICACAO]_[2026-06-11].png)  |
+| P2     | "Quantos semestres ainda me faltam para concluir o curso?"     | **Não verificável** | O assistente não forneceu estimativa numérica de semestres. A resposta foi orientativa, sugerindo que o estudante consulte o SIGAA ou o coordenador, sem utilizar os dados do histórico carregado para produzir um cálculo concreto. | [M6_P[2]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[2]_[CLASSIFICACAO]_[2026-06-11].png)  |
+| P3     | "Estou em risco de jubilamento? O que devo fazer?"             | **Não verificável** | O assistente respondeu com informações gerais sobre jubilamento na UnB, sem avaliar a situação específica do estudante com base no histórico carregado. A resposta não permitiu validação objetiva contra as regras acadêmicas aplicáveis ao perfil do histórico de referência. | [M6_P[3]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[3]_[CLASSIFICACAO]_[2026-06-11].png)  |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
