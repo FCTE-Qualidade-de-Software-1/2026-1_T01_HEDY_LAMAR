@@ -20,7 +20,7 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 | Nível | Critério objetivo | Métrica |
 |---|---|---|
 | **Crítico** | Funcionalidade principal inacessível ou quebrada naquele ambiente | M3 |
-| **Alto** | Funcionalidade degradada, mas com workaround possível | M3 |
+| **Alto** | Anomalia em navegão que não quebra funcionalidade | M4 |
 | **Médio** | Anomalia visual que afeta compreensão do conteúdo | M4 |
 | **Baixo** | Anomalia estética sem impacto funcional | M4 |
 
