@@ -162,6 +162,6 @@ Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido 
 |---|---|---|---|---|
 | `1.2` | 03/06/2026 | Criação da Representação visual do GQM de Adequação Funcional | [Paulo Cerqueira](https://github.com/paulocerqr) | Grupo Hedy Lamarr |
 | `1.1` | 03/06/2026 | Refinamento com base no levantamento de requisitos do No Fluxo UnB, nos testes de histórico disponíveis no repositório e na definição de evidências auditáveis por métrica. | [Lucas Guimarães](https://github.com/lcsgborges) | Grupo Hedy Lamarr |
-| `1.0` | 03/06/2026 | Criação do objetivo de medição de Adequação Funcional, com objetivo GQM, folha de abstração, rastreabilidade com a Fase 1, questões, hipóteses | [Gabriel Amorim](https://github.com/BrzGab) | Grupo Hedy Lamarr |
+| `1.0` | 03/06/2026 | Criação do objetivo de medição de Adequação Funcional, com objetivo GQM, folha de abstração, rastreabilidade com a Fase 1, questões, hipóteses | [Gabriel Lopes](https://github.com/BrzGab) | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

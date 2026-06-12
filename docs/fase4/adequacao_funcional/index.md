@@ -113,7 +113,7 @@ Para o detalhamento completo da execução, consulte: [M7 - Defeitos funcionais 
 
 | Métrica | Defeitos verificados | Soma das severidades | Resultado | Classificação | Detalhamento |
 |---|---:|---:|---:|---|---|
-| M8 | 7 | 26 | 3,71 | Insuficiente | [M8 - Severidade média dos defeitos](metrica_8.md) |
+| M8 | 8 | 29 | 3,63 | Insuficiente | [M8 - Severidade média dos defeitos](metrica_8.md) |
 
 **Julgamento M8:** **Insuficiente**
 
@@ -140,7 +140,7 @@ As métricas M3 e M4 respondem à Q2 de Adequação Funcional: **"Com que precis
 | M3 | 90,32% | Não confirma a hipótese de acurácia mínima de 95% | A visualização curricular ainda apresenta divergências relevantes, principalmente pela não contabilização de monitorias como horas complementares |
 | M4 | 100,00% | Confirma a hipótese de acurácia mínima de 95% | Os cálculos acadêmicos avaliados foram exibidos corretamente para o histórico usado como referência |
 | M7 | 0 defeitos críticos | Confirma o limite de criticidade esperado | Nenhum defeito crítico foi identificado no conjunto consolidado |
-| M8 | 3,71 | Não confirma a severidade média baixa ou moderada | A média de severidade aponta impacto funcional relevante, acima do nível satisfatório |
+| M8 | 3,63 | Não confirma a severidade média baixa ou moderada | A média de severidade aponta impacto funcional relevante, acima do nível satisfatório |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
