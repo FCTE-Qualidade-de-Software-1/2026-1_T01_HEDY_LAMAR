@@ -18,6 +18,10 @@ Como tanto Chrome, Edge e firefox quanto Linux Ubuntu 24.04 LTS e Windows 11 (25
 
 ---
 
+### 2.1 Dados Brutos e Evidências Consolidadas
+
+Os dados de entrada e saída foram armazenados em um repositório no [Google Drive](https://drive.google.com/drive/folders/16Rx9M1ijRTBGD_JeQYjL-t-EpIURQula?usp=drive_link). Para cada ambiente avaliado foi gerado um vídeo de execução. Os ambientes que apresentaram falhas também possuem capturas de tela (prints) complementares, além dos respectivos vídeos de evidência.
+
 ## 3. Fluxos Críticos a Testar
 
 | ID Fluxo | Nome do Fluxo | Descrição resumida |
