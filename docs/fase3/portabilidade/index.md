@@ -85,8 +85,8 @@ O arquivo deve estar disponível no [drive](https://drive.google.com/drive/folde
 | Data limite | Atividade | Responsável |
 |---|---|---|
 | 08/06/2026 | Montagem do documento centralizado de registros e distribuição dos ambientes físicos. | Guilherme e Vinícius |
-| 09/06/2026 | Execução dos testes de M1 e M2 nos ambientes homologados. | Avaliadores |
-| 10/06/2026 | Consolidação das evidências, cálculo dos percentuais e classificação final. | Grupo Hedy Lamarr |
+| 11/06/2026 | Execução dos testes de M1 e M2 nos ambientes homologados. | Avaliadores |
+| 12/06/2026 | Consolidação das evidências, cálculo dos percentuais e classificação final. | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 

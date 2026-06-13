@@ -84,8 +84,8 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 | Data limite | Atividade | Responsável |
 |---|---|---|
 | 08/06/2026 | Preparar histórico de referência, base curricular, planilha de conferência e registro de defeitos. | Lucas Guimarães, André, Gabriel e Paulo |
-| 09/06/2026 | Executar a coleta das métricas de Adequação Funcional. | Avaliadores |
-| 10/06/2026 | Consolidar resultados, evidências, defeitos e classificação final. | Grupo Hedy Lamarr |
+| 11/06/2026 | Executar a coleta das métricas de Adequação Funcional. | Avaliadores |
+| 12/06/2026 | Consolidar resultados, evidências, defeitos e classificação final. | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
