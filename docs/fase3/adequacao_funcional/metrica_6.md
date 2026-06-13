@@ -156,6 +156,6 @@ Ao final da execução, devem estar disponíveis:
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
-| `1.0`  | 08/06/2026 | Criação do plano de avaliação da métrica M6 de Adequação Funcional. |       |
+| `1.0`  | 08/06/2026 | Criação do plano de avaliação da métrica M6 de Adequação Funcional. | [André Gustavo](https://github.com/AndreGustavoRN) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

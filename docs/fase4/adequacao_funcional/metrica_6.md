@@ -164,6 +164,6 @@ A classificação final da M6 é **Não aplicável**, com a observação qualita
 
 | Versão | Data       | Descrição                                                                   | Autor |
 | ------ | ---------- | --------------------------------------------------------------------------- | ----- |
-| `1.0`  | 08/06/2026 | Criação da página de execução da métrica M6 na Fase 4, com resultados reais. |       |
+| `1.0`  | 08/06/2026 | Criação da página de execução da métrica M6 na Fase 4, com resultados reais. | [André Gustavo](https://github.com/AndreGustavoRN) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
