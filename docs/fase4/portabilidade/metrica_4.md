@@ -38,7 +38,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ---
 
-## 5. Execução por Ambiente
+## 4. Execução por Ambiente
 
 ---
 
@@ -90,14 +90,14 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ---
 
-## 6. Registro de Defeitos Encontrados
+## 5. Registro de Defeitos Encontrados
 
 | ID | Ambiente | Ano | Tela | Descrição                                                                                              | Severidade | Reprodutível | Print |
 | --- | -------- | ---- | ----- |------------------------------------------------------------------------------------------------------ | ---------- | ------------ | ----- |
 | 03 | ENV-03   | 2016 | T-04 | Botão de Feedback sobrepõe botão de modo Tela Cheia e botões inferiores ocultos.               | Alto       | Sim          | Sim   |
 | 04 | ENV-02   | 2022 | T-04 | --                                                                                                     | Alto       | Sim          | Sim   |
 
-## 7. Consolidação Final
+## 6. Consolidação Final
 
 ### Resultado M4 por Tela e Ambiente
 
@@ -110,19 +110,29 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 | T-05 | 0 | 0 | 0 | 0 |
 | **Total** | 0 | 2 | 2 | 4 |
 
-## 8. Resultado da avaliação
+## 7. Resultado da avaliação
 
 | | |
 |---|---|
 | **Total M4** | 4 |
 | **H3 confirmada?** | Não ((M4 ≥ 1) == 4) |
-| **Avaliação** | Satisfatório (5 ≥ total ≤ 3) |
+| **Avaliação** | Satisfatório (3 ≤ total ≤ 5) |
 | **Ambientes afetados** | ENV-02, ENV-03,|
 | **Telas afetadas** | T-04 |
 
 
-## 9. Conclusão (Q3)
+## 8. Conclusão (Q3)
 
-É visível a necessidade de um cuidado em relação a adaptação para ambientes móveis que, em boa parte, lida muito bem com o layout dos elementos, apesar de falhas que mostram que o software foi pensado genericamente para a web.
+É visível a necessidade de um cuidado em relação à adaptação para ambientes móveis que, em boa parte, lida muito bem com o layout dos elementos, apesar de falhas que mostram que o software foi pensado genericamente para a web.
 
-O app seria beneficiado ao considerar uma implementação própria aos layouts mobile, trazendo uma opção coerênte ao público já estabelecido.
+O app seria beneficiado ao considerar uma implementação própria aos layouts mobile, trazendo uma opção coerente ao público já estabelecido.
+
+---
+
+## Histórico de Versões
+
+**Tabela: Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 11/06/2026 | Execução da M4 de Portabilidade. | Vinícius |

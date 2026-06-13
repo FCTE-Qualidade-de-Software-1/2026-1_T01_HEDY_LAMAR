@@ -1,8 +1,8 @@
-# Execução e Resultados da Avaliação (Portabilidade - M4)
+# Execução e Resultados da Avaliação (Portabilidade - M3)
 
 ## 1. Objetivo da Execução
 
-Executar a métrica M3 definidas na [Fase 3](../../fase3/portabilidade/metrica_3.md), procurando defeitos que inviabilizam totalmente o uso das funcionalidades principais entre os ambientes.
+Executar a métrica M3 definida na [Fase 3](../../fase3/portabilidade/metrica_3.md), procurando defeitos que inviabilizam totalmente o uso das funcionalidades principais entre os ambientes.
 
 A métrica em questão é usada para responder a questão Q3 de Portabilidade: **"Qual é o impacto e a gravidade dos defeitos de portabilidade ou incompatibilidade de ambiente encontrados durante a avaliação?"**.
 
@@ -34,7 +34,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ---
 
-## 5. Execução por Ambiente
+## 4. Execução por Ambiente
 
 ---
 
@@ -58,7 +58,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 | FL-04 | ✓ | Sim | De acordo com o caso base |
 | FL-05 | ✓ | Sim | De acordo com o caso base |
 
-## ENV-03 — Safari Mobile — iOS 15 — Mobile
+### ENV-03 — Safari Mobile — iOS 15 — Mobile
 
 | ID Fluxo | Resultado | O usuário completa o fluxo? | Observação |
 |---|---|---|---|
@@ -68,14 +68,14 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 | FL-04 | ✗ | Não | Bibliotecas não suportadas por versão do safari, envio é bloqueado |
 | FL-05 | ✓ | Sim | Chamada de API e leitura de mensagens é viável |
 
-## 6. Registro de Defeitos Encontrados
+## 5. Registro de Defeitos Encontrados
 
 | ID | Ambiente | Ano  | Fluxo | Descrição                                                                                              | Severidade | Reprodutível | Print |
 | --- | -------- | ---- | ----- | ------------------------------------------------------------------------------------------------------ | ---------- | ------------ | ----- |
 | 01 | ENV-03   | 2016 | FL-03 | Janela de visão do fluxograma é minúscula e não funcional                                              | Crítico    | Sim          | Sim   |
 | 02 | ENV-03   | 2016 | FL-04 | Promise.withResolvers não é disponível para o uso no ambiente, logo não é possível enviar o histórico. | Crítico    | Sim          | Sim   |
 
-## 7. Consolidação Final
+## 6. Consolidação Final
 
 ### Resultado por Ambiente
 
@@ -86,7 +86,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 | ENV-03 | Safari Mobile — iOS 15 — Mobile | 2 |
 | **Total** | | 2 |
 
-## 8. Resultado da avaliação
+## 7. Resultado da avaliação
 
 | | |
 |---|---|
@@ -98,7 +98,18 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 ---
 
 
-## 9. Conclusão (Q3)
-O software, de fato, possui falhas que podem impedir o funcionamento principal, porém tais falhas se limitam apenas ao ambiente 3, do ano de 2016, e naturalmente, não acompanhou a evolução exigida pelo software.
+## 8. Conclusão (Q3)
 
-Ainda que o foco em plataformas atuais faça sentido, a adaptação razoável entre novas versões das bibliotecas com sistemas anteriores promoveria longevidade de uso e confiança a longo prazo.
+O software, de fato, possui falhas que podem impedir o funcionamento principal, porém tais falhas se limitam apenas ao ambiente ENV-03 (iPhone SE 1ª geração, de 2016), que naturalmente não acompanhou a evolução exigida pelo software.
+
+Ainda que o foco em plataformas atuais faça sentido, a adaptação razoável entre novas versões das bibliotecas e sistemas anteriores promoveria longevidade de uso e confiança a longo prazo.
+
+---
+
+## Histórico de Versões
+
+**Tabela: Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 11/06/2026 | Execução da M3 de Portabilidade. | Vinícius |

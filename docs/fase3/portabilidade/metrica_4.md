@@ -47,7 +47,8 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 
 4. Verificar se é defeito de adaptabilidade
 
-      Confirmar que o problema é específico ao ambiente antes de registrar. Se o mesmo comportamento ocorre em todos os ambientes, trata-se de um bug geral e não deve ser contabilizado em M3.
+      Confirmar que o problema é específico ao ambiente antes de registrar. Se o mesmo comportamento ocorre em todos os ambientes, trata-se de um bug geral e não deve ser contabilizado em M4.
+
 ## 4. Resultado esperado
 
 | Tela | ENV-01 | ENV-02 | ENV-03 | ENV-04 | ENV-05 | ENV-06 |

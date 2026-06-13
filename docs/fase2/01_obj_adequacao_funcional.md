@@ -156,7 +156,7 @@ Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido 
 
 ## Histórico de Versões
 
-**Tabela 12: Histórico de versões da página.**
+**Tabela 7: Histórico de versões da página.**
 
 | Versão | Data | Descrição | Autor | Revisor |
 |---|---|---|---|---|
