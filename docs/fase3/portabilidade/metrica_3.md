@@ -13,6 +13,8 @@ Contabilizar defeito como M3, somente se:
 
 Definir os critérios **antes** de iniciar os testes para evitar subjetividade na classificação.
 
+**Tabela 1: Critérios de severidade.**
+
 | Nível | Critério objetivo |
 |---|---|
 | **Crítico** | Funcionalidade principal inacessível ou quebrada naquele ambiente |
@@ -44,6 +46,8 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 
 Uma contagem inteira por ambiente e um total geral.
 
+**Tabela 2: Resultado esperado**
+
 | ID Ambiente | Descrição | Quantidade de Defeitos |
 |---|---|---|
 | ENV-01 | Chrome — Windows 11 — Desktop | |
@@ -66,3 +70,15 @@ Ao final da execução, consolidar os dados para responder Q3:
    - M3 total = 0 → H3 **confirmada**.
    - M3 total ≥ 1 → H3 **refutada**, descrever qual ambiente e qual fluxo foram afetados.
 3. **Descrever o impacto** (resposta a Q3): quantos defeitos, em quais ambientes, afetando quais funcionalidades.
+
+---
+
+## Histórico de Versões
+
+**Tabela 3: Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 12/06/2026 | Escrita da fase 3 usando M3 | [Vinícius de Jesus](https://github.com/UnderwaterVillager) |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

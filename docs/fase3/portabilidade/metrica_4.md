@@ -11,6 +11,8 @@ Contabilizar defeito como M4, somente se:
 
 Definir os critérios **antes** de iniciar os testes para evitar subjetividade na classificação.
 
+**Tabela 1: Critérios de severidade.**
+
 | Nível | Critério objetivo |
 |---|---|
 | **Alto** | Anomalia em navegação que não quebra funcionalidade |
@@ -48,7 +50,10 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 4. Verificar se é defeito de adaptabilidade
 
       Confirmar que o problema é específico ao ambiente antes de registrar. Se o mesmo comportamento ocorre em todos os ambientes, trata-se de um bug geral e não deve ser contabilizado em M3.
+
 ## 4. Resultado esperado
+
+**Tabela 2: Resultado esperado.**
 
 | Tela | ENV-01 | ENV-02 | ENV-03 | ENV-04 | ENV-05 | ENV-06 |
 |---|---|---|---|---|---|---|
@@ -67,3 +72,15 @@ Ao final da execução, consolidar os dados para responder Q3:
     - Satisfatório:	3 ≤ Contagem total ≤ 5 de defeitos leves.
     - Insuficiente:	Contagem total > 5 defeitos leves.
 3. **Descrever o impacto** (resposta a Q3): descrever impacto na experiência geral e refletir sobre a consequência do design atual.
+
+---
+
+## Histórico de Versões
+
+**Tabela 3: Histórico de versões.**
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| `1.0` | 12/06/2026 | Escrita da fase 3 usando M4 | [Vinícius de Jesus](https://github.com/UnderwaterVillager) |
+
+*Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
