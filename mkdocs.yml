@@ -76,7 +76,9 @@ nav:
   - Apêndice:
     - Declaração de Uso de IA: declaracao_uso_ia.md
     - Tabela de Contribuição: extras/contribuicao.md
+    - Lista de Figuras, Tabelas e Similares: extras/listas.md
     - Configuração do ambiente: extras/configs.md
+  - Referências: referencias.md
 markdown_extensions:
   - admonition
   - pymdownx.details

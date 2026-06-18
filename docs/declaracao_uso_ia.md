@@ -1,6 +1,6 @@
 # Declaração de Uso de IA
 
-Durante a elaboração e revisão deste relatório, ferramentas de IA generativa foram utilizadas como apoio auxiliar para organização textual, padronização de trechos, revisão de consistência e ajustes no site MkDocs.
+Durante a elaboração e revisão deste relatório, ferramentas de IA generativa (ChatGPT 5.5 e Claude Opus 4.8) foram utilizadas como apoio auxiliar para organização textual, padronização de trechos, revisão de consistência e ajustes no site MkDocs.
 
 O uso dessas ferramentas não substituiu a análise crítica da equipe. As decisões de escopo, seleção de características, priorização, interpretação dos critérios da rubrica, definição de objetivos GQM, métricas e validação final do conteúdo permaneceram sob responsabilidade dos integrantes do Grupo Hedy Lamarr.
 
