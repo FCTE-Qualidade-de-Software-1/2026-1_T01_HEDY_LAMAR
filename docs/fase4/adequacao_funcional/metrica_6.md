@@ -12,7 +12,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 1. Acesso à plataforma No Fluxo UnB em `https://no-fluxo.crianex.com/` com usuário de teste autenticado e histórico acadêmico de referência já carregado.
 2. Abertura da janela do Assistente de IA (Chatbot).
-3. Submissão das três perguntas-alvo definidas na Fase 3 (P1–P3), de forma isolada, uma por vez, conforme os enunciados exatos da Tabela 2 da Fase 3.
+3. Submissão das três perguntas-alvo definidas na Fase 3 (P1–P3), de forma isolada, uma por vez, conforme os enunciados exatos da Tabela 79 da Fase 3.
 4. Registro da resposta completa do assistente para cada pergunta.
 5. Validação cruzada de cada resposta com as fontes de referência: histórico acadêmico, matriz curricular e regras acadêmicas da UnB.
 6. Classificação de cada resposta como Válida, Inválida ou Não verificável.
@@ -21,22 +21,22 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M6.**
+**Tabela 138: Rastreabilidade entre o plano da Fase 3 e a execução da M6.**
 
 | Instrução definida na Fase 3                                                              | Execução realizada na Fase 4                                                                                        | Evidência                              |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Submeter as três perguntas-alvo de forma isolada e sem adaptação no enunciado             | As três perguntas foram enviadas ao assistente exatamente como definidas na Tabela 2 da Fase 3                     | Screenshots das perguntas e respostas  |
-| Registrar a resposta completa do assistente para cada pergunta                            | Respostas transcritas integralmente na planilha de registro                                                         | Tabela 3 desta página                  |
-| Realizar validação cruzada com histórico, matriz curricular e regras acadêmicas da UnB   | Validação realizada para cada resposta, verificando conformidade com as três fontes de referência                  | Tabela 3 desta página                  |
-| Classificar cada resposta como Válida, Inválida ou Não verificável                       | As três respostas foram classificadas como Não verificável                                                          | Tabela 3 desta página                  |
-| Registrar evidências no padrão `M6_P[ID]_[CLASSIFICACAO]_[DATA].png`                    | Screenshots salvos para cada resposta                                                                               | Links de evidência na Tabela 3         |
+| Submeter as três perguntas-alvo de forma isolada e sem adaptação no enunciado             | As três perguntas foram enviadas ao assistente exatamente como definidas na Tabela 79 da Fase 3                     | Screenshots das perguntas e respostas  |
+| Registrar a resposta completa do assistente para cada pergunta                            | Respostas transcritas integralmente na planilha de registro                                                         | Tabela 140 desta página                  |
+| Realizar validação cruzada com histórico, matriz curricular e regras acadêmicas da UnB   | Validação realizada para cada resposta, verificando conformidade com as três fontes de referência                  | Tabela 140 desta página                  |
+| Classificar cada resposta como Válida, Inválida ou Não verificável                       | As três respostas foram classificadas como Não verificável                                                          | Tabela 140 desta página                  |
+| Registrar evidências no padrão `M6_P[ID]_[CLASSIFICACAO]_[DATA].png`                    | Screenshots salvos para cada resposta                                                                               | Links de evidência na Tabela 140         |
 | Calcular M6 excluindo do denominador as respostas Não verificáveis                       | Com denominador igual a zero, a M6 não pode ser calculada; resultado registrado como observação qualitativa         | Seção 4 desta página                   |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M6.**
+**Tabela 139: Dados brutos e evidências da M6.**
 
 | Artefato                      | Finalidade                                                                    | Disponibilidade                          |
 | ----------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------- |
@@ -52,7 +52,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 3. Registro de Execução
 
-**Tabela 3: Resultado da validação das respostas do assistente de IA na M6.**
+**Tabela 140: Resultado da validação das respostas do assistente de IA na M6.**
 
 | Código | Pergunta submetida                                             | Classificação       | Justificativa da classificação                                                                                          | Evidência                              |
 | ------ | -------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
@@ -64,7 +64,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 3.1 Resumo da Verificação
 
-**Tabela 4: Resumo quantitativo da execução da M6.**
+**Tabela 141: Resumo quantitativo da execução da M6.**
 
 | Categoria                              | Quantidade |
 | -------------------------------------- | ---------- |
@@ -122,7 +122,7 @@ A M6 responde à questão Q3 de Adequação Funcional ao verificar se as recomen
 
 O resultado da execução não confirma nem refuta a hipótese H3 no que diz respeito à pertinência do assistente de IA: a impossibilidade de classificar as respostas como Válidas ou Inválidas revela que o assistente, no escopo avaliado, não produz orientações específicas o suficiente para serem verificadas objetivamente.
 
-**Tabela 5: Resposta à hipótese H3 da Fase 2 no contexto da M6.**
+**Tabela 142: Resposta à hipótese H3 da Fase 2 no contexto da M6.**
 
 | Hipótese | Limiar definido | Resultado obtido | Confirmada? |
 | -------- | --------------- | ---------------- | ----------- |
@@ -160,7 +160,7 @@ A classificação final da M6 é **Não aplicável**, com a observação qualita
 
 ## Histórico de Versões
 
-**Tabela 6: Histórico de versões.**
+**Tabela 143: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                                   | Autor |
 | ------ | ---------- | --------------------------------------------------------------------------- | ----- |

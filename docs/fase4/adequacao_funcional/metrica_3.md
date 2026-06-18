@@ -20,7 +20,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M3.**
+**Tabela 126: Rastreabilidade entre o plano da Fase 3 e a execução da M3.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
@@ -34,7 +34,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M3.**
+**Tabela 127: Dados brutos e evidências da M3.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -49,7 +49,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 3. Registro de Execução
 
-**Tabela 3: Resumo da verificação da M3.**
+**Tabela 128: Resumo da verificação da M3.**
 
 | Categoria verificada | Quantidade | Itens corretos | Itens com divergência |
 |---|---:|---:|---:|
@@ -61,7 +61,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 As divergências foram registradas na planilha de verificação, com indicação do valor esperado, valor obtido e evidência correspondente.
 
-**Tabela 4: Registro consolidado de divergências da M3.**
+**Tabela 129: Registro consolidado de divergências da M3.**
 
 | ID | Tipo | Descrição | Severidade | Evidência |
 |---|---|---|---|---|

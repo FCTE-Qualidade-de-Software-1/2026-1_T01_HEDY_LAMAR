@@ -8,7 +8,7 @@ De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de u
 
 ## 2.1 Objetivo de Medição
 
-**Tabela 1: Objetivo de medição para Adequação Funcional.**
+**Tabela 17: Objetivo de medição para Adequação Funcional.**
 
 | Elemento GQM | Definição para o No Fluxo UnB |
 |---|---|
@@ -24,7 +24,7 @@ De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de u
 
 A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.
 
-**Tabela 2: Folha de abstração do objetivo de Adequação Funcional.**
+**Tabela 18: Folha de abstração do objetivo de Adequação Funcional.**
 
 | Campo | Descrição |
 |---|---|
@@ -43,9 +43,9 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 
 ## 2.3 Rastreabilidade com a Fase 1
 
-A Tabela 3 apresenta a relação direta entre as decisões tomadas na Fase 1 e o desdobramento deste objetivo GQM.
+A Tabela 19 apresenta a relação direta entre as decisões tomadas na Fase 1 e o desdobramento deste objetivo GQM.
 
-**Tabela 3: Rastreabilidade entre Fase 1 e objetivo de Adequação Funcional.**
+**Tabela 19: Rastreabilidade entre Fase 1 e objetivo de Adequação Funcional.**
 
 | Definição da Fase 1 | Relação com este objetivo GQM |
 |---|---|
@@ -63,7 +63,7 @@ A Tabela 3 apresenta a relação direta entre as decisões tomadas na Fase 1 e o
 
 As questões foram formuladas para cobrir as três subcaracterísticas de Adequação Funcional presentes na ISO/IEC 25010. Cada questão possui uma hipótese associada, que será confrontada com os resultados obtidos na execução da avaliação.
 
-**Tabela 4: Questões e hipóteses do objetivo de Adequação Funcional.**
+**Tabela 20: Questões e hipóteses do objetivo de Adequação Funcional.**
 
 | Código | Questão | Subcaracterística | Hipótese |
 |---|---|---|---|
@@ -80,11 +80,11 @@ As questões foram formuladas para cobrir as três subcaracterísticas de Adequa
 
 As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram priorizadas métricas simples, objetivas e verificáveis, com fórmulas explícitas e fontes de evidência auditáveis.
 
-**Tabela 5: Métricas do objetivo de Adequação Funcional.**
+**Tabela 21: Métricas do objetivo de Adequação Funcional.**
 
 | Código | Questão | Métrica | Tipo | Fórmula / forma de medição | Fonte de evidência |
 |---|---|---|---|---|---|
-| **M1** | Q1 | Percentual de requisitos funcionais essenciais disponíveis | Quantitativa | `(Nº de requisitos funcionais essenciais disponíveis e acessíveis / Nº total de requisitos funcionais essenciais definidos na Tabela 6) × 100` | Checklist funcional derivado de `documentacao/requisitos.md` e execução exploratória da aplicação. |
+| **M1** | Q1 | Percentual de requisitos funcionais essenciais disponíveis | Quantitativa | `(Nº de requisitos funcionais essenciais disponíveis e acessíveis / Nº total de requisitos funcionais essenciais definidos na Tabela 22) × 100` | Checklist funcional derivado de `documentacao/requisitos.md` e execução exploratória da aplicação. |
 | **M2** | Q2 | Acurácia da extração do histórico acadêmico | Quantitativa | `(Nº de informações do histórico extraídas corretamente / Nº total de informações esperadas no histórico de referência) × 100` | Históricos em PDF e textos extraídos de `test_historicos/`, dados extraídos pelo sistema e conferência com valores esperados dos scripts de teste. |
 | **M3** | Q2 | Taxa de consistência do fluxograma, equivalências e pré-requisitos | Quantitativa | `(Nº de disciplinas, equivalências, dependências e pré-requisitos exibidos corretamente / Nº total de itens curriculares verificados) × 100` | Base curricular, consultas de matrizes/disciplinas/equivalências, tela gerada pelo No Fluxo UnB e registros de verificação. |
 | **M4** | Q2 | Taxa de correção dos cálculos acadêmicos | Quantitativa | `(Nº de indicadores acadêmicos calculados corretamente / Nº total de indicadores acadêmicos verificados) × 100` | Valores esperados de curso, IRA, média ponderada, suspensões, pendências, integralização e progresso, conferidos com histórico e base curricular. |
@@ -99,10 +99,10 @@ As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram pr
 ### Diagrama 
 
 
-![Figura 1 - Representação de Estrutura GQM](../assets/DiagramaAdequacao.drawio.png)
+![Representação de Estrutura GQM](../assets/DiagramaAdequacao.drawio.png)
 
 <div align="center">
-  <em>Figura 1 - Representação visual do GQM de Adequação Funcional.</em>
+  <em>Figura 10 - Representação visual do GQM de Adequação Funcional.</em>
   <em>Autor: Paulo Cerqueira.</em>
 </div>
 
@@ -113,7 +113,7 @@ As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram pr
 
 Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido com base na descrição do produto da Fase 1 e no arquivo `documentacao/requisitos.md` do repositório de referência do No Fluxo UnB.
 
-**Tabela 6: Requisitos funcionais essenciais considerados na métrica M1.**
+**Tabela 22: Requisitos funcionais essenciais considerados na métrica M1.**
 
 | Código | Requisito funcional essencial | Justificativa |
 |---|---|---|
@@ -156,7 +156,7 @@ Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido 
 
 ## Histórico de Versões
 
-**Tabela 7: Histórico de versões da página.**
+**Tabela 23: Histórico de versões da página.**
 
 | Versão | Data | Descrição | Autor | Revisor |
 |---|---|---|---|---|

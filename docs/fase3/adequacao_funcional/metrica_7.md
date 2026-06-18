@@ -10,7 +10,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 2. Definição da Métrica
 
-**Tabela 1: Definição operacional da M7.**
+**Tabela 84: Definição operacional da M7.**
 
 | Campo | Definição |
 |---|---|
@@ -29,7 +29,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 Para evitar duplicidade, a M7 conta **defeitos funcionais consolidados**, e não cada evidência isolada. Quando a mesma falha aparece em mais de uma métrica, ela deve ser registrada uma única vez no cadastro de defeitos, mantendo a rastreabilidade para todas as métricas e evidências onde apareceu.
 
-**Tabela 2: Critérios para registrar um defeito funcional.**
+**Tabela 85: Critérios para registrar um defeito funcional.**
 
 | Situação | Tratamento na M7 |
 |---|---|
@@ -48,7 +48,7 @@ Para evitar duplicidade, a M7 conta **defeitos funcionais consolidados**, e não
 
 A criticidade da M7 é definida pela escala ordinal de severidade usada também pela M8. Um defeito é considerado **crítico** somente quando recebe severidade **5**.
 
-**Tabela 3: Escala de severidade dos defeitos funcionais.**
+**Tabela 86: Escala de severidade dos defeitos funcionais.**
 
 | Severidade | Rótulo | Critério |
 |---:|---|---|
@@ -74,7 +74,7 @@ Um defeito deve receber severidade 5 quando atender a pelo menos uma das condiç
 
 ## 5. Recursos e Ambiente de Avaliação
 
-**Tabela 4: Recursos necessários para execução da M7.**
+**Tabela 87: Recursos necessários para execução da M7.**
 
 | Recurso | Especificação |
 |---|---|
@@ -94,7 +94,7 @@ Um defeito deve receber severidade 5 quando atender a pelo menos uma das condiç
 
 O registro de defeitos usado na M7 deve conter, no mínimo, os campos abaixo.
 
-**Tabela 5: Campos mínimos do registro de defeitos.**
+**Tabela 88: Campos mínimos do registro de defeitos.**
 
 | Campo | Descrição |
 |---|---|
@@ -102,7 +102,7 @@ O registro de defeitos usado na M7 deve conter, no mínimo, os campos abaixo.
 | Origem | Métrica(s) em que o defeito foi observado |
 | Requisito ou item afetado | Requisito funcional, item de histórico, item curricular ou cenário afetado |
 | Descrição | Explicação objetiva do defeito |
-| Severidade numérica | Valor de 1 a 5 conforme a Tabela 3 |
+| Severidade numérica | Valor de 1 a 5 conforme a Tabela 86 |
 | Rótulo de severidade | Baixa, moderada baixa, média, alta ou crítica |
 | Crítico? | Sim quando severidade = 5; não nos demais casos |
 | Evidência | Link para planilha, vídeo, screenshot ou página de execução |
@@ -115,10 +115,10 @@ O registro de defeitos usado na M7 deve conter, no mínimo, os campos abaixo.
 ## 7. Passo a Passo da Execução
 
 1. Reunir os registros de divergências das métricas de Adequação Funcional executadas.
-2. Ler cada divergência e verificar se ela representa defeito funcional segundo a Tabela 2.
+2. Ler cada divergência e verificar se ela representa defeito funcional segundo a Tabela 85.
 3. Consolidar duplicidades, preservando a origem de todas as métricas afetadas.
 4. Atribuir ID único no formato `AF-DXX`.
-5. Atribuir severidade de 1 a 5 conforme a Tabela 3.
+5. Atribuir severidade de 1 a 5 conforme a Tabela 86.
 6. Marcar como crítico apenas defeitos com severidade 5.
 7. Conferir se cada defeito possui evidência rastreável.
 8. Contar o número de defeitos críticos.
@@ -137,7 +137,7 @@ M7 = número de defeitos funcionais com severidade 5
 
 ## 9. Critério de Julgamento
 
-**Tabela 6: Régua de julgamento da M7.**
+**Tabela 89: Régua de julgamento da M7.**
 
 | Classificação | Critério | Interpretação |
 |---|---:|---|
@@ -151,7 +151,7 @@ O limite satisfatório deriva da hipótese H4 definida na [Fase 2](../../fase2/0
 
 ## 10. Cronograma de Execução
 
-**Tabela 7: Cronograma específico da M7.**
+**Tabela 90: Cronograma específico da M7.**
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
@@ -171,14 +171,14 @@ Ao final da execução, devem estar disponíveis:
 - Classificação de severidade de cada defeito.
 - Evidência rastreável para cada defeito.
 - Contagem de defeitos críticos.
-- Julgamento da M7 conforme a régua da Tabela 6.
+- Julgamento da M7 conforme a régua da Tabela 89.
 - Resposta à Q4 e relação com a hipótese H4.
 
 ---
 
 ## Histórico de Versões
 
-**Tabela 8: Histórico de versões.**
+**Tabela 91: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

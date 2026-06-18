@@ -20,14 +20,14 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M7.**
+**Tabela 144: Rastreabilidade entre o plano da Fase 3 e a execução da M7.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
 | Reunir divergências das métricas de Adequação Funcional já executadas | Foram revisadas as seis métricas executadas (M1 a M6): M1, M2, M3 e M6 contribuíram com defeitos funcionais; M4 (100%) e M5 (sem impedimento) não registraram defeitos | Páginas de execução publicadas e CSV consolidado |
 | Consolidar duplicidades | Defeitos repetidos entre métricas foram agrupados em um único registro | Registro consolidado `AF-D01` a `AF-D08` |
 | Atribuir severidade de 1 a 5 | Cada defeito recebeu severidade numérica e rótulo qualitativo | CSV de registro de defeitos |
-| Marcar como crítico apenas severidade 5 | Nenhum defeito recebeu severidade 5 | Tabela 3 desta página |
+| Marcar como crítico apenas severidade 5 | Nenhum defeito recebeu severidade 5 | Tabela 146 desta página |
 | Aplicar fórmula e régua de julgamento | Foi calculado M7 = 0, classificado como Excelente | Seções 4 e 5 desta página |
 
 > Nota: Nenhuma das duas métricas de Pertinência Funcional gerou defeito crítico. A M5 concluiu os quatro cenários de planejamento sem impedimento funcional, não gerando defeito. A M6 evidenciou uma lacuna de pertinência do assistente de IA, consolidada como o defeito não crítico `AF-D08`.
@@ -36,7 +36,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M7.**
+**Tabela 145: Dados brutos e evidências da M7.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -55,7 +55,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 3. Registro Consolidado de Defeitos
 
-**Tabela 3: Defeitos funcionais consolidados para cálculo da M7.**
+**Tabela 146: Defeitos funcionais consolidados para cálculo da M7.**
 
 | ID | Origem | Defeito funcional consolidado | Severidade | Crítico? | Evidência |
 |---|---|---|---:|---|---|
@@ -72,7 +72,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 3.1 Distribuição por Criticidade
 
-**Tabela 4: Distribuição dos defeitos por criticidade.**
+**Tabela 147: Distribuição dos defeitos por criticidade.**
 
 | Categoria | Critério | Quantidade |
 |---|---|---:|

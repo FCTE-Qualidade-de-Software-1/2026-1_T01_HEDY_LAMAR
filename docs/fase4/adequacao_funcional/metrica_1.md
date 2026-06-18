@@ -22,7 +22,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M1.**
+**Tabela 116: Rastreabilidade entre o plano da Fase 3 e a execução da M1.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
@@ -36,7 +36,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M1.**
+**Tabela 117: Dados brutos e evidências da M1.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -51,7 +51,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ## 3. Registro de Execução
 
-**Tabela 3: Resumo da verificação da M1.**
+**Tabela 118: Resumo da verificação da M1.**
 
 | Categoria verificada | Quantidade | Disponíveis | Parcialmente disponíveis | Ausentes |
 |---|---|--|--|--|
@@ -63,7 +63,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 A tabela abaixo registra o resultado da inspeção de cada requisito funcional essencial. A coluna **Resultado** deve ser preenchida com `Disponível`, `Parcialmente disponível` ou `Ausente`. Os campos marcados com _(preencher)_ devem ser completados após a execução.
 
-**Tabela 4: Checklist de inspeção dos requisitos funcionais essenciais.**
+**Tabela 119: Checklist de inspeção dos requisitos funcionais essenciais.**
 
 | Código | Requisito funcional | Resultado | Caminho / Menu | Observação | Evidência |
 |---|---|---|---|---|---|
@@ -87,9 +87,9 @@ A tabela abaixo registra o resultado da inspeção de cada requisito funcional e
 
 ### 3.2 Divergências Identificadas
 
-As divergências foram registradas na planilha de verificação, com indicação do que era esperado, o que foi encontrado e a severidade atribuída conforme a Tabela 6 do plano da M1.
+As divergências foram registradas na planilha de verificação, com indicação do que era esperado, o que foi encontrado e a severidade atribuída conforme a Tabela 41 do plano da M1.
 
-**Tabela 5: Registro consolidado de divergências da M1.**
+**Tabela 120: Registro consolidado de divergências da M1.**
 
 | ID | Requisito | Tipo de resultado | Descrição da divergência | Severidade | Evidência |
 |---|---|---|---|---|---|
@@ -117,7 +117,7 @@ Substituindo os valores obtidos na execução:
 M1 = (10 / 15) × 100 = 66,67%
 ```
 
-> **Atenção:** Requisitos classificados como `Parcialmente disponível` (F6 e F10) **não** são contados no numerador. Foram registrados e analisados separadamente na Tabela 5.
+> **Atenção:** Requisitos classificados como `Parcialmente disponível` (F6 e F10) **não** são contados no numerador. Foram registrados e analisados separadamente na Tabela 120.
 
 ---
 

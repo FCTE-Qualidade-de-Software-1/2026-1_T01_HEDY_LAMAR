@@ -9,7 +9,7 @@ Para a realização da etapa de especificação da avaliação utilizaremos a me
 > (SILVA et al., 2009, p. 4)
 
 <div align="center">
-  <strong>Figura 1: Definição das Métricas GQM.</strong>
+  <strong>Figura 6: Definição das Métricas GQM.</strong>
   <br>
   <img src="../../assets/GQM/gqm_diagrama.png" alt="Diagrama GQM com Nível Conceitual, Operacional e Quantitativo" style="max-width: 100%; height: auto;">
   <br>
@@ -39,7 +39,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 >(BASILI et al., 1994, p. 529)
 
 <div align="center">
-  <strong>Figura 2: Descrição das Métricas.</strong>
+  <strong>Figura 7: Descrição das Métricas.</strong>
   <br>
   <img src="../../assets/GQM/basili_metrics.png" alt="Métricas" style="max-width: 100%; height: auto;">
   <br>
@@ -56,7 +56,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 >(BASILI et al., 1994, p. 528)
 
 <div align="center">
-  <strong>Figura 3: Descrição das Questões.</strong>
+  <strong>Figura 8: Descrição das Questões.</strong>
   <br>
   <img src="../../assets/GQM/basili_questions.png" alt="Questões" style="max-width: 100%; height: auto;">
   <br>
@@ -76,7 +76,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 <br>
 <br>
 <div align="center">
-  <strong>Figura 4: Descrição dos Objetivos.</strong>
+  <strong>Figura 9: Descrição dos Objetivos.</strong>
   <br>
   <img src="../../assets/GQM/basili_goals.png" alt="Objetivos" style="max-width: 100%; height: auto;">
   <br>
@@ -87,7 +87,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 ## 1.5. Escopo da Avaliação
 
-**Tabela 1: Escopo da avaliação GQM.**
+**Tabela 15: Escopo da avaliação GQM.**
 
 | **Elemento** | **Descrição** |
 | :------------ | :------------- |
@@ -119,7 +119,7 @@ A análise é conduzida do ponto de vista dos usuários finais e avaliadores té
 
 ## Histórico de Versões
 
-**Tabela 2: Histórico de versões da página.**
+**Tabela 16: Histórico de versões da página.**
 
 | Versão | Data       | Descrição                                                               | Autor                               |
 | :----- | :--------- | :---------------------------------------------------------------------- | :---------------------------------- |

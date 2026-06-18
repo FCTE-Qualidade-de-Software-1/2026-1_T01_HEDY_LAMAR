@@ -24,7 +24,7 @@ Os testes das métricas executadas nesta etapa foram consolidados em ambiente co
 
 ### 2.1 Dados Brutos e Evidências Consolidadas
 
-**Tabela 1: Evidências utilizadas na execução das métricas da Portabilidade.**
+**Tabela 152: Evidências utilizadas na execução das métricas da Portabilidade.**
 
 | Métrica | Dados brutos e evidências | Finalidade |
 |---|---|---|
@@ -142,7 +142,7 @@ Em síntese, o sistema demonstra alta estabilidade nos ambientes Desktop e Andro
 
 As métricas M1, M2, M3 e M4 respondem à questão central de Portabilidade: **"A interface do sistema é capaz de manter sua integridade e usabilidade quando acessada a partir de diferentes dispositivos e navegadores utilizados pelos estudantes?"**
 
-**Tabela 2: Resposta consolidada às questões da Portabilidade.**
+**Tabela 153: Resposta consolidada às questões da Portabilidade.**
 
 | Métrica | Resultado | Relação com a Hipótese | Interpretação |
 |---|---|---|---|

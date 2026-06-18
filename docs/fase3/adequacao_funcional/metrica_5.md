@@ -10,7 +10,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 2. Definição da Métrica
 
-**Tabela 1: Definição operacional da M5.**
+**Tabela 69: Definição operacional da M5.**
 
 | Campo                  | Definição                                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 Os cenários foram definidos com base nas funcionalidades centrais do No Fluxo UnB identificadas na Fase 1 e nos requisitos funcionais essenciais listados na Fase 2. Cada cenário representa uma tarefa real que um estudante da UnB poderia executar na plataforma.
 
-**Tabela 2: Cenários de planejamento acadêmico avaliados na M5.**
+**Tabela 70: Cenários de planejamento acadêmico avaliados na M5.**
 
 | Código | Cenário                                                                                   | Funcionalidade associada                        |
 | ------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -73,7 +73,7 @@ A planilha deve conter, no mínimo:
    - **Falha**: o cenário não pôde ser concluído por impedimento funcional identificado.
 6. Capturar evidências (capturas de tela ou gravação de tela) para cada cenário executado, salvas com o padrão:
    `M5_C[ID]_[RESULTADO]_[DATA].png`
-7. Repetir o procedimento para todos os cenários da Tabela 2.
+7. Repetir o procedimento para todos os cenários da Tabela 70.
 8. Consolidar os resultados na planilha de registro de execução.
 
 > **Nota:** Um "impedimento funcional" é qualquer falha que impeça o usuário de atingir o objetivo do cenário. Lentidão de carregamento ou problemas visuais menores que não interrompam o fluxo principal **não** configuram impedimento funcional para fins desta métrica.
@@ -82,7 +82,7 @@ A planilha deve conter, no mínimo:
 
 ### 5.1 Roteiro de teste cenário 1
 
-**Tabela 3: Passos de execução do roteiro C1.**
+**Tabela 71: Passos de execução do roteiro C1.**
 
 | Passo | Ação do avaliador                                                                                                  | Resultado esperado                                                                                        |
 | ----- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -118,7 +118,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.2 Roteiro de teste cenário 2
 
-**Tabela 4: Passos de execução do roteiro C2.**
+**Tabela 72: Passos de execução do roteiro C2.**
 
 | Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -152,7 +152,7 @@ O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.3 Roteiro de teste cenário 3
 
-**Tabela 5: Passos de execução do roteiro C3.**
+**Tabela 73: Passos de execução do roteiro C3.**
 
 | Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -185,7 +185,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.4 Roteiro de teste cenário 4
 
-**Tabela 6: Passos de execução do roteiro C4.**
+**Tabela 74: Passos de execução do roteiro C4.**
 
 | Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -230,7 +230,7 @@ M5 = (Nº de cenários concluídos sem impedimento funcional
 
 ## 7. Critério de Julgamento
 
-**Tabela 7: Régua de julgamento da M5.**
+**Tabela 75: Régua de julgamento da M5.**
 
 | Classificação  | Critério         |
 | -------------- | ---------------- |
@@ -244,7 +244,7 @@ O limiar mínimo satisfatório de 90% é derivado diretamente da hipótese H3 es
 
 ## 8. Classificação de Impedimentos
 
-**Tabela 8: Severidade dos impedimentos funcionais da M5.**
+**Tabela 76: Severidade dos impedimentos funcionais da M5.**
 
 | Severidade | Critério                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -263,13 +263,13 @@ Ao final da execução, devem estar disponíveis:
 - Percentual final da M5.
 - Lista de cenários que resultaram em falha, com descrição do impedimento e severidade.
 - Evidências visuais associadas a cada execução.
-- Classificação final da métrica conforme a régua da Tabela 7.
+- Classificação final da métrica conforme a régua da Tabela 75.
 
 ---
 
 ## Histórico de Versões
 
-**Tabela 9: Histórico de versões.**
+**Tabela 77: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |

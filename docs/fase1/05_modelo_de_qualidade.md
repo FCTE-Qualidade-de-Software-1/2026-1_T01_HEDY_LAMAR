@@ -8,9 +8,9 @@ As características de qualidade de software escolhidas para esta avaliação, c
 
 ## 5.1 Modelo de Qualidade Adaptado
 
-A Figura 1 apresenta uma visão sintética do modelo de qualidade adaptado ao contexto do No Fluxo UnB. Os detalhes de subcaracterísticas, métricas e evidências são apresentados na Tabela 1 para manter a leitura clara.
+A Figura 5 apresenta uma visão sintética do modelo de qualidade adaptado ao contexto do No Fluxo UnB. Os detalhes de subcaracterísticas, métricas e evidências são apresentados na Tabela 12 para manter a leitura clara.
 
-**Figura 1: Modelo de qualidade adaptado ao No Fluxo UnB.**
+**Figura 5: Modelo de qualidade adaptado ao No Fluxo UnB.**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"lineColor": "#334155", "fontFamily": "Arial", "primaryTextColor": "#000000", "secondaryTextColor": "#000000", "tertiaryTextColor": "#000000"}} }%%
@@ -28,7 +28,7 @@ flowchart TD
     AF --> AFS["Subcaracterísticas<br/>Completude, Correção<br/>e Pertinência funcional"]
     PO --> POS["Subcaracterística<br/>Adaptabilidade"]
 
-    AFS --> EVI["Evidências e métricas<br/>detalhadas na Tabela 1"]
+    AFS --> EVI["Evidências e métricas<br/>detalhadas na Tabela 12"]
     POS --> EVI
     EVI --> GQM
 
@@ -45,7 +45,7 @@ flowchart TD
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na ISO/IEC 25010, na Matriz Impacto × Risco e na abordagem GQM.*
 
-**Tabela 1: Rastreabilidade do modelo de qualidade adaptado.**
+**Tabela 12: Rastreabilidade do modelo de qualidade adaptado.**
 
 | Característica | Subcaracterísticas | Métricas / indicadores | Itens priorizados / evidências |
 |---|---|---|---|

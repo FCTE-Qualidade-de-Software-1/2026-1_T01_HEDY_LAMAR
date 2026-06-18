@@ -19,21 +19,21 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M8.**
+**Tabela 148: Rastreabilidade entre o plano da Fase 3 e a execução da M8.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
 | Usar o registro consolidado de defeitos da M7 | Foi usado o arquivo `registro_defeitos_m7_m8.csv`, com os oito defeitos consolidados das seis métricas executadas | [Registro de defeitos](../../assets/dados/adequacao_funcional/registro_defeitos_m7_m8.csv) |
-| Conferir severidades entre 1 e 5 | Todos os 8 defeitos possuem severidade válida | Tabela 3 desta página |
+| Conferir severidades entre 1 e 5 | Todos os 8 defeitos possuem severidade válida | Tabela 150 desta página |
 | Somar severidades | A soma das severidades foi 29 | [Resultado M7/M8](../../assets/dados/adequacao_funcional/resultado_m7_m8.csv) |
-| Dividir pelo total de defeitos | Foram considerados 8 defeitos funcionais consolidados | Tabela 4 desta página |
+| Dividir pelo total de defeitos | Foram considerados 8 defeitos funcionais consolidados | Tabela 151 desta página |
 | Aplicar régua de julgamento | Foi calculado M8 = 3,63, classificado como Insuficiente | Seções 4 e 5 desta página |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M8.**
+**Tabela 149: Dados brutos e evidências da M8.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -48,7 +48,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 3. Registro de Severidades
 
-**Tabela 3: Severidades usadas no cálculo da M8.**
+**Tabela 150: Severidades usadas no cálculo da M8.**
 
 | ID | Defeito funcional consolidado | Severidade |
 |---|---|---:|
@@ -65,7 +65,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 3.1 Distribuição por Severidade
 
-**Tabela 4: Distribuição dos defeitos por severidade.**
+**Tabela 151: Distribuição dos defeitos por severidade.**
 
 | Severidade | Rótulo | Quantidade | Percentual |
 |---:|---|---:|---:|

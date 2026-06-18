@@ -1,6 +1,6 @@
 # Lista de Figuras, Tabelas e Elementos Similares
 
-A numeração abaixo é global e segue a ordem das páginas no menu do relatório. As legendas locais das páginas foram preservadas para manter as referências internas já existentes, como "Tabela 3 desta página".
+A numeração abaixo é global e segue a ordem das páginas no menu do relatório. As páginas do relatório também foram renumeradas para usar estes mesmos números globais nas legendas e referências internas.
 
 ## Lista de Figuras
 
@@ -30,7 +30,7 @@ A numeração abaixo é global e segue a ordem das páginas no menu do relatóri
 | Tabela 7 | Estudantes de graduação da UnB como usuários finais | [Fase 1 - Requisitante e Partes Interessadas](../fase1/02_requisitante_e_stakeholders.md) |
 | Tabela 8 | Instituição e sistemas acadêmicos de apoio | [Fase 1 - Requisitante e Partes Interessadas](../fase1/02_requisitante_e_stakeholders.md) |
 | Tabela 9 | Mapa de influência dos stakeholders nas decisões da Fase 1 | [Fase 1 - Requisitante e Partes Interessadas](../fase1/02_requisitante_e_stakeholders.md) |
-| Tabela 10 | Matriz Impacto x Risco | [Fase 1 - Seleção e Priorização de Características](../fase1/04_selecao_e_priorizacao_de_caracteristicas.md) |
+| Tabela 10 | Matriz Impacto × Risco | [Fase 1 - Seleção e Priorização de Características](../fase1/04_selecao_e_priorizacao_de_caracteristicas.md) |
 | Tabela 11 | Relação entre propósito da avaliação e características selecionadas | [Fase 1 - Seleção e Priorização de Características](../fase1/04_selecao_e_priorizacao_de_caracteristicas.md) |
 | Tabela 12 | Rastreabilidade do modelo de qualidade adaptado | [Fase 1 - Modelo de Qualidade](../fase1/05_modelo_de_qualidade.md) |
 | Tabela 13 | Ênfase por característica de qualidade no escopo da avaliação | [Fase 1 - Escopo, Profundidade e Objetos de Avaliação](../fase1/06_escopo_profundidade_e_objetos_de_avaliacao.md) |
@@ -128,54 +128,80 @@ A numeração abaixo é global e segue a ordem das páginas no menu do relatóri
 | Tabela 105 | Régua de julgamento da M2 | [Fase 3 - Portabilidade - M2](../fase3/portabilidade/metrica_2.md) |
 | Tabela 106 | Modelo de registro da M2 | [Fase 3 - Portabilidade - M2](../fase3/portabilidade/metrica_2.md) |
 | Tabela 107 | Histórico de versões | [Fase 3 - Portabilidade - M2](../fase3/portabilidade/metrica_2.md) |
-| Tabela 108 | Evidências utilizadas na execução das métricas da Adequação Funcional | [Fase 4 - Adequação Funcional - Visão Geral](../fase4/adequacao_funcional/index.md) |
-| Tabela 109 | Resposta consolidada às questões da Adequação Funcional | [Fase 4 - Adequação Funcional - Visão Geral](../fase4/adequacao_funcional/index.md) |
-| Tabela 110 | Rastreabilidade entre o plano da Fase 3 e a execução da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
-| Tabela 111 | Dados brutos e evidências da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
-| Tabela 112 | Resumo da verificação da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
-| Tabela 113 | Checklist de inspeção dos requisitos funcionais essenciais | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
-| Tabela 114 | Registro consolidado de divergências da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
-| Tabela 115 | Rastreabilidade entre o plano da Fase 3 e a execução da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
-| Tabela 116 | Dados brutos e evidências da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
-| Tabela 117 | Resumo da verificação da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
-| Tabela 118 | Resultado da conferência item a item da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
-| Tabela 119 | Registro consolidado de divergências da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
-| Tabela 120 | Rastreabilidade entre o plano da Fase 3 e a execução da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
-| Tabela 121 | Dados brutos e evidências da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
-| Tabela 122 | Resumo da verificação da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
-| Tabela 123 | Registro consolidado de divergências da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
-| Tabela 124 | Rastreabilidade entre o plano da Fase 3 e a execução da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
-| Tabela 125 | Dados brutos e evidências da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
-| Tabela 126 | Resumo da verificação da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
-| Tabela 127 | Rastreabilidade entre o plano da Fase 3 e a execução da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
-| Tabela 128 | Resultado da execução dos cenários da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
-| Tabela 129 | Resumo quantitativo da execução da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
-| Tabela 130 | Resposta à hipótese H3 da Fase 2 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
-| Tabela 131 | Histórico de versões | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
-| Tabela 132 | Rastreabilidade entre o plano da Fase 3 e a execução da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 133 | Dados brutos e evidências da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 134 | Resultado da validação das respostas do assistente de IA na M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 135 | Resumo quantitativo da execução da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 136 | Resposta à hipótese H3 da Fase 2 no contexto da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 137 | Histórico de versões | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
-| Tabela 138 | Rastreabilidade entre o plano da Fase 3 e a execução da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
-| Tabela 139 | Dados brutos e evidências da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
-| Tabela 140 | Defeitos funcionais consolidados para cálculo da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
-| Tabela 141 | Distribuição dos defeitos por criticidade | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
-| Tabela 142 | Rastreabilidade entre o plano da Fase 3 e a execução da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
-| Tabela 143 | Dados brutos e evidências da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
-| Tabela 144 | Severidades usadas no cálculo da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
-| Tabela 145 | Distribuição dos defeitos por severidade | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
-| Tabela 146 | Matriz de Ambientes e Resultados Brutos da M1 | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
-| Tabela 147 | Resposta Consolidada às Questões de Portabilidade | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
-| Tabela 148 | Histórico de versões | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
-| Tabela 149 | Registro de Coleta e Resultados Brutos da M2 | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
-| Tabela 150 | Resposta Consolidada às Questões de Equivalência Funcional | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
-| Tabela 151 | Histórico de versões | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
-| Tabela 152 | Contribuição dos integrantes na Fase 1 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
-| Tabela 153 | Contribuição dos integrantes na Fase 2 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
-| Tabela 154 | Contribuição dos integrantes na Fase 3 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
-| Tabela 155 | Contribuição dos integrantes na Fase 4 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
+| Tabela 108 | Critérios de severidade | [Fase 3 - Portabilidade - M3](../fase3/portabilidade/metrica_3.md) |
+| Tabela 109 | Resultado esperado | [Fase 3 - Portabilidade - M3](../fase3/portabilidade/metrica_3.md) |
+| Tabela 110 | Histórico de versões | [Fase 3 - Portabilidade - M3](../fase3/portabilidade/metrica_3.md) |
+| Tabela 111 | Critérios de severidade | [Fase 3 - Portabilidade - M4](../fase3/portabilidade/metrica_4.md) |
+| Tabela 112 | Resultado esperado | [Fase 3 - Portabilidade - M4](../fase3/portabilidade/metrica_4.md) |
+| Tabela 113 | Histórico de versões | [Fase 3 - Portabilidade - M4](../fase3/portabilidade/metrica_4.md) |
+| Tabela 114 | Evidências utilizadas na execução das métricas da Adequação Funcional | [Fase 4 - Adequação Funcional - Visão Geral](../fase4/adequacao_funcional/index.md) |
+| Tabela 115 | Resposta consolidada às questões da Adequação Funcional | [Fase 4 - Adequação Funcional - Visão Geral](../fase4/adequacao_funcional/index.md) |
+| Tabela 116 | Rastreabilidade entre o plano da Fase 3 e a execução da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
+| Tabela 117 | Dados brutos e evidências da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
+| Tabela 118 | Resumo da verificação da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
+| Tabela 119 | Checklist de inspeção dos requisitos funcionais essenciais | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
+| Tabela 120 | Registro consolidado de divergências da M1 | [Fase 4 - Adequação Funcional - M1](../fase4/adequacao_funcional/metrica_1.md) |
+| Tabela 121 | Rastreabilidade entre o plano da Fase 3 e a execução da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
+| Tabela 122 | Dados brutos e evidências da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
+| Tabela 123 | Resumo da verificação da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
+| Tabela 124 | Resultado da conferência item a item da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
+| Tabela 125 | Registro consolidado de divergências da M2 | [Fase 4 - Adequação Funcional - M2](../fase4/adequacao_funcional/metrica_2.md) |
+| Tabela 126 | Rastreabilidade entre o plano da Fase 3 e a execução da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
+| Tabela 127 | Dados brutos e evidências da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
+| Tabela 128 | Resumo da verificação da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
+| Tabela 129 | Registro consolidado de divergências da M3 | [Fase 4 - Adequação Funcional - M3](../fase4/adequacao_funcional/metrica_3.md) |
+| Tabela 130 | Rastreabilidade entre o plano da Fase 3 e a execução da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
+| Tabela 131 | Dados brutos e evidências da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
+| Tabela 132 | Resumo da verificação da M4 | [Fase 4 - Adequação Funcional - M4](../fase4/adequacao_funcional/metrica_4.md) |
+| Tabela 133 | Rastreabilidade entre o plano da Fase 3 e a execução da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
+| Tabela 134 | Resultado da execução dos cenários da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
+| Tabela 135 | Resumo quantitativo da execução da M5 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
+| Tabela 136 | Resposta à hipótese H3 da Fase 2 | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
+| Tabela 137 | Histórico de versões | [Fase 4 - Adequação Funcional - M5](../fase4/adequacao_funcional/metrica_5.md) |
+| Tabela 138 | Rastreabilidade entre o plano da Fase 3 e a execução da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 139 | Dados brutos e evidências da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 140 | Resultado da validação das respostas do assistente de IA na M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 141 | Resumo quantitativo da execução da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 142 | Resposta à hipótese H3 da Fase 2 no contexto da M6 | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 143 | Histórico de versões | [Fase 4 - Adequação Funcional - M6](../fase4/adequacao_funcional/metrica_6.md) |
+| Tabela 144 | Rastreabilidade entre o plano da Fase 3 e a execução da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
+| Tabela 145 | Dados brutos e evidências da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
+| Tabela 146 | Defeitos funcionais consolidados para cálculo da M7 | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
+| Tabela 147 | Distribuição dos defeitos por criticidade | [Fase 4 - Adequação Funcional - M7](../fase4/adequacao_funcional/metrica_7.md) |
+| Tabela 148 | Rastreabilidade entre o plano da Fase 3 e a execução da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
+| Tabela 149 | Dados brutos e evidências da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
+| Tabela 150 | Severidades usadas no cálculo da M8 | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
+| Tabela 151 | Distribuição dos defeitos por severidade | [Fase 4 - Adequação Funcional - M8](../fase4/adequacao_funcional/metrica_8.md) |
+| Tabela 152 | Evidências utilizadas na execução das métricas da Portabilidade | [Fase 4 - Portabilidade - Visão Geral](../fase4/portabilidade/index.md) |
+| Tabela 153 | Resposta consolidada às questões da Portabilidade | [Fase 4 - Portabilidade - Visão Geral](../fase4/portabilidade/index.md) |
+| Tabela 154 | Matriz de Ambientes e Resultados Brutos da M1 | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
+| Tabela 155 | Resposta Consolidada às Questões de Portabilidade | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
+| Tabela 156 | Histórico de versões | [Fase 4 - Portabilidade - M1](../fase4/portabilidade/metrica_1.md) |
+| Tabela 157 | Registro de Coleta e Resultados Brutos da M2 | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
+| Tabela 158 | Resposta Consolidada às Questões de Equivalência Funcional | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
+| Tabela 159 | Histórico de versões | [Fase 4 - Portabilidade - M2](../fase4/portabilidade/metrica_2.md) |
+| Tabela 160 | Ambientes de execução dos testes de portabilidade | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 161 | Fluxos críticos avaliados nos testes de portabilidade | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 162 | Resultados de execução dos fluxos no ENV-01 (Caso Base — Desktop) | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 163 | Resultados de execução dos fluxos no ENV-02 (Chrome — Android 16 — Mobile) | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 164 | Resultados de execução dos fluxos no ENV-03 (Safari Mobile — iOS 15 — Mobile) | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 165 | Registro de defeitos funcionais críticos encontrados | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 166 | Consolidação do total de defeitos por ambiente | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 167 | Resultado consolidado da métrica M3 | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 168 | Histórico de versões | [Fase 4 - Portabilidade - M3](../fase4/portabilidade/metrica_3.md) |
+| Tabela 169 | Ambientes de execução dos testes de portabilidade | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 170 | Telas avaliadas nos testes de portabilidade visual | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 171 | Resultados de inspeção visual das telas no ENV-01 (Caso Base — Desktop) | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 172 | Resultados de inspeção visual das telas no ENV-02 (Chrome — Android 16 — Mobile) | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 173 | Resultados de inspeção visual das telas no ENV-03 (Safari Mobile — iOS 15 — Mobile) | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 174 | Registro de defeitos de portabilidade visual encontrados | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 175 | Consolidação do total de defeitos por tela e ambiente | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 176 | Resultado consolidado da métrica M4 | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 177 | Histórico de versões | [Fase 4 - Portabilidade - M4](../fase4/portabilidade/metrica_4.md) |
+| Tabela 178 | Contribuição dos integrantes na Fase 1 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
+| Tabela 179 | Contribuição dos integrantes na Fase 2 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
+| Tabela 180 | Contribuição dos integrantes na Fase 3 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
+| Tabela 181 | Contribuição dos integrantes na Fase 4 | [Apêndice - Tabela de Contribuição](contribuicao.md) |
 
 ## Elementos Similares
 

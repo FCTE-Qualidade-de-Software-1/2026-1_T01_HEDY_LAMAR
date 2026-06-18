@@ -10,7 +10,7 @@ A métrica em questão é usada para responder a questão Q3 de Portabilidade: *
 
 Como tanto Chrome, Edge e firefox quanto Linux Ubuntu 24.04 LTS e Windows 11 (25H2) conseguiram desempenho semelhante, serão unificados como um caso base.
 
-**Tabela 1: Ambientes de execução dos testes de portabilidade.**
+**Tabela 169: Ambientes de execução dos testes de portabilidade.**
 
 | ID | Categoria | Sistema Operacional | Navegador | Resolução |
 |---|---|---|---|---|
@@ -28,7 +28,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 3. Telas a Avaliar (M4)
 
-**Tabela 2: Telas avaliadas nos testes de portabilidade visual.**
+**Tabela 170: Telas avaliadas nos testes de portabilidade visual.**
 
 | ID Tela | Nome da Tela |
 |---|---|
@@ -52,7 +52,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-01 — Caso Base — Desktop
 
-**Tabela 3: Resultados de inspeção visual das telas no ENV-01 (Caso Base — Desktop).**
+**Tabela 171: Resultados de inspeção visual das telas no ENV-01 (Caso Base — Desktop).**
 
 | Tela | Textos legíveis? | Botões no grid? | Imagens ok? | Sem scroll horiz. indesejado? | Sem sobreposição? | Layout responsivo? |
 |---|---|---|---|---|---|---|
@@ -72,7 +72,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-02 — Chrome — Android 16 — Mobile
 
-**Tabela 4: Resultados de inspeção visual das telas no ENV-02 (Chrome — Android 16 — Mobile).**
+**Tabela 172: Resultados de inspeção visual das telas no ENV-02 (Chrome — Android 16 — Mobile).**
 
 | Tela | Textos legíveis? | Botões no grid? | Imagens ok? | Sem scroll horiz. indesejado? | Sem sobreposição? | Layout responsivo? |
 |---|---|---|---|---|---|---|
@@ -92,7 +92,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-03 — Safari Mobile — iOS 15 — Mobile
 
-**Tabela 5: Resultados de inspeção visual das telas no ENV-03 (Safari Mobile — iOS 15 — Mobile).**
+**Tabela 173: Resultados de inspeção visual das telas no ENV-03 (Safari Mobile — iOS 15 — Mobile).**
 
 | Tela | Textos legíveis? | Botões no grid? | Imagens ok? | Sem scroll horiz. indesejado? | Sem sobreposição? | Layout responsivo? |
 |---|---|---|---|---|---|---|
@@ -112,7 +112,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 5. Registro de Defeitos Encontrados
 
-**Tabela 6: Registro de defeitos de portabilidade visual encontrados.**
+**Tabela 174: Registro de defeitos de portabilidade visual encontrados.**
 
 | ID | Ambiente | Ano | Tela | Descrição | Severidade | Reprodutível | Print |
 | --- | -------- | ---- | ----- | --------- | ---------- | ------------ | ----- |
@@ -123,7 +123,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 6. Consolidação Final
 
-**Tabela 7: Consolidação do total de defeitos por tela e ambiente.**
+**Tabela 175: Consolidação do total de defeitos por tela e ambiente.**
 
 | Tela | ENV-01 | ENV-02 | ENV-03 | Total |
 |---|---|---|---|---|
@@ -138,7 +138,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 7. Resultado da avaliação
 
-**Tabela 8: Resultado consolidado da métrica M4.**
+**Tabela 176: Resultado consolidado da métrica M4.**
 
 | | |
 |---|---|
@@ -160,7 +160,7 @@ O app seria beneficiado ao considerar uma implementação própria aos layouts m
 
 ## Histórico de Versões
 
-**Tabela 9: Histórico de versões.**
+**Tabela 177: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

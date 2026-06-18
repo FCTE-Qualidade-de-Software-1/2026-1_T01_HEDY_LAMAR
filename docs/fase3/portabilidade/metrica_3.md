@@ -13,7 +13,7 @@ Contabilizar defeito como M3, somente se:
 
 Definir os critérios **antes** de iniciar os testes para evitar subjetividade na classificação.
 
-**Tabela 1: Critérios de severidade.**
+**Tabela 108: Critérios de severidade.**
 
 | Nível | Critério objetivo |
 |---|---|
@@ -46,7 +46,7 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 
 Uma contagem inteira por ambiente e um total geral.
 
-**Tabela 2: Resultado esperado**
+**Tabela 109: Resultado esperado**
 
 | ID Ambiente | Descrição | Quantidade de Defeitos |
 |---|---|---|
@@ -75,7 +75,7 @@ Ao final da execução, consolidar os dados para responder Q3:
 
 ## Histórico de Versões
 
-**Tabela 3: Histórico de versões.**
+**Tabela 110: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

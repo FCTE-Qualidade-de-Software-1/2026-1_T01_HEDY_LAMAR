@@ -21,21 +21,21 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M2.**
+**Tabela 121: Rastreabilidade entre o plano da Fase 3 e a execução da M2.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
 | Usar histórico acadêmico em PDF como entrada | Foi utilizado o arquivo [historico_lucas.pdf](../../assets/historico_lucas.pdf) | Histórico acadêmico armazenado em `docs/assets` |
-| Construir gabarito com valores esperados para cada item verificável | Gabarito preenchido com os 11 itens das categorias definidas na Tabela 2 do plano | Planilha de verificação da M2 |
+| Construir gabarito com valores esperados para cada item verificável | Gabarito preenchido com os 11 itens das categorias definidas na Tabela 45 do plano | Planilha de verificação da M2 |
 | Conferir cada item com resultado binário (correto/incorreto) | Foram verificados 11 itens com marcação binária 1 (correto) ou 0 (incorreto/ausente) | Planilha de verificação e resumo da M2 |
-| Registrar divergências com severidade e evidência | Foram registradas 4 divergências, documentadas na planilha e com evidências visuais | Tabela 5 desta página |
+| Registrar divergências com severidade e evidência | Foram registradas 4 divergências, documentadas na planilha e com evidências visuais | Tabela 125 desta página |
 | Aplicar fórmula e régua de julgamento | Foi calculado M2 = 63,64%, classificado como Insatisfatória | Seções de cálculo e julgamento desta página |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M2.**
+**Tabela 122: Dados brutos e evidências da M2.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -49,7 +49,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 3. Registro de Execução
 
-**Tabela 3: Resumo da verificação da M2.**
+**Tabela 123: Resumo da verificação da M2.**
 
 | Categoria verificada | Total de itens | Itens corretos | Itens incorretos ou ausentes |
 |---|---:|---:|---:|
@@ -59,7 +59,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 3.1 Planilha de Verificação Item a Item
 
-**Tabela 4: Resultado da conferência item a item da M2.**
+**Tabela 124: Resultado da conferência item a item da M2.**
 
 | ID | Categoria | Item verificado | Valor esperado | Valor obtido | Correto? |
 |---|---|---|---|---|---|
@@ -81,7 +81,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 3.2 Divergências Identificadas
 
-**Tabela 5: Registro consolidado de divergências da M2.**
+**Tabela 125: Registro consolidado de divergências da M2.**
 
 | ID | Categoria | Valor esperado | Valor obtido | Severidade | Observação |
 |---|---|---|---|---|---|

@@ -20,7 +20,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
-**Tabela 1: Rastreabilidade entre o plano da Fase 3 e a execução da M4.**
+**Tabela 130: Rastreabilidade entre o plano da Fase 3 e a execução da M4.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
 |---|---|---|
@@ -34,7 +34,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ### 2.2 Dados Brutos e Evidências
 
-**Tabela 2: Dados brutos e evidências da M4.**
+**Tabela 131: Dados brutos e evidências da M4.**
 
 | Artefato | Finalidade | Disponibilidade |
 |---|---|---|
@@ -49,7 +49,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 3. Registro de Execução
 
-**Tabela 3: Resumo da verificação da M4.**
+**Tabela 132: Resumo da verificação da M4.**
 
 | Campo | Valor | Fórmula/critério | Observação |
 |---|---:|---|---|

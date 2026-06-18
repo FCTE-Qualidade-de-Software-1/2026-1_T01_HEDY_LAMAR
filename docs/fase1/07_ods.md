@@ -8,9 +8,9 @@ O software No Fluxo UnB se conecta aos Objetivos de Desenvolvimento Sustentável
 
 ## 7.1 Metas e Indicadores Relacionados
 
-A Tabela 1 apresenta os indicadores oficiais associados às metas selecionadas e explicita como eles são operacionalizados na avaliação do No Fluxo UnB. A avaliação não mede os indicadores da ONU em escala populacional; ela os utiliza como referência e os traduz em evidências verificáveis no contexto do produto avaliado.
+A Tabela 14 apresenta os indicadores oficiais associados às metas selecionadas e explicita como eles são operacionalizados na avaliação do No Fluxo UnB. A avaliação não mede os indicadores da ONU em escala populacional; ela os utiliza como referência e os traduz em evidências verificáveis no contexto do produto avaliado.
 
-**Tabela 1: ODS, metas, indicadores e operacionalização na avaliação.**
+**Tabela 14: ODS, metas, indicadores e operacionalização na avaliação.**
 
 | ODS | Meta | Indicador oficial relacionado | Operacionalização na avaliação do No Fluxo UnB | Evidências e métricas usadas |
 |---|---|---|---|---|

@@ -24,7 +24,7 @@ Os testes das métricas executadas nesta etapa foram consolidados em ambiente co
 
 ### 2.1 Dados Brutos e Evidências Consolidadas
 
-**Tabela 1: Evidências utilizadas na execução das métricas da Adequação Funcional.**
+**Tabela 114: Evidências utilizadas na execução das métricas da Adequação Funcional.**
 
 | Métrica | Dados brutos e evidências | Finalidade |
 |---|---|---|
@@ -221,7 +221,7 @@ Em síntese, o núcleo de cálculo e a execução dos fluxos centrais estão só
 
 As oito métricas executadas respondem às quatro questões de Adequação Funcional definidas na Fase 2: Q1 (Completude), Q2 (Correção), Q3 (Pertinência) e Q4 (impacto dos defeitos).
 
-**Tabela 2: Resposta consolidada às questões da Adequação Funcional.**
+**Tabela 115: Resposta consolidada às questões da Adequação Funcional.**
 
 | Questão | Métrica | Resultado | Relação com a hipótese | Interpretação |
 |---|---|---:|---|---|

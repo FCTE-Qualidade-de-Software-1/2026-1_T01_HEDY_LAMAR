@@ -21,7 +21,7 @@ O escopo declara características a serem avaliadas e o domínio do software a s
 	- Comparar o desempenho entre diferentes navegadores;
 	- Considera-se demanda baixa no momento;
 
-**Tabela 1: Ênfase por característica de qualidade no escopo da avaliação.**
+**Tabela 13: Ênfase por característica de qualidade no escopo da avaliação.**
 
 | Característica      | Ênfase (1-5)         |
 | ------------------- | -------------------- |

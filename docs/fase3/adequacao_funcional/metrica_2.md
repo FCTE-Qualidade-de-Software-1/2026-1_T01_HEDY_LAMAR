@@ -10,7 +10,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 2. Definição da Métrica
 
-**Tabela 1: Definição operacional da M2.**
+**Tabela 44: Definição operacional da M2.**
 
 | Campo | Definição |
 |---|---|
@@ -29,7 +29,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 Para esta métrica, cada campo extraído do histórico acadêmico é conferido individualmente contra o gabarito de referência e classificado como correto, incorreto ou ausente.
 
-**Tabela 2: Itens verificáveis da extração do histórico.**
+**Tabela 45: Itens verificáveis da extração do histórico.**
 
 | Categoria | Item verificável |
 |---|---|
@@ -55,7 +55,7 @@ A M2 foi definida para verificar a correção funcional da extração de dados d
 
 O método utiliza comparação item a item entre os dados exibidos pelo sistema e um gabarito externo construído a partir do histórico de referência. Essa escolha garante repetibilidade e rastreabilidade, pois cada item possui valor esperado, valor obtido, resultado binário e evidência associada.
 
-**Tabela 3: Rastreabilidade da M2.**
+**Tabela 46: Rastreabilidade da M2.**
 
 | Elemento | Definição |
 |---|---|
@@ -71,7 +71,7 @@ O método utiliza comparação item a item entre os dados exibidos pelo sistema 
 
 ## 5. Recursos e Ambiente de Avaliação
 
-**Tabela 4: Recursos necessários para execução da M2.**
+**Tabela 47: Recursos necessários para execução da M2.**
 
 | Recurso | Especificação |
 |---|---|
@@ -93,7 +93,7 @@ O método utiliza comparação item a item entre os dados exibidos pelo sistema 
 Antes da execução, o avaliador deve preparar:
 
 1. Histórico(s) acadêmico(s) em PDF identificados com código único (ex.: H01, H02, H03).
-2. Gabarito correspondente a cada histórico, com os valores esperados para cada item da Tabela 2.
+2. Gabarito correspondente a cada histórico, com os valores esperados para cada item da Tabela 45.
 3. Conta de usuário ativa no sistema para realização do upload.
 4. Planilha de verificação com os itens pré-listados por histórico.
 5. Pasta de evidências criada no Google Drive do grupo.
@@ -113,7 +113,7 @@ A planilha deve conter, no mínimo:
 4. Capturar screenshot completo da tela resultante (fluxograma gerado e painéis de indicadores) com a URL visível.
 5. Para cada item do gabarito do histórico H01, localizar o valor correspondente exibido pelo sistema.
 6. Comparar o valor exibido com o valor esperado do gabarito.
-7. Registrar **1** para item correto e **0** para item incorreto ou ausente, conforme os critérios da Tabela 6.
+7. Registrar **1** para item correto e **0** para item incorreto ou ausente, conforme os critérios da Tabela 49.
 8. Para cada divergência, registrar descrição, severidade e capturar evidência visual.
 9. Repetir os passos 2 a 8 para cada histórico de referência adicional (H02, H03).
 10. Para cada item incorreto ou ausente, avaliar se o erro é crítico, ou seja, se poderia induzir uma decisão acadêmica errada.
@@ -138,7 +138,7 @@ M2 = (Nº de itens extraídos corretamente pelo sistema
 
 ## 9. Critério de Julgamento
 
-**Tabela 5: Régua de julgamento da M2.**
+**Tabela 48: Régua de julgamento da M2.**
 
 | Classificação | Critério |
 |---|---|
@@ -153,7 +153,7 @@ O limite mínimo satisfatório de 95% segue o requisito não funcional de acurá
 
 ## 10. Classificação de Divergências
 
-**Tabela 6: Severidade das divergências da M2.**
+**Tabela 49: Severidade das divergências da M2.**
 
 | Severidade | Critério |
 |---|---|
@@ -166,7 +166,7 @@ O limite mínimo satisfatório de 95% segue o requisito não funcional de acurá
 
 ## 11. Cronograma de Execução
 
-**Tabela 7: Cronograma específico da M2.**
+**Tabela 50: Cronograma específico da M2.**
 
 | Data limite | Atividade | Responsável |
 |---|---|---|
@@ -194,7 +194,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
-**Tabela 8: Histórico de versões.**
+**Tabela 51: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

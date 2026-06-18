@@ -8,7 +8,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 
 ## 3.1 Objetivo de Medição
 
-**Tabela 1: Objetivo de medição para Portabilidade.**
+**Tabela 24: Objetivo de medição para Portabilidade.**
 
 | Elemento GQM | Definição para o No Fluxo UnB |
 |---|---|
@@ -16,7 +16,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 | **Com o propósito de** | Avaliar se a aplicação opera de forma adequada em diferentes ambientes de acesso, verificando a consistência visual, funcional e de responsividade da interface em cenários de uso variados por estudantes da UnB — em navegadores web, dispositivos desktop, notebook e smartphone. |
 | **Com respeito a** | **Portabilidade**, considerando a subcaracterística de **Adaptabilidade** (capacidade de adaptação a diferentes ambientes de hardware, software e sistema operacional), conforme a ISO/IEC 25010. |
 | **Do ponto de vista de** | Estudantes de graduação da UnB que acessam a plataforma a partir de diferentes dispositivos e ambientes, equipe avaliadora do Grupo Hedy Lamarr e equipe de desenvolvimento do No Fluxo UnB. |
-| **No contexto de** | Avaliação acadêmica de qualidade de produto de software na disciplina FGA0315 — Qualidade de Software 1, com base na release **qualidade-de-software** (02/06/2026), em ambiente controlado com as configurações da Tabela 7. |
+| **No contexto de** | Avaliação acadêmica de qualidade de produto de software na disciplina FGA0315 — Qualidade de Software 1, com base na release **qualidade-de-software** (02/06/2026), em ambiente controlado com as configurações da Tabela 30. |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na abordagem GQM e na ISO/IEC 25010.*
 
@@ -26,7 +26,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 
 A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.
 
-**Tabela 2: Folha de abstração do objetivo de Portabilidade.**
+**Tabela 25: Folha de abstração do objetivo de Portabilidade.**
 
 | Campo | Descrição |
 |---|---|
@@ -37,7 +37,7 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 | **Contexto de uso** | Estudantes da UnB acessando a aplicação web para realizar tarefas de planejamento acadêmico — upload de histórico, consulta ao fluxograma, simulação de disciplinas — a partir de equipamentos pessoais variados: dispositivos desktop e notebook com Windows ou Linux, e dispositivos móveis com iOS ou Android, nos navegadores Chrome, Firefox, Safari e Edge. |
 | **Hipótese global** | Se a aplicação apresentar taxa de compatibilidade funcional igual ou superior a 90% nos navegadores e sistemas operacionais definidos no escopo, e se a interface se adaptar adequadamente às resoluções e tipos de dispositivo testados sem perdas críticas de funcionalidade ou legibilidade, então a Portabilidade será considerada satisfatória para o perfil de uso dos estudantes da UnB. |
 | **Fatores de variação** | Versão e motor de renderização do navegador utilizado; resolução; sistema operacional. |
-| **Restrições da avaliação** | A avaliação não contempla navegadores fora do escopo definido (ex.: Opera, Samsung Internet), versões legadas de navegadores, ambientes offline, aspectos de desempenho de rede ou tempo de carregamento, nem a avaliação do backend e infraestrutura (DigitalOcean, Vercel, Supabase) como objetos diretos de portabilidade. O escopo fica limitado aos ambientes e condições definidos na Tabela 1 da seção 1.5 da Aplicação GQM e nos itens priorizados da Tabela 1 de rastreabilidade do modelo de qualidade adaptado. |
+| **Restrições da avaliação** | A avaliação não contempla navegadores fora do escopo definido (ex.: Opera, Samsung Internet), versões legadas de navegadores, ambientes offline, aspectos de desempenho de rede ou tempo de carregamento, nem a avaliação do backend e infraestrutura (DigitalOcean, Vercel, Supabase) como objetos diretos de portabilidade. O escopo fica limitado aos ambientes e condições definidos na Tabela 15 da seção 1.5 da Aplicação GQM e nos itens priorizados da Tabela 12 de rastreabilidade do modelo de qualidade adaptado. |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na abordagem GQM e na ISO/IEC 25010.*
 
@@ -45,9 +45,9 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 
 ## 3.3 Rastreabilidade com a Fase 1
 
-A Tabela 3 assegura a conexão contínua e auditável entre o planejamento inicial da Fase 1 e o desdobramento do presente objetivo GQM.
+A Tabela 26 assegura a conexão contínua e auditável entre o planejamento inicial da Fase 1 e o desdobramento do presente objetivo GQM.
 
-**Tabela 3: Rastreabilidade entre Fase 1 e objetivo de Portabilidade.**
+**Tabela 26: Rastreabilidade entre Fase 1 e objetivo de Portabilidade.**
 
 | Definição da Fase 1 | Relação com este objetivo GQM |
 |---|---|
@@ -63,7 +63,7 @@ A Tabela 3 assegura a conexão contínua e auditável entre o planejamento inici
 
 As questões foram formuladas para cobrir a subcaracterística **Adaptabilidade** da característica **Portabilidade** presente na ISO/IEC 25010. Cada questão possui uma hipótese associada, que será confrontada com os resultados obtidos na execução da avaliação.
 
-**Tabela 4: Questões e Hipóteses.**
+**Tabela 27: Questões e Hipóteses.**
 
 | Código | Questão | Subcaracterística / Vertente | Hipótese |
 |---|---|---|---|
@@ -79,18 +79,18 @@ As questões foram formuladas para cobrir a subcaracterística **Adaptabilidade*
 
 As métricas abaixo respondem diretamente às questões da Seção 3.4. Foram priorizadas métricas quantitativas, objetivas e verificáveis, com fórmulas explícitas e fontes de evidência auditáveis.
 
-**Tabela 5: Métricas do objetivo de Portabilidade (Adaptabilidade).**
+**Tabela 28: Métricas do objetivo de Portabilidade (Adaptabilidade).**
 
 | Código | Questão | Métrica | Tipo | Fórmula / Forma de Medição | Fonte de Evidência |
 |---|---|---|---|---|---|
 | **M1** | Q1 | Taxa de conformidade de layout responsivo | Quantitativa | `(Nº de resoluções sem quebra / Nº de resoluções total testadas) × 100` | Inspeção visual e capturas de tela das páginas principais nos dispositivos. |
-| **M2** | Q2 | Índice de equivalência funcional por navegador | Quantitativa | `(Nº de funcionalidades (Tabela 6) funcionando no navegador / 3 (Nº total de funcionalidades)) × 100` | Execução cruzada de roteiros de testes operacionais nos navegadores Chrome, Firefox, Safari e Edge. |
+| **M2** | Q2 | Índice de equivalência funcional por navegador | Quantitativa | `(Nº de funcionalidades (Tabela 29) funcionando no navegador / 3 (Nº total de funcionalidades)) × 100` | Execução cruzada de roteiros de testes operacionais nos navegadores Chrome, Firefox, Safari e Edge. |
 | **M3** | Q3 | Número de defeitos críticos de adaptabilidade encontrados | Quantitativa | Contagem de defeitos de portabilidade que causam impossibilidade de uso de uma função central em um ambiente específico. | Registro de defeitos (print ou vídeo), relatório da descrição do defeito e nº total. |
 | **M4** | Q3 | Número de defeitos visuais | Quantitativa | Contagem de falhas de layout ou pequenas anomalias estéticas. | Registro de defeitos (print ou vídeo), relatório da descrição do defeito e nº total. |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
-### Tabela 6: Funcionalidades Centrais
+### Tabela 29: Funcionalidades Centrais
 
 | Funcionalidade | Descrição |
 |---|---|
@@ -103,6 +103,8 @@ As métricas abaixo respondem diretamente às questões da Seção 3.4. Foram pr
 ---
 
 ## 3.6 Diagrama GQM para Portabilidade
+
+**Diagrama 1: Diagrama GQM para Portabilidade.**
 
 ```mermaid
 %%{init: {"theme": "base", "themeVariables": {"lineColor": "#334155", "fontFamily": "Arial", "fontSize": "18px", "primaryTextColor": "#000000", "secondaryTextColor": "#000000", "tertiaryTextColor": "#000000"}, "flowchart": {"nodeSpacing": 45, "rankSpacing": 55}} }%%
@@ -135,9 +137,9 @@ flowchart TD
 
 ## 3.7 Matriz de Ambientes Homologados para Teste (Métricas M2 e M3)
 
-Para a realização padronizada das medições de Portabilidade, os testes devem cobrir obrigatoriamente as combinações da Tabela 7, estabelecidas a partir dos requisitos de escopo da Fase 1.
+Para a realização padronizada das medições de Portabilidade, os testes devem cobrir obrigatoriamente as combinações da Tabela 30, estabelecidas a partir dos requisitos de escopo da Fase 1.
 
-**Tabela 7: Matriz de Ambientes Alvo de Homologação.**
+**Tabela 30: Matriz de Ambientes Alvo de Homologação.**
 
 | ID Ambiente | Categoria | Sistema Operacional Base (Versão) | Navegador Alvo (Versão Estável) | Resolução de Referência |
 |---|---|---|---|---|
@@ -207,7 +209,7 @@ Para viabilizar uma interpretação inequívoca e rigorosa dos dados coletados, 
 
 ## Histórico de Versões
 
-**Tabela 8: Histórico de versões da seção de Portabilidade.**
+**Tabela 31: Histórico de versões da seção de Portabilidade.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

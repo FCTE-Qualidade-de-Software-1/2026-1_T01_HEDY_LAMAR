@@ -8,7 +8,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.1 Requisitante da Avaliação
 
-**Tabela 1: Requisitante da avaliação.**
+**Tabela 4: Requisitante da avaliação.**
 
 | Atributo | Descrição |
 |---|---|
@@ -24,7 +24,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.2 Equipe Avaliadora — Grupo Hedy Lamarr
 
-**Tabela 2: Equipe avaliadora.**
+**Tabela 5: Equipe avaliadora.**
 
 | Atributo | Descrição |
 |---|---|
@@ -39,7 +39,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.3 Equipe de Desenvolvimento — Squad 03 (MDS 2025/1, FGA/UnB)
 
-**Tabela 3: Equipe de desenvolvimento do No Fluxo UnB.**
+**Tabela 6: Equipe de desenvolvimento do No Fluxo UnB.**
 
 | Atributo | Descrição |
 |---|---|
@@ -54,7 +54,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.4 Estudantes de Graduação da UnB (Usuários Finais)
 
-**Tabela 4: Estudantes de graduação da UnB como usuários finais.**
+**Tabela 7: Estudantes de graduação da UnB como usuários finais.**
 
 | Atributo | Descrição |
 |---|---|
@@ -69,7 +69,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.5 Instituição (UnB) e Sistemas Acadêmicos de Apoio
 
-**Tabela 5: Instituição e sistemas acadêmicos de apoio.**
+**Tabela 8: Instituição e sistemas acadêmicos de apoio.**
 
 | Atributo | Descrição |
 |---|---|
@@ -84,9 +84,9 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.6 Mapa de Influência → Decisões da Fase 1
 
-A Tabela 6 torna explícita a conexão entre cada stakeholder e as decisões registradas neste relatório, atendendo ao critério de mapeamento consistente com critérios de sucesso e influência real nas escolhas.
+A Tabela 9 torna explícita a conexão entre cada stakeholder e as decisões registradas neste relatório, atendendo ao critério de mapeamento consistente com critérios de sucesso e influência real nas escolhas.
 
-**Tabela 6: Mapa de influência dos stakeholders nas decisões da Fase 1.**
+**Tabela 9: Mapa de influência dos stakeholders nas decisões da Fase 1.**
 
 | Stakeholder | Decisão da Fase 1 influenciada | Onde a decisão aparece |
 |---|---|---|

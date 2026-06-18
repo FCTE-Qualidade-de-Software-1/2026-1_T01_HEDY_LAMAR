@@ -18,7 +18,7 @@ Os testes foram executados seguindo rigorosamente os três casos de teste padron
 
 Para cada caso de teste executado com sucesso foi atribuída a nota **1**, enquanto falhas receberam a nota **0**.
 
-### Tabela 1 – Registro de Coleta e Resultados Brutos da M2
+### Tabela 157 – Registro de Coleta e Resultados Brutos da M2
 
 | ID Ambiente | Sistema Operacional           | Navegador Alvo         | Resolução   | CT-01 | CT-02 | CT-03 | Percentual |
 | ----------- | ----------------------------- | ---------------------- | ----------- | ----- | ----- | ----- | ---------- |
@@ -89,7 +89,7 @@ A métrica M2 responde diretamente à seguinte questão de qualidade:
 
 > "As funcionalidades centrais do sistema mantêm o mesmo comportamento técnico e nível de serviço, independentemente do navegador ou sistema operacional escolhido pelo usuário?"
 
-### Tabela 2 – Resposta Consolidada às Questões de Equivalência Funcional
+### Tabela 158 – Resposta Consolidada às Questões de Equivalência Funcional
 
 | Métrica | Resultado                                      | Relação com a Hipótese                                                                                    | Interpretação                                                                                                                                                               |
 | ------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -118,7 +118,7 @@ A adoção dessas melhorias contribuirá para aumentar a equivalência funcional
 
 ## Histórico de Versões
 
-**Tabela:Histórico de versões.**
+**Tabela 159: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|

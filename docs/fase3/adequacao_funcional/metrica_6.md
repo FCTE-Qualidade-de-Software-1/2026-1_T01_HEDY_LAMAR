@@ -10,7 +10,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 2. Definição da Métrica
 
-**Tabela 1: Definição operacional da M6.**
+**Tabela 78: Definição operacional da M6.**
 
 | Campo                  | Definição                                                                                                                                                  |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 As perguntas foram definidas para cobrir os principais cenários de uso do assistente de IA no contexto de planejamento acadêmico. Cada pergunta é submetida de forma isolada, com o histórico do estudante de teste previamente carregado na plataforma.
 
-**Tabela 2: Perguntas-alvo submetidas ao assistente de IA na M6.**
+**Tabela 79: Perguntas-alvo submetidas ao assistente de IA na M6.**
 
 | Código | Pergunta ou solicitação submetida ao assistente                                       | Aspecto avaliado                              |
 | ------ | ------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -64,7 +64,7 @@ A planilha deve conter, no mínimo:
 
 Cada recomendação ou orientação obtida do assistente de IA deve ser classificada em uma das três categorias abaixo.
 
-**Tabela 3: Categorias de classificação das recomendações da M6.**
+**Tabela 80: Categorias de classificação das recomendações da M6.**
 
 | Classificação      | Critério                                                                                                                                                                    |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,11 +86,11 @@ Uma recomendação é considerada **válida** somente quando satisfaz simultanea
 
 1. Acessar o No Fluxo UnB com o usuário de teste que possua histórico acadêmico previamente carregado na plataforma.
 2. Abrir a janela do Assistente de IA (Chatbot).
-3. Submeter cada pergunta-alvo listada na Tabela 2 de forma isolada, uma por vez, conforme redigida na tabela, sem adaptações no enunciado.
+3. Submeter cada pergunta-alvo listada na Tabela 79 de forma isolada, uma por vez, conforme redigida na tabela, sem adaptações no enunciado.
 4. Aguardar a resposta completa do assistente antes de registrá-la.
 5. Transcrever integralmente a resposta do assistente na planilha de registro.
 6. Realizar a validação cruzada de cada resposta com as fontes de referência definidas na seção de Preparação.
-7. Classificar cada recomendação ou orientação conforme as categorias da Tabela 3.
+7. Classificar cada recomendação ou orientação conforme as categorias da Tabela 80.
 8. Registrar a justificativa da classificação atribuída.
 9. Salvar as evidências (capturas de tela das respostas) com o padrão:
    `M6_P[ID]_[CLASSIFICACAO]_[DATA].png`
@@ -112,7 +112,7 @@ M6 = (Nº de recomendações válidas
 
 ## 8. Critério de Julgamento
 
-**Tabela 4: Régua de julgamento da M6.**
+**Tabela 81: Régua de julgamento da M6.**
 
 | Classificação  | Critério         |
 | -------------- | ---------------- |
@@ -126,7 +126,7 @@ O limiar de 90% para a classificação "Excelente" considera a natureza probabil
 
 ## 9. Classificação de Divergências
 
-**Tabela 5: Severidade das divergências da M6.**
+**Tabela 82: Severidade das divergências da M6.**
 
 | Severidade | Critério                                                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -146,13 +146,13 @@ Ao final da execução, devem estar disponíveis:
 - Lista de recomendações inválidas com descrição do erro e severidade.
 - Lista de recomendações não verificáveis registradas como observação qualitativa.
 - Evidências (capturas de tela) de cada resposta do assistente.
-- Classificação final da métrica conforme a régua da Tabela 4.
+- Classificação final da métrica conforme a régua da Tabela 81.
 
 ---
 
 ## Histórico de Versões
 
-**Tabela 6: Histórico de versões.**
+**Tabela 83: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
