@@ -17,6 +17,7 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
 |---|---|
 | Repositório da disciplina | [FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR) |
 | Release da Entrega 1 | [https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/releases](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/releases) |
+| Release da Entrega 2 | [https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/entrega2](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR/releases/tag/entrega2) |
 | Git Pages | [https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/](https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/) |
 | Site No Fluxo UnB | [https://no-fluxo.crianex.com/](https://no-fluxo.crianex.com/) |
 | Repositório do No Fluxo UnB | [unb-mds/2025-1-NoFluxoUNB](https://github.com/unb-mds/2025-1-NoFluxoUNB) |
@@ -24,6 +25,10 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
 | Release do software analisado | [qualidade-de-software](https://github.com/lcsgborges/2025-1-NoFluxoUNB/releases/tag/qualidade-de-software) |
 | Declaração de Uso de IA | [Apêndice - Declaração de Uso de IA](declaracao_uso_ia.md) |
 | Tabela de Contribuição | [Apêndice - Tabela de Contribuição](extras/contribuicao.md) |
+| Lista de Figuras | [Apêndice - Lista de Figuras](extras/listas.md#lista-de-figuras) |
+| Lista de Tabelas | [Apêndice - Lista de Tabelas](extras/listas.md#lista-de-tabelas) |
+| Lista de Elementos Similares | [Apêndice - Elementos Similares](extras/listas.md#elementos-similares) |
+| Referências | [Referências](referencias.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
