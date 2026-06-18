@@ -130,7 +130,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 | 6     | Fechar o painel de detalhes e localizar a disciplina-alvo secundária (uma disciplina aprovada no histórico).                   | Disciplina aprovada identificada e visível no fluxograma.                                                           |
 | 7     | Interagir com a disciplina-alvo secundária para acessar seus detalhes.                                                         | A interface apresenta informações detalhadas sobre a disciplina aprovada.                                           |
 | 8     | Verificar se as equivalências da disciplina aprovada são exibidas e coerentes com a base de referência.                        | Equivalências exibidas estão alinhadas à matriz curricular.                                                         |
-| 9     | Capturar uma imagem da tela com o painel de detalhes de cada disciplina aberto.                                                | Evidências salvas em `/evidencias/M5/C3/` com nomes `M5_C3_DISC1_[RESULTADO]_[DATA].png` e `M5_C3_DISC2_[RESULTADO]_[DATA].png`. |
+| 9     | Capturar uma imagem da tela com o painel de detalhes de cada disciplina aberto.                                                | Evidências salvas em `/evidencias/M5/C2/` com nomes `M5_C2_DISC1_[RESULTADO]_[DATA].png` e `M5_C2_DISC2_[RESULTADO]_[DATA].png`. |
 
 
 **Critério de Conclusão do Cenário**
@@ -164,7 +164,7 @@ O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos 
 | 6     | Verificar se o percentual de progresso do curso está exibido.                                                                   | O progresso é exibido como percentual ou barra de progresso.                                                    |
 | 7     | Verificar se o número de semestres cursados ou a estimativa de semestres restantes está exibido.                                | A informação de semestres está exibida de alguma forma (número, estimativa ou gráfico de trajetória).            |
 | 8     | Anotar os valores exibidos pela plataforma para cada indicador na planilha de resultado.                                        | Valores registrados para posterior conferência com os valores esperados (avaliação da M4).                      |
-| 9     | Capturar uma imagem da tela com o painel de indicadores visível.                                                                | Evidência salva em `/evidencias/M5/C4/` com nome `M5_C4_SUCESSO_[DATA].png` ou `M5_C4_FALHA_[DATA].png`.      |
+| 9     | Capturar uma imagem da tela com o painel de indicadores visível.                                                                | Evidência salva em `/evidencias/M5/C3/` com nome `M5_C3_SUCESSO_[DATA].png` ou `M5_C3_FALHA_[DATA].png`.      |
 
 ---
 
@@ -197,7 +197,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 | 6     | Verificar se o sistema exibe quais disciplinas do curso de origem seriam aproveitadas no curso de destino.                          | Uma lista, tabela ou visualização de disciplinas aproveitáveis é exibida.                                        |
 | 7     | Verificar se o sistema exibe o fluxograma do curso de destino com as disciplinas aproveitadas destacadas (ou informação equivalente). | O fluxograma do curso de destino é exibido com indicação das disciplinas aproveitadas.                           |
 | 8     | Anotar as disciplinas listadas como aproveitáveis pelo sistema para conferência posterior com a base de referência.                  | Dados registrados para validação de correção (responsabilidade da M3).                                           |
-| 9     | Capturar imagens das telas que mostram o resultado da simulação de troca de curso.                                                  | Evidências salvas em `/evidencias/M5/C5/` com nome `M5_C5_SUCESSO_[DATA].png` ou `M5_C5_FALHA_[DATA].png`.     |
+| 9     | Capturar imagens das telas que mostram o resultado da simulação de troca de curso.                                                  | Evidências salvas em `/evidencias/M5/C4/` com nome `M5_C4_SUCESSO_[DATA].png` ou `M5_C4_FALHA_[DATA].png`.     |
 
 
 **Critério de Conclusão do Cenário**
@@ -263,7 +263,7 @@ Ao final da execução, devem estar disponíveis:
 - Percentual final da M5.
 - Lista de cenários que resultaram em falha, com descrição do impedimento e severidade.
 - Evidências visuais associadas a cada execução.
-- Classificação final da métrica conforme a régua da Tabela 3.
+- Classificação final da métrica conforme a régua da Tabela 7.
 
 ---
 
@@ -273,6 +273,6 @@ Ao final da execução, devem estar disponíveis:
 
 | Versão | Data       | Descrição                                                           | Autor |
 | ------ | ---------- | ------------------------------------------------------------------- | ----- |
-| `1.0`  | 08/06/2026 | Criação do plano de avaliação da métrica M5 de Adequação Funcional. |       |
+| `1.0`  | 08/06/2026 | Criação do plano de avaliação da métrica M5 de Adequação Funcional. | [André Gustavo](https://github.com/AndreGustavoRN) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*

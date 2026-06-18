@@ -24,6 +24,8 @@ O objetivo é fornecer um roteiro executável e padronizado para que qualquer me
 |---|---|---|---|
 | **M1** | Taxa de conformidade de layout responsivo | Q1 | [M1 - Layout responsivo](metrica_1.md) |
 | **M2** | Índice de equivalência funcional por navegador | Q2 | [M2 - Equivalência funcional por navegador](metrica_2.md) |
+| **M3** | Defeitos Críticos de Adaptabilidade | Q3 | [M3 - Defeitos Críticos de Adaptabilidade](metrica_3.md) |
+| **M4** | Defeitos Visuais | Q2 | [M4 - Defeitos Visuais](metrica_4.md) |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
@@ -36,9 +38,9 @@ O objetivo é fornecer um roteiro executável e padronizado para que qualquer me
 | Etapa | Descrição | Responsável | Evidência |
 |---|---|---|---|
 | Preparação | Dispositivos, navegadores e ferramentas de inspeção conforme a matriz de ambientes. | Equipe | Checklist de ambiente validado |
-| Execução | Rodar os roteiros de varredura visual (M1) e os casos de teste funcionais (M2). | Avaliadores | Prints de tela e vídeos |
+| Execução | Rodar os roteiros de varredura visual (M1) e os casos de teste funcionais (M2), analisar comportamentos críticos(M3) e fluxos de navegação(M4). | Avaliadores | Prints de tela e vídeos |
 | Registro | Documentar o resultado de cada ambiente/resolução no documento padrão. | Avaliadores | Linhas preenchidas no documento central |
-| Cálculo | Aplicar as fórmulas de taxa de conformidade e índice de equivalência. | Avaliadores | Documento preenchido com os percentuais |
+| Cálculo | Aplicar as fórmulas de taxa de conformidade e índice de equivalência, e contar defeitos crítico e falhas visuais menores | Avaliadores | Documento preenchido com os percentuais |
 | Julgamento | Confrontar os percentuais obtidos com as réguas de aceitação da Fase 2. | Equipe | Relatório com a classificação e anexos |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
@@ -83,8 +85,8 @@ O arquivo deve estar disponível no [drive](https://drive.google.com/drive/folde
 | Data limite | Atividade | Responsável |
 |---|---|---|
 | 08/06/2026 | Montagem do documento centralizado de registros e distribuição dos ambientes físicos. | Guilherme e Vinícius |
-| 09/06/2026 | Execução dos testes de M1 e M2 nos ambientes homologados. | Avaliadores |
-| 10/06/2026 | Consolidação das evidências, cálculo dos percentuais e classificação final. | Grupo Hedy Lamarr |
+| 11/06/2026 | Execução dos testes de M1 e M2 nos ambientes homologados. | Avaliadores |
+| 12/06/2026 | Consolidação das evidências, cálculo dos percentuais e classificação final. | Grupo Hedy Lamarr |
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 

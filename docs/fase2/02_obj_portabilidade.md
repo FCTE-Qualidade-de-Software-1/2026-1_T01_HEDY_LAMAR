@@ -1,3 +1,5 @@
+# 3. Objetivo de Medição - Portabilidade
+
 Esta página especifica o objetivo de medição da característica **Portabilidade** do No Fluxo UnB, seguindo a abordagem **GQM (Goal, Question, Metric)**. A especificação deriva diretamente da Fase 1, em que Portabilidade foi selecionada na matriz Impacto × Risco por estar relacionada à capacidade do sistema de atender estudantes da UnB em diferentes ambientes de acesso: distintos navegadores, sistemas operacionais, tipos de dispositivo e resoluções de tela.
 
 De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produto ou sistema ser transferido de forma eficaz e eficiente de um ambiente de hardware, software ou outro ambiente operacional para outro. No contexto do No Fluxo UnB, esta característica é analisada pela subcaracterística **Adaptabilidade**.
@@ -164,7 +166,7 @@ Para viabilizar uma interpretação inequívoca e rigorosa dos dados coletados, 
 
 ### M2 — Índice de Equivalência Funcional por Navegador/Ambiente
 
-**Observação:** O cálculo deve ser executado separadamente para cada ID de Ambiente (ENV-01 a ENV-07).
+**Observação:** O cálculo deve ser executado separadamente para cada ID de Ambiente (ENV-01 a ENV-06).
 
 | Classificação | Critério |
 |---|---|
