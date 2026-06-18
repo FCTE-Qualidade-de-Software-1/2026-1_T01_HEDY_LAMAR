@@ -10,6 +10,7 @@ O conjunto de métricas cobre a completude das funções essenciais, a correçã
 
 ## 2. Métricas Projetadas
 
+<a id="tabela-32"></a>
 **Tabela 32: Métricas de Adequação Funcional projetadas na Fase 3.**
 
 | Código | Métrica | Questão GQM | Página |
@@ -39,6 +40,7 @@ As métricas seguem um fluxo comum de avaliação, alinhado aos critérios defin
 6. Consolidar inconsistências e defeitos funcionais, quando aplicável.
 7. Aplicar a fórmula ou forma de medição e classificar o resultado.
 
+<a id="tabela-33"></a>
 **Tabela 33: Método geral de avaliação.**
 
 | Etapa | Descrição | Evidência |
@@ -79,6 +81,7 @@ AF_M3_PRE_REQUISITO_CIC0004_2026-06-08.png
 
 ### 5.1 Cronograma
 
+<a id="tabela-34"></a>
 **Tabela 34: Cronograma de execução das métricas de Adequação Funcional.**
 
 | Data limite | Atividade | Responsável |
@@ -109,6 +112,7 @@ Será utilizado o histórico acadêmico de referência disponível nos assets do
 
 ## Histórico de Versões
 
+<a id="tabela-35"></a>
 **Tabela 35: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

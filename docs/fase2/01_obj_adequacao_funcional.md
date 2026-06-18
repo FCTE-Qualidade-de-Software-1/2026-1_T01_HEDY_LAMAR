@@ -8,6 +8,7 @@ De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de u
 
 ## 2.1 Objetivo de Medição
 
+<a id="tabela-17"></a>
 **Tabela 17: Objetivo de medição para Adequação Funcional.**
 
 | Elemento GQM | Definição para o No Fluxo UnB |
@@ -24,6 +25,7 @@ De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de u
 
 A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.
 
+<a id="tabela-18"></a>
 **Tabela 18: Folha de abstração do objetivo de Adequação Funcional.**
 
 | Campo | Descrição |
@@ -45,6 +47,7 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 
 A Tabela 19 apresenta a relação direta entre as decisões tomadas na Fase 1 e o desdobramento deste objetivo GQM.
 
+<a id="tabela-19"></a>
 **Tabela 19: Rastreabilidade entre Fase 1 e objetivo de Adequação Funcional.**
 
 | Definição da Fase 1 | Relação com este objetivo GQM |
@@ -63,6 +66,7 @@ A Tabela 19 apresenta a relação direta entre as decisões tomadas na Fase 1 e 
 
 As questões foram formuladas para cobrir as três subcaracterísticas de Adequação Funcional presentes na ISO/IEC 25010. Cada questão possui uma hipótese associada, que será confrontada com os resultados obtidos na execução da avaliação.
 
+<a id="tabela-20"></a>
 **Tabela 20: Questões e hipóteses do objetivo de Adequação Funcional.**
 
 | Código | Questão | Subcaracterística | Hipótese |
@@ -80,6 +84,7 @@ As questões foram formuladas para cobrir as três subcaracterísticas de Adequa
 
 As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram priorizadas métricas simples, objetivas e verificáveis, com fórmulas explícitas e fontes de evidência auditáveis.
 
+<a id="tabela-21"></a>
 **Tabela 21: Métricas do objetivo de Adequação Funcional.**
 
 | Código | Questão | Métrica | Tipo | Fórmula / forma de medição | Fonte de evidência |
@@ -102,6 +107,7 @@ As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram pr
 ![Representação de Estrutura GQM](../assets/DiagramaAdequacao.drawio.png)
 
 <div align="center">
+  <a id="figura-10"></a>
   <em>Figura 10 - Representação visual do GQM de Adequação Funcional.</em>
   <em>Autor: Paulo Cerqueira.</em>
 </div>
@@ -113,6 +119,7 @@ As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram pr
 
 Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido com base na descrição do produto da Fase 1 e no arquivo `documentacao/requisitos.md` do repositório de referência do No Fluxo UnB.
 
+<a id="tabela-22"></a>
 **Tabela 22: Requisitos funcionais essenciais considerados na métrica M1.**
 
 | Código | Requisito funcional essencial | Justificativa |
@@ -156,6 +163,7 @@ Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido 
 
 ## Histórico de Versões
 
+<a id="tabela-23"></a>
 **Tabela 23: Histórico de versões da página.**
 
 | Versão | Data | Descrição | Autor | Revisor |

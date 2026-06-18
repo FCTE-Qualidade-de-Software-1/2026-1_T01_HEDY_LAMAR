@@ -10,6 +10,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 2. Definição da Métrica
 
+<a id="tabela-84"></a>
 **Tabela 84: Definição operacional da M7.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 Para evitar duplicidade, a M7 conta **defeitos funcionais consolidados**, e não cada evidência isolada. Quando a mesma falha aparece em mais de uma métrica, ela deve ser registrada uma única vez no cadastro de defeitos, mantendo a rastreabilidade para todas as métricas e evidências onde apareceu.
 
+<a id="tabela-85"></a>
 **Tabela 85: Critérios para registrar um defeito funcional.**
 
 | Situação | Tratamento na M7 |
@@ -48,6 +50,7 @@ Para evitar duplicidade, a M7 conta **defeitos funcionais consolidados**, e não
 
 A criticidade da M7 é definida pela escala ordinal de severidade usada também pela M8. Um defeito é considerado **crítico** somente quando recebe severidade **5**.
 
+<a id="tabela-86"></a>
 **Tabela 86: Escala de severidade dos defeitos funcionais.**
 
 | Severidade | Rótulo | Critério |
@@ -74,6 +77,7 @@ Um defeito deve receber severidade 5 quando atender a pelo menos uma das condiç
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-87"></a>
 **Tabela 87: Recursos necessários para execução da M7.**
 
 | Recurso | Especificação |
@@ -94,6 +98,7 @@ Um defeito deve receber severidade 5 quando atender a pelo menos uma das condiç
 
 O registro de defeitos usado na M7 deve conter, no mínimo, os campos abaixo.
 
+<a id="tabela-88"></a>
 **Tabela 88: Campos mínimos do registro de defeitos.**
 
 | Campo | Descrição |
@@ -137,6 +142,7 @@ M7 = número de defeitos funcionais com severidade 5
 
 ## 9. Critério de Julgamento
 
+<a id="tabela-89"></a>
 **Tabela 89: Régua de julgamento da M7.**
 
 | Classificação | Critério | Interpretação |
@@ -151,6 +157,7 @@ O limite satisfatório deriva da hipótese H4 definida na [Fase 2](../../fase2/0
 
 ## 10. Cronograma de Execução
 
+<a id="tabela-90"></a>
 **Tabela 90: Cronograma específico da M7.**
 
 | Data limite | Atividade | Responsável |
@@ -178,6 +185,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-91"></a>
 **Tabela 91: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

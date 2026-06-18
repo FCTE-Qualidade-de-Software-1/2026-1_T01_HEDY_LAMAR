@@ -40,6 +40,7 @@ Prioridade = Impacto × Risco
 
 Essa abordagem permite tornar o processo de priorização mais objetivo, quantitativo e reproduzível. A Tabela 10 apresenta a matriz utilizada pela equipe.
 
+<a id="tabela-10"></a>
 **Tabela 10: Matriz Impacto × Risco.**
 
 | Característica | Impacto | Risco | Prioridade (I × R) |
@@ -115,6 +116,7 @@ Ainda assim, a priorização adotada garante que a avaliação esteja alinhada a
 
 As características selecionadas possuem relação direta com os objetivos da avaliação do **No Fluxo UnB**, conforme a Tabela 11.
 
+<a id="tabela-11"></a>
 **Tabela 11: Relação entre propósito da avaliação e características selecionadas.**
 
 | Propósito da Avaliação | Característica Relacionada |

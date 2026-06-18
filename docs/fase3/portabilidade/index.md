@@ -18,6 +18,7 @@ O objetivo é fornecer um roteiro executável e padronizado para que qualquer me
 
 ## 3. Métricas Projetadas
 
+<a id="tabela-98"></a>
 **Tabela 98: Métricas de Portabilidade projetadas na Fase 3.**
 
 | Código | Métrica | Questão GQM | Página |
@@ -33,6 +34,7 @@ O objetivo é fornecer um roteiro executável e padronizado para que qualquer me
 
 ## 4. Método de Avaliação
 
+<a id="tabela-99"></a>
 **Tabela 99: Método de avaliação.**
 
 | Etapa | Descrição | Responsável | Evidência |
@@ -80,6 +82,7 @@ O arquivo deve estar disponível no [drive](https://drive.google.com/drive/folde
 
 ## 6. Cronograma e Atividades
 
+<a id="tabela-100"></a>
 **Tabela 100: Cronograma de execução de Portabilidade.**
 
 | Data limite | Atividade | Responsável |
@@ -94,6 +97,7 @@ O arquivo deve estar disponível no [drive](https://drive.google.com/drive/folde
 
 ## Histórico de Versões
 
+<a id="tabela-101"></a>
 **Tabela 101: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

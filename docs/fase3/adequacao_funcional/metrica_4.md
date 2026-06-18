@@ -10,6 +10,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 2. Definição da Métrica
 
+<a id="tabela-60"></a>
 **Tabela 60: Definição operacional da M4.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 Os indicadores devem ser avaliados individualmente. Quando um valor não for exibido pela aplicação, ele deve ser registrado como **não aplicável** apenas se a funcionalidade não estiver prevista no escopo da métrica; caso contrário, deve ser marcado como incorreto.
 
+<a id="tabela-61"></a>
 **Tabela 61: Indicadores acadêmicos avaliados na M4.**
 
 | Indicador | O que deve ser conferido | Critério de acerto |
@@ -52,6 +54,7 @@ A M4 foi definida para verificar a parte quantitativa da questão Q2 da [Fase 2]
 
 O método utiliza comparação controlada entre indicadores calculados manualmente ou em planilha de referência e os valores apresentados pela aplicação. Essa abordagem garante repetibilidade porque cada indicador possui fórmula ou regra de cálculo, valor esperado, tolerância definida, valor obtido, resultado binário e evidência associada.
 
+<a id="tabela-62"></a>
 **Tabela 62: Rastreabilidade da M4.**
 
 | Elemento | Definição |
@@ -68,6 +71,7 @@ O método utiliza comparação controlada entre indicadores calculados manualmen
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-63"></a>
 **Tabela 63: Recursos necessários para execução da M4.**
 
 | Recurso | Especificação |
@@ -104,6 +108,7 @@ A planilha deve conter, no mínimo:
 
 ## 7. Regras de Tolerância
 
+<a id="tabela-64"></a>
 **Tabela 64: Tolerâncias aceitas para a M4.**
 
 | Tipo de valor | Tolerância |
@@ -146,6 +151,7 @@ M4 = (Nº de indicadores acadêmicos calculados corretamente
 
 ## 10. Critério de Julgamento
 
+<a id="tabela-65"></a>
 **Tabela 65: Régua de julgamento da M4.**
 
 | Classificação | Critério |
@@ -160,6 +166,7 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ## 11. Classificação de Divergências
 
+<a id="tabela-66"></a>
 **Tabela 66: Severidade das divergências da M4.**
 
 | Severidade | Critério |
@@ -173,6 +180,7 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ## 12. Cronograma de Execução
 
+<a id="tabela-67"></a>
 **Tabela 67: Cronograma específico da M4.**
 
 | Data limite | Atividade | Responsável |
@@ -202,6 +210,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-68"></a>
 **Tabela 68: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

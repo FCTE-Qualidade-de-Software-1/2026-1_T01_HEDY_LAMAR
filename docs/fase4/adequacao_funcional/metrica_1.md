@@ -22,6 +22,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
+<a id="tabela-116"></a>
 **Tabela 116: Rastreabilidade entre o plano da Fase 3 e a execução da M1.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
@@ -36,6 +37,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ### 2.2 Dados Brutos e Evidências
 
+<a id="tabela-117"></a>
 **Tabela 117: Dados brutos e evidências da M1.**
 
 | Artefato | Finalidade | Disponibilidade |
@@ -51,6 +53,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ## 3. Registro de Execução
 
+<a id="tabela-118"></a>
 **Tabela 118: Resumo da verificação da M1.**
 
 | Categoria verificada | Quantidade | Disponíveis | Parcialmente disponíveis | Ausentes |
@@ -63,6 +66,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 A tabela abaixo registra o resultado da inspeção de cada requisito funcional essencial. A coluna **Resultado** deve ser preenchida com `Disponível`, `Parcialmente disponível` ou `Ausente`. Os campos marcados com _(preencher)_ devem ser completados após a execução.
 
+<a id="tabela-119"></a>
 **Tabela 119: Checklist de inspeção dos requisitos funcionais essenciais.**
 
 | Código | Requisito funcional | Resultado | Caminho / Menu | Observação | Evidência |
@@ -89,6 +93,7 @@ A tabela abaixo registra o resultado da inspeção de cada requisito funcional e
 
 As divergências foram registradas na planilha de verificação, com indicação do que era esperado, o que foi encontrado e a severidade atribuída conforme a Tabela 41 do plano da M1.
 
+<a id="tabela-120"></a>
 **Tabela 120: Registro consolidado de divergências da M1.**
 
 | ID | Requisito | Tipo de resultado | Descrição da divergência | Severidade | Evidência |

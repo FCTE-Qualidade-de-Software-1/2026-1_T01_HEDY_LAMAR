@@ -10,6 +10,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 2. Definição da Métrica
 
+<a id="tabela-78"></a>
 **Tabela 78: Definição operacional da M6.**
 
 | Campo                  | Definição                                                                                                                                                  |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 As perguntas foram definidas para cobrir os principais cenários de uso do assistente de IA no contexto de planejamento acadêmico. Cada pergunta é submetida de forma isolada, com o histórico do estudante de teste previamente carregado na plataforma.
 
+<a id="tabela-79"></a>
 **Tabela 79: Perguntas-alvo submetidas ao assistente de IA na M6.**
 
 | Código | Pergunta ou solicitação submetida ao assistente                                       | Aspecto avaliado                              |
@@ -64,6 +66,7 @@ A planilha deve conter, no mínimo:
 
 Cada recomendação ou orientação obtida do assistente de IA deve ser classificada em uma das três categorias abaixo.
 
+<a id="tabela-80"></a>
 **Tabela 80: Categorias de classificação das recomendações da M6.**
 
 | Classificação      | Critério                                                                                                                                                                    |
@@ -112,6 +115,7 @@ M6 = (Nº de recomendações válidas
 
 ## 8. Critério de Julgamento
 
+<a id="tabela-81"></a>
 **Tabela 81: Régua de julgamento da M6.**
 
 | Classificação  | Critério         |
@@ -126,6 +130,7 @@ O limiar de 90% para a classificação "Excelente" considera a natureza probabil
 
 ## 9. Classificação de Divergências
 
+<a id="tabela-82"></a>
 **Tabela 82: Severidade das divergências da M6.**
 
 | Severidade | Critério                                                                                                                       |
@@ -152,6 +157,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-83"></a>
 **Tabela 83: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |

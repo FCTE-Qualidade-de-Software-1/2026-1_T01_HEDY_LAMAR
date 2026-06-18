@@ -30,6 +30,7 @@ A avaliação é direcionada a três públicos:
 
 Os resultados desta avaliação serão utilizados para apoiar decisões concretas, e não apenas para gerar diagnósticos descritivos. As decisões previstas, e os respectivos responsáveis, são apresentados na Tabela 3.
 
+<a id="tabela-3"></a>
 **Tabela 3: Uso pretendido dos resultados da avaliação.**
 
 | Decisão a ser apoiada | Quem decide | Insumo fornecido pela avaliação |

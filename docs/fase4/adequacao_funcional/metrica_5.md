@@ -18,6 +18,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
+<a id="tabela-133"></a>
 **Tabela 133: Rastreabilidade entre o plano da Fase 3 e a execução da M5.**
 
 | Instrução definida na Fase 3                                                        | Execução realizada na Fase 4                                                                               | Evidência                              |
@@ -34,6 +35,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 3. Registro de Execução
 
+<a id="tabela-134"></a>
 **Tabela 134: Resultado da execução dos cenários da M5.**
 
 | Código | Cenário                                                                            | Funcionalidade | Resultado  | Impedimento identificado | Evidência                       |
@@ -47,6 +49,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 3.1 Resumo da Verificação
 
+<a id="tabela-135"></a>
 **Tabela 135: Resumo quantitativo da execução da M5.**
 
 | Categoria                                | Quantidade |
@@ -101,6 +104,7 @@ A M5 responde à questão Q3 de Adequação Funcional ao verificar se as funcion
 
 O resultado de 100% confirma a hipótese H3 da [Fase 2](https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/fase2/01_obj_adequacao_funcional/): *"Os cenários principais de planejamento podem ser concluídos com sucesso em pelo menos 90% das execuções avaliadas."* O sistema superou o limiar mínimo com margem, indicando que todos os fluxos centrais avaliados estão operantes e acessíveis ao estudante.
 
+<a id="tabela-136"></a>
 **Tabela 136: Resposta à hipótese H3 da Fase 2.**
 
 | Hipótese | Limiar definido | Resultado obtido | Confirmada? |
@@ -140,6 +144,7 @@ Os dados brutos foram obtidos conforme o método definido na Fase 3, processados
 
 ## Histórico de Versões
 
+<a id="tabela-137"></a>
 **Tabela 137: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                                   | Autor |

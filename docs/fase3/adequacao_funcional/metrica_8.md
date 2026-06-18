@@ -10,6 +10,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 2. Definição da Métrica
 
+<a id="tabela-92"></a>
 **Tabela 92: Definição operacional da M8.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 A M8 utiliza a mesma escala definida na [M7](metrica_7.md), garantindo consistência entre a contagem de defeitos críticos e o cálculo de impacto médio.
 
+<a id="tabela-93"></a>
 **Tabela 93: Escala de severidade usada na M8.**
 
 | Severidade | Rótulo | Critério resumido |
@@ -56,6 +58,7 @@ A M8 calcula a média sobre os mesmos defeitos consolidados da M7. Portanto:
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-94"></a>
 **Tabela 94: Recursos necessários para execução da M8.**
 
 | Recurso | Especificação |
@@ -104,6 +107,7 @@ com a observação de que nenhum defeito funcional foi identificado no escopo av
 
 ## 8. Critério de Julgamento
 
+<a id="tabela-95"></a>
 **Tabela 95: Régua de julgamento da M8.**
 
 | Classificação | Critério | Interpretação |
@@ -118,6 +122,7 @@ A classificação satisfatória exige média igual ou inferior a 3,00, pois a hi
 
 ## 9. Cronograma de Execução
 
+<a id="tabela-96"></a>
 **Tabela 96: Cronograma específico da M8.**
 
 | Data limite | Atividade | Responsável |
@@ -146,6 +151,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-97"></a>
 **Tabela 97: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

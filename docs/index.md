@@ -6,11 +6,13 @@ Este projeto tem como objetivo documentar a Avaliação da Qualidade de Produto 
 
 <figure align="center">
   <img src="assets/landing_page.png" alt="Página inicial do No Fluxo UnB" width="800"/>
+  <a id="figura-1"></a>
   <figcaption><strong>Figura 1: Página inicial do No Fluxo UnB.</strong><br><em>Fonte: No Fluxo UnB (2026).</em></figcaption>
 </figure>
 
 ## Links de Rastreabilidade
 
+<a id="tabela-1"></a>
 **Tabela 1: Links de rastreabilidade do projeto.**
 
 | Item | Link |
@@ -40,12 +42,14 @@ Hedy Lamarr foi uma atriz e inventora austríaco-americana nascida em 1914. Ela 
 
 <figure align="center">
   <img src="assets/hedy_lamarr.jpg" alt="Hedy Lamarr" width="350"/>
+  <a id="figura-2"></a>
   <figcaption><strong>Figura 2: Hedy Lamarr.</strong><br><em>Fonte: Arquivo do projeto (2026).</em></figcaption>
 </figure>
 
 ## Integrantes
 
 <div align="center">
+  <a id="tabela-2"></a>
   <strong>Tabela 2: Integrantes do Grupo Hedy Lamarr.</strong>
   <br><br>
   <table align="center">

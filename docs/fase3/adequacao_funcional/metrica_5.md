@@ -10,6 +10,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 2. Definição da Métrica
 
+<a id="tabela-69"></a>
 **Tabela 69: Definição operacional da M5.**
 
 | Campo                  | Definição                                                                                          |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 Os cenários foram definidos com base nas funcionalidades centrais do No Fluxo UnB identificadas na Fase 1 e nos requisitos funcionais essenciais listados na Fase 2. Cada cenário representa uma tarefa real que um estudante da UnB poderia executar na plataforma.
 
+<a id="tabela-70"></a>
 **Tabela 70: Cenários de planejamento acadêmico avaliados na M5.**
 
 | Código | Cenário                                                                                   | Funcionalidade associada                        |
@@ -82,6 +84,7 @@ A planilha deve conter, no mínimo:
 
 ### 5.1 Roteiro de teste cenário 1
 
+<a id="tabela-71"></a>
 **Tabela 71: Passos de execução do roteiro C1.**
 
 | Passo | Ação do avaliador                                                                                                  | Resultado esperado                                                                                        |
@@ -118,6 +121,7 @@ O cenário C1 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.2 Roteiro de teste cenário 2
 
+<a id="tabela-72"></a>
 **Tabela 72: Passos de execução do roteiro C2.**
 
 | Passo | Ação do avaliador                                                                                                              | Resultado esperado                                                                                                  |
@@ -152,6 +156,7 @@ O cenário C2 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.3 Roteiro de teste cenário 3
 
+<a id="tabela-73"></a>
 **Tabela 73: Passos de execução do roteiro C3.**
 
 | Passo | Ação do avaliador                                                                                                               | Resultado esperado                                                                                              |
@@ -185,6 +190,7 @@ O cenário C3 é considerado **falha** quando qualquer um dos seguintes eventos 
 
 ### 5.4 Roteiro de teste cenário 4
 
+<a id="tabela-74"></a>
 **Tabela 74: Passos de execução do roteiro C4.**
 
 | Passo | Ação do avaliador                                                                                                                   | Resultado esperado                                                                                               |
@@ -230,6 +236,7 @@ M5 = (Nº de cenários concluídos sem impedimento funcional
 
 ## 7. Critério de Julgamento
 
+<a id="tabela-75"></a>
 **Tabela 75: Régua de julgamento da M5.**
 
 | Classificação  | Critério         |
@@ -244,6 +251,7 @@ O limiar mínimo satisfatório de 90% é derivado diretamente da hipótese H3 es
 
 ## 8. Classificação de Impedimentos
 
+<a id="tabela-76"></a>
 **Tabela 76: Severidade dos impedimentos funcionais da M5.**
 
 | Severidade | Critério                                                                                                              |
@@ -269,6 +277,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-77"></a>
 **Tabela 77: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                           | Autor |

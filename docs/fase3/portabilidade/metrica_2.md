@@ -78,6 +78,7 @@ M2_Ambiente = (Nº de funcionalidades operantes ÷ 3) × 100
 
 ## 6. Critério de Julgamento Consolidado
 
+<a id="tabela-105"></a>
 **Tabela 105: Régua de julgamento da M2.**
 
 | Classificação | Critério |
@@ -92,6 +93,7 @@ M2_Ambiente = (Nº de funcionalidades operantes ÷ 3) × 100
 
 ## 7. Registro de Coleta
 
+<a id="tabela-106"></a>
 **Tabela 106: Modelo de registro da M2.**
 
 | Ambiente | Navegador | CT-01 | CT-02 | CT-03 | Percentual |
@@ -101,6 +103,7 @@ M2_Ambiente = (Nº de funcionalidades operantes ÷ 3) × 100
 
 ## Histórico de Versões
 
+<a id="tabela-107"></a>
 **Tabela 107: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

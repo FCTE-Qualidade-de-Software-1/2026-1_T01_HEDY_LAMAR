@@ -13,6 +13,7 @@ Verificar se a interface do **No Fluxo UnB** se adapta visualmente às resoluç�
 
 ## 2. Páginas-Alvo da Inspeção
 
+<a id="tabela-102"></a>
 **Tabela 102: Páginas avaliadas na M1.**
 
 | ID | Página-alvo | Elementos observados |
@@ -75,6 +76,7 @@ M1 = (Nº de resoluções sem quebra ÷ Nº total de resoluções testadas) × 1
 
 ## 6. Critério de Julgamento
 
+<a id="tabela-103"></a>
 **Tabela 103: Régua de julgamento da M1.**
 
 | Classificação | Critério |
@@ -89,6 +91,7 @@ M1 = (Nº de resoluções sem quebra ÷ Nº total de resoluções testadas) × 1
 
 ## Histórico de Versões
 
+<a id="tabela-104"></a>
 **Tabela 104: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

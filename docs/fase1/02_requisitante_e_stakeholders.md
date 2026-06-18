@@ -8,6 +8,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.1 Requisitante da Avaliação
 
+<a id="tabela-4"></a>
 **Tabela 4: Requisitante da avaliação.**
 
 | Atributo | Descrição |
@@ -24,6 +25,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.2 Equipe Avaliadora — Grupo Hedy Lamarr
 
+<a id="tabela-5"></a>
 **Tabela 5: Equipe avaliadora.**
 
 | Atributo | Descrição |
@@ -39,6 +41,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.3 Equipe de Desenvolvimento — Squad 03 (MDS 2025/1, FGA/UnB)
 
+<a id="tabela-6"></a>
 **Tabela 6: Equipe de desenvolvimento do No Fluxo UnB.**
 
 | Atributo | Descrição |
@@ -54,6 +57,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.4 Estudantes de Graduação da UnB (Usuários Finais)
 
+<a id="tabela-7"></a>
 **Tabela 7: Estudantes de graduação da UnB como usuários finais.**
 
 | Atributo | Descrição |
@@ -69,6 +73,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 ## 2.5 Instituição (UnB) e Sistemas Acadêmicos de Apoio
 
+<a id="tabela-8"></a>
 **Tabela 8: Instituição e sistemas acadêmicos de apoio.**
 
 | Atributo | Descrição |
@@ -86,6 +91,7 @@ Como o No Fluxo UnB não publica documentação oficial que liste explicitamente
 
 A Tabela 9 torna explícita a conexão entre cada stakeholder e as decisões registradas neste relatório, atendendo ao critério de mapeamento consistente com critérios de sucesso e influência real nas escolhas.
 
+<a id="tabela-9"></a>
 **Tabela 9: Mapa de influência dos stakeholders nas decisões da Fase 1.**
 
 | Stakeholder | Decisão da Fase 1 influenciada | Onde a decisão aparece |

@@ -10,6 +10,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 ## 2. Definição da Métrica
 
+<a id="tabela-36"></a>
 **Tabela 36: Definição operacional da M1.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q1 de Adequação Funcional: **"Em que medida
 
 Para esta métrica, cada requisito funcional essencial é inspecionado individualmente e classificado conforme sua disponibilidade na aplicação.
 
+<a id="tabela-37"></a>
 **Tabela 37: Requisitos funcionais essenciais avaliados na M1.**
 
 | Código | Requisito funcional | Critério para classificar como "Disponível" |
@@ -59,6 +61,7 @@ A M1 foi definida para verificar a completude funcional do No Fluxo UnB em rela�
 
 A métrica é aplicada por inspeção navegacional, sem necessidade de execução de scripts ou ferramentas externas, o que a torna adequada ao contexto de avaliação da disciplina.
 
+<a id="tabela-38"></a>
 **Tabela 38: Rastreabilidade da M1.**
 
 | Elemento | Definição |
@@ -75,6 +78,7 @@ A métrica é aplicada por inspeção navegacional, sem necessidade de execuçã
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-39"></a>
 **Tabela 39: Recursos necessários para execução da M1.**
 
 | Recurso | Especificação |
@@ -139,6 +143,7 @@ M1 = (Nº de requisitos classificados como Disponível ÷ 15) × 100
 
 ## 9. Critério de Julgamento
 
+<a id="tabela-40"></a>
 **Tabela 40: Régua de julgamento da M1.**
 
 | Classificação | Critério |
@@ -154,6 +159,7 @@ O limite mínimo de 90% segue a hipótese H1 definida para a Adequação Funcion
 
 ## 10. Classificação de Divergências
 
+<a id="tabela-41"></a>
 **Tabela 41: Severidade das divergências da M1.**
 
 | Severidade | Critério |
@@ -167,6 +173,7 @@ O limite mínimo de 90% segue a hipótese H1 definida para a Adequação Funcion
 
 ## 11. Cronograma de Execução
 
+<a id="tabela-42"></a>
 **Tabela 42: Cronograma específico da M1.**
 
 | Data limite | Atividade | Responsável |
@@ -194,6 +201,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-43"></a>
 **Tabela 43: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

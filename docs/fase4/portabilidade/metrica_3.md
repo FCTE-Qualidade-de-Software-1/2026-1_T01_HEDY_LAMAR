@@ -10,6 +10,7 @@ A métrica em questão é usada para responder a questão Q3 de Portabilidade: *
 
 Como tanto Chrome, Edge e firefox quanto Linux Ubuntu 24.04 LTS e Windows 11 (25H2) conseguiram desempenho semelhante, serão unificados como um caso base.
 
+<a id="tabela-160"></a>
 **Tabela 160: Ambientes de execução dos testes de portabilidade.**
 
 | ID | Categoria | Sistema Operacional | Navegador | Resolução |
@@ -28,6 +29,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 3. Fluxos Críticos a Testar
 
+<a id="tabela-161"></a>
 **Tabela 161: Fluxos críticos avaliados nos testes de portabilidade.**
 
 | ID Fluxo | Nome do Fluxo | Descrição resumida |
@@ -48,6 +50,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-01 — Caso Base — Desktop
 
+<a id="tabela-162"></a>
 **Tabela 162: Resultados de execução dos fluxos no ENV-01 (Caso Base — Desktop).**
 
 | ID Fluxo | Resultado | O usuário completa o fluxo? |
@@ -64,6 +67,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-02 — Chrome — Android 16 — Mobile
 
+<a id="tabela-163"></a>
 **Tabela 163: Resultados de execução dos fluxos no ENV-02 (Chrome — Android 16 — Mobile).**
 
 | ID Fluxo | Resultado | O usuário completa o fluxo? | Observação |
@@ -80,6 +84,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ### ENV-03 — Safari Mobile — iOS 15 — Mobile
 
+<a id="tabela-164"></a>
 **Tabela 164: Resultados de execução dos fluxos no ENV-03 (Safari Mobile — iOS 15 — Mobile).**
 
 | ID Fluxo | Resultado | O usuário completa o fluxo? | Observação |
@@ -94,6 +99,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 5. Registro de Defeitos Encontrados
 
+<a id="tabela-165"></a>
 **Tabela 165: Registro de defeitos funcionais críticos encontrados.**
 
 | ID | Ambiente | Ano  | Fluxo | Descrição | Severidade | Reprodutível | Print |
@@ -105,6 +111,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 6. Consolidação Final
 
+<a id="tabela-166"></a>
 **Tabela 166: Consolidação do total de defeitos por ambiente.**
 
 | ID Ambiente | Descrição | Quantidade de Defeitos |
@@ -118,6 +125,7 @@ Os dados de entrada e saída foram armazenados em um repositório no [Google Dri
 
 ## 7. Resultado da avaliação
 
+<a id="tabela-167"></a>
 **Tabela 167: Resultado consolidado da métrica M3.**
 
 | | |
@@ -141,6 +149,7 @@ Ainda que o foco em plataformas atuais faça sentido, a adaptação razoável en
 
 ## Histórico de Versões
 
+<a id="tabela-168"></a>
 **Tabela 168: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

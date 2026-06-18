@@ -10,6 +10,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 2. Definição da Métrica
 
+<a id="tabela-52"></a>
 **Tabela 52: Definição operacional da M3.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 Para esta métrica, cada item curricular conferido deve ser classificado individualmente como correto ou incorreto.
 
+<a id="tabela-53"></a>
 **Tabela 53: Itens curriculares avaliados na M3.**
 
 | Tipo de item | O que deve ser conferido | Resultado esperado |
@@ -48,6 +50,7 @@ A M3 foi definida para verificar a parte visual e curricular da questão Q2 da [
 
 O método utiliza comparação item a item entre o fluxograma exibido pelo sistema e um oráculo externo composto por histórico acadêmico de referência, base curricular oficial, regras de equivalência e pré-requisitos do curso avaliado. Essa escolha permite repetibilidade porque cada item possui valor esperado, valor obtido, resultado binário e evidência associada.
 
+<a id="tabela-54"></a>
 **Tabela 54: Rastreabilidade da M3.**
 
 | Elemento | Definição |
@@ -64,6 +67,7 @@ O método utiliza comparação item a item entre o fluxograma exibido pelo siste
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-55"></a>
 **Tabela 55: Recursos necessários para execução da M3.**
 
 | Recurso | Especificação |
@@ -127,6 +131,7 @@ M3 = (Nº de disciplinas, equivalências, dependências e pré-requisitos exibid
 
 ## 9. Critério de Julgamento
 
+<a id="tabela-56"></a>
 **Tabela 56: Régua de julgamento da M3.**
 
 | Classificação | Critério |
@@ -141,6 +146,7 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ## 10. Classificação de Divergências
 
+<a id="tabela-57"></a>
 **Tabela 57: Severidade das divergências da M3.**
 
 | Severidade | Critério |
@@ -154,6 +160,7 @@ O limite mínimo satisfatório de 95% segue a hipótese H2 definida para a Adequ
 
 ## 11. Cronograma de Execução
 
+<a id="tabela-58"></a>
 **Tabela 58: Cronograma específico da M3.**
 
 | Data limite | Atividade | Responsável |
@@ -182,6 +189,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-59"></a>
 **Tabela 59: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

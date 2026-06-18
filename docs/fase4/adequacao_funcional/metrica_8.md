@@ -19,6 +19,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
+<a id="tabela-148"></a>
 **Tabela 148: Rastreabilidade entre o plano da Fase 3 e a execução da M8.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
@@ -33,6 +34,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.2 Dados Brutos e Evidências
 
+<a id="tabela-149"></a>
 **Tabela 149: Dados brutos e evidências da M8.**
 
 | Artefato | Finalidade | Disponibilidade |
@@ -48,6 +50,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 3. Registro de Severidades
 
+<a id="tabela-150"></a>
 **Tabela 150: Severidades usadas no cálculo da M8.**
 
 | ID | Defeito funcional consolidado | Severidade |
@@ -65,6 +68,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 3.1 Distribuição por Severidade
 
+<a id="tabela-151"></a>
 **Tabela 151: Distribuição dos defeitos por severidade.**
 
 | Severidade | Rótulo | Quantidade | Percentual |

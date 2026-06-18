@@ -21,6 +21,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
+<a id="tabela-138"></a>
 **Tabela 138: Rastreabilidade entre o plano da Fase 3 e a execução da M6.**
 
 | Instrução definida na Fase 3                                                              | Execução realizada na Fase 4                                                                                        | Evidência                              |
@@ -36,6 +37,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 2.2 Dados Brutos e Evidências
 
+<a id="tabela-139"></a>
 **Tabela 139: Dados brutos e evidências da M6.**
 
 | Artefato                      | Finalidade                                                                    | Disponibilidade                          |
@@ -52,6 +54,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ## 3. Registro de Execução
 
+<a id="tabela-140"></a>
 **Tabela 140: Resultado da validação das respostas do assistente de IA na M6.**
 
 | Código | Pergunta submetida                                             | Classificação       | Justificativa da classificação                                                                                          | Evidência                              |
@@ -64,6 +67,7 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 
 ### 3.1 Resumo da Verificação
 
+<a id="tabela-141"></a>
 **Tabela 141: Resumo quantitativo da execução da M6.**
 
 | Categoria                              | Quantidade |
@@ -122,6 +126,7 @@ A M6 responde à questão Q3 de Adequação Funcional ao verificar se as recomen
 
 O resultado da execução não confirma nem refuta a hipótese H3 no que diz respeito à pertinência do assistente de IA: a impossibilidade de classificar as respostas como Válidas ou Inválidas revela que o assistente, no escopo avaliado, não produz orientações específicas o suficiente para serem verificadas objetivamente.
 
+<a id="tabela-142"></a>
 **Tabela 142: Resposta à hipótese H3 da Fase 2 no contexto da M6.**
 
 | Hipótese | Limiar definido | Resultado obtido | Confirmada? |
@@ -160,6 +165,7 @@ A classificação final da M6 é **Não aplicável**, com a observação qualita
 
 ## Histórico de Versões
 
+<a id="tabela-143"></a>
 **Tabela 143: Histórico de versões.**
 
 | Versão | Data       | Descrição                                                                   | Autor |

@@ -67,6 +67,7 @@ Durante a avaliação, o foco recairá principalmente sobre três funções cent
 A Figura 3 ilustra o No Fluxo em seu ecossistema, evidenciando as principais interações com o usuário e os sistemas externos.
 
 <div align="center">
+  <a id="figura-3"></a>
   <strong>Figura 3: Diagrama de contexto do No Fluxo UnB.</strong>
   <br>
   <img src="../../assets/DiagramaContexto.png" alt="Diagrama de contexto do No Fluxo UnB, com usuário, interface web, parser de histórico, banco de dados de fluxogramas e serviços externos." style="max-width: 100%; height: auto;">
@@ -83,6 +84,7 @@ O diagrama de contexto evidencia que a qualidade do parser de PDF e a integridad
 A Figura 4 apresenta a arquitetura do No Fluxo UnB disponibilizada pela equipe responsável pelo sistema. A representação evidencia a separação entre frontend, backend, banco de dados, integração com SIGAA, repositório local e fluxo RAG utilizado pelo assistente inteligente.
 
 <div align="center">
+  <a id="figura-4"></a>
   <strong>Figura 4: Arquitetura do sistema No Fluxo UnB.</strong>
   <br>
   <img src="../../assets/arquitetura.png" alt="Diagrama de arquitetura do No Fluxo UnB, com frontend Flutter, backend TypeScript, Supabase, banco de dados, SIGAA UnB, repositório local Lappis e fluxo RAG com documentos, embeddings, LLM e resposta ao usuário." style="max-width: 100%; height: auto;">

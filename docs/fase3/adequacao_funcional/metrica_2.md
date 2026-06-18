@@ -10,6 +10,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 ## 2. Definição da Métrica
 
+<a id="tabela-44"></a>
 **Tabela 44: Definição operacional da M2.**
 
 | Campo | Definição |
@@ -29,6 +30,7 @@ Esta métrica responde à questão Q2 de Adequação Funcional: **"Com que preci
 
 Para esta métrica, cada campo extraído do histórico acadêmico é conferido individualmente contra o gabarito de referência e classificado como correto, incorreto ou ausente.
 
+<a id="tabela-45"></a>
 **Tabela 45: Itens verificáveis da extração do histórico.**
 
 | Categoria | Item verificável |
@@ -55,6 +57,7 @@ A M2 foi definida para verificar a correção funcional da extração de dados d
 
 O método utiliza comparação item a item entre os dados exibidos pelo sistema e um gabarito externo construído a partir do histórico de referência. Essa escolha garante repetibilidade e rastreabilidade, pois cada item possui valor esperado, valor obtido, resultado binário e evidência associada.
 
+<a id="tabela-46"></a>
 **Tabela 46: Rastreabilidade da M2.**
 
 | Elemento | Definição |
@@ -71,6 +74,7 @@ O método utiliza comparação item a item entre os dados exibidos pelo sistema 
 
 ## 5. Recursos e Ambiente de Avaliação
 
+<a id="tabela-47"></a>
 **Tabela 47: Recursos necessários para execução da M2.**
 
 | Recurso | Especificação |
@@ -138,6 +142,7 @@ M2 = (Nº de itens extraídos corretamente pelo sistema
 
 ## 9. Critério de Julgamento
 
+<a id="tabela-48"></a>
 **Tabela 48: Régua de julgamento da M2.**
 
 | Classificação | Critério |
@@ -153,6 +158,7 @@ O limite mínimo satisfatório de 95% segue o requisito não funcional de acurá
 
 ## 10. Classificação de Divergências
 
+<a id="tabela-49"></a>
 **Tabela 49: Severidade das divergências da M2.**
 
 | Severidade | Critério |
@@ -166,6 +172,7 @@ O limite mínimo satisfatório de 95% segue o requisito não funcional de acurá
 
 ## 11. Cronograma de Execução
 
+<a id="tabela-50"></a>
 **Tabela 50: Cronograma específico da M2.**
 
 | Data limite | Atividade | Responsável |
@@ -194,6 +201,7 @@ Ao final da execução, devem estar disponíveis:
 
 ## Histórico de Versões
 
+<a id="tabela-51"></a>
 **Tabela 51: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

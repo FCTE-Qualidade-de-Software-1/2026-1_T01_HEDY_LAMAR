@@ -11,6 +11,7 @@ Contabilizar defeito como M4, somente se:
 
 Definir os critérios **antes** de iniciar os testes para evitar subjetividade na classificação.
 
+<a id="tabela-111"></a>
 **Tabela 111: Critérios de severidade.**
 
 | Nível | Critério objetivo |
@@ -53,6 +54,7 @@ Definir os critérios **antes** de iniciar os testes para evitar subjetividade n
 
 ## 4. Resultado esperado
 
+<a id="tabela-112"></a>
 **Tabela 112: Resultado esperado.**
 
 | Tela | ENV-01 | ENV-02 | ENV-03 | ENV-04 | ENV-05 | ENV-06 |
@@ -77,6 +79,7 @@ Ao final da execução, consolidar os dados para responder Q3:
 
 ## Histórico de Versões
 
+<a id="tabela-113"></a>
 **Tabela 113: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |

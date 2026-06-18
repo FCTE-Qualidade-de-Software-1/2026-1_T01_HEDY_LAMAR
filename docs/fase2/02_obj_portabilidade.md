@@ -8,6 +8,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 
 ## 3.1 Objetivo de Medição
 
+<a id="tabela-24"></a>
 **Tabela 24: Objetivo de medição para Portabilidade.**
 
 | Elemento GQM | Definição para o No Fluxo UnB |
@@ -26,6 +27,7 @@ De acordo com a ISO/IEC 25010, a Portabilidade envolve a capacidade de um produt
 
 A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.
 
+<a id="tabela-25"></a>
 **Tabela 25: Folha de abstração do objetivo de Portabilidade.**
 
 | Campo | Descrição |
@@ -47,6 +49,7 @@ A folha de abstração explicita como o objetivo será interpretado antes da col
 
 A Tabela 26 assegura a conexão contínua e auditável entre o planejamento inicial da Fase 1 e o desdobramento do presente objetivo GQM.
 
+<a id="tabela-26"></a>
 **Tabela 26: Rastreabilidade entre Fase 1 e objetivo de Portabilidade.**
 
 | Definição da Fase 1 | Relação com este objetivo GQM |
@@ -63,6 +66,7 @@ A Tabela 26 assegura a conexão contínua e auditável entre o planejamento inic
 
 As questões foram formuladas para cobrir a subcaracterística **Adaptabilidade** da característica **Portabilidade** presente na ISO/IEC 25010. Cada questão possui uma hipótese associada, que será confrontada com os resultados obtidos na execução da avaliação.
 
+<a id="tabela-27"></a>
 **Tabela 27: Questões e Hipóteses.**
 
 | Código | Questão | Subcaracterística / Vertente | Hipótese |
@@ -79,6 +83,7 @@ As questões foram formuladas para cobrir a subcaracterística **Adaptabilidade*
 
 As métricas abaixo respondem diretamente às questões da Seção 3.4. Foram priorizadas métricas quantitativas, objetivas e verificáveis, com fórmulas explícitas e fontes de evidência auditáveis.
 
+<a id="tabela-28"></a>
 **Tabela 28: Métricas do objetivo de Portabilidade (Adaptabilidade).**
 
 | Código | Questão | Métrica | Tipo | Fórmula / Forma de Medição | Fonte de Evidência |
@@ -90,6 +95,7 @@ As métricas abaixo respondem diretamente às questões da Seção 3.4. Foram pr
 
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
+<a id="tabela-29"></a>
 ### Tabela 29: Funcionalidades Centrais
 
 | Funcionalidade | Descrição |
@@ -104,6 +110,7 @@ As métricas abaixo respondem diretamente às questões da Seção 3.4. Foram pr
 
 ## 3.6 Diagrama GQM para Portabilidade
 
+<a id="diagrama-1"></a>
 **Diagrama 1: Diagrama GQM para Portabilidade.**
 
 ```mermaid
@@ -139,6 +146,7 @@ flowchart TD
 
 Para a realização padronizada das medições de Portabilidade, os testes devem cobrir obrigatoriamente as combinações da Tabela 30, estabelecidas a partir dos requisitos de escopo da Fase 1.
 
+<a id="tabela-30"></a>
 **Tabela 30: Matriz de Ambientes Alvo de Homologação.**
 
 | ID Ambiente | Categoria | Sistema Operacional Base (Versão) | Navegador Alvo (Versão Estável) | Resolução de Referência |
@@ -209,6 +217,7 @@ Para viabilizar uma interpretação inequívoca e rigorosa dos dados coletados, 
 
 ## Histórico de Versões
 
+<a id="tabela-31"></a>
 **Tabela 31: Histórico de versões da seção de Portabilidade.**
 
 | Versão | Data | Descrição | Autor |

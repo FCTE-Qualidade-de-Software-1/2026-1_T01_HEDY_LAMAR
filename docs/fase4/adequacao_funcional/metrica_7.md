@@ -20,6 +20,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.1 Conformidade com o Plano de Avaliação
 
+<a id="tabela-144"></a>
 **Tabela 144: Rastreabilidade entre o plano da Fase 3 e a execução da M7.**
 
 | Instrução definida na Fase 3 | Execução realizada na Fase 4 | Evidência |
@@ -36,6 +37,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 2.2 Dados Brutos e Evidências
 
+<a id="tabela-145"></a>
 **Tabela 145: Dados brutos e evidências da M7.**
 
 | Artefato | Finalidade | Disponibilidade |
@@ -55,6 +57,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ## 3. Registro Consolidado de Defeitos
 
+<a id="tabela-146"></a>
 **Tabela 146: Defeitos funcionais consolidados para cálculo da M7.**
 
 | ID | Origem | Defeito funcional consolidado | Severidade | Crítico? | Evidência |
@@ -72,6 +75,7 @@ Esta métrica responde à questão Q4 de Adequação Funcional: **"Qual é o imp
 
 ### 3.1 Distribuição por Criticidade
 
+<a id="tabela-147"></a>
 **Tabela 147: Distribuição dos defeitos por criticidade.**
 
 | Categoria | Critério | Quantidade |

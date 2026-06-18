@@ -19,6 +19,7 @@ Os testes de portabilidade visual foram consolidados em uma matriz de ambientes 
 
 As avaliações foram realizadas conforme as configurações apresentadas na Tabela 154.
 
+<a id="tabela-154"></a>
 ### Tabela 154 – Matriz de Ambientes e Resultados Brutos da M1
 
 | ID Ambiente | Categoria | Sistema Operacional Base | Navegador Alvo | Resolução de Referência | Resultado do Teste |
@@ -92,6 +93,7 @@ A métrica **M1** responde diretamente à questão central de Portabilidade:
 
 > "A interface do sistema é capaz de manter sua integridade e usabilidade quando acessada a partir de diferentes dispositivos e navegadores utilizados pelos estudantes?"
 
+<a id="tabela-155"></a>
 ### Tabela 155 – Resposta Consolidada às Questões de Portabilidade
 
 | Métrica | Resultado | Relação com a Hipótese | Interpretação |
@@ -126,6 +128,7 @@ A implementação dessas melhorias poderá elevar significativamente a taxa de c
 
 ## Histórico de Versões
 
+<a id="tabela-156"></a>
 **Tabela 156: Histórico de versões.**
 
 | Versão | Data | Descrição | Autor |
