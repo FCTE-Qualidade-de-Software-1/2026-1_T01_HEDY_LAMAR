@@ -1,0 +1,3214 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fcte-qualidade-de-software-1.github.io/2026-1_T01_HEDY_LAMAR/fase2/01_obj_adequacao_funcional/">
+      
+      
+        <link rel="prev" href="../00_aplicacao_gqm/">
+      
+      
+        <link rel="next" href="../02_obj_portabilidade/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>2. Objetivo de Medição - Adequação Funcional - Grupo Hedy Lamarr</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2-objetivo-de-medicao-adequacao-funcional" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo Hedy Lamarr" class="md-header__button md-logo" aria-label="Grupo Hedy Lamarr" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo Hedy Lamarr
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2. Objetivo de Medição - Adequação Funcional
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026-1-Hedy-Lamarr
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase1/01_proposito_da_avaliacao/" class="md-tabs__link">
+          
+  
+  
+  Fase 1 - Requisitos da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../00_aplicacao_gqm/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase3/adequacao_funcional/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projeção da Avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../fase4/adequacao_funcional/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Execução da avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../declaracao_uso_ia/" class="md-tabs__link">
+          
+  
+  
+  Apêndice
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../referencias/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Referências
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo Hedy Lamarr" class="md-nav__button md-logo" aria-label="Grupo Hedy Lamarr" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Grupo Hedy Lamarr
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T01_HEDY_LAMAR" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026-1-Hedy-Lamarr
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 1 - Requisitos da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 1 - Requisitos da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/01_proposito_da_avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Propósito da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/02_requisitante_e_stakeholders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Requisitante e Partes Interessadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/03_descricao_produto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Descrição do Produto de Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/04_selecao_e_priorizacao_de_caracteristicas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Seleção e Priorização de Características
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/05_modelo_de_qualidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Modelo de Qualidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/06_escopo_profundidade_e_objetos_de_avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Escopo, Profundidade e Objetos de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase1/07_ods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. ODS Relacionados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 2 - Especificação da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../00_aplicacao_gqm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Aplicação GQM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Objetivo de Medição - Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Objetivo de Medição - Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-objetivo-de-medicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Objetivo de Medição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-folha-de-abstracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Folha de Abstração
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-rastreabilidade-com-a-fase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Rastreabilidade com a Fase 1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-questoes-e-hipoteses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Questões e Hipóteses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-metricas-selecionadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Métricas Selecionadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Métricas Selecionadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#251-requisitos-funcionais-essenciais-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1 Requisitos Funcionais Essenciais Esperados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_obj_portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Objetivo de Medição - Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 3 - Projeção da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 3 - Projeção da Avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Adequação Funcional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1_2" id="__nav_4_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Métricas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1 - Cobertura dos Requisitos Funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2 - Validação de extração do Histórico Acadêmico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 - Consistência do Fluxograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M4 - Correção dos Cálculos Acadêmicos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M5 - Cenários de Planejamento Acadêmico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M6 - Recomendações academicamente válidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M7 - Defeitos funcionais críticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/adequacao_funcional/metrica_8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M8 - Severidade média dos defeitos funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Portabilidade
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Métricas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/portabilidade/metrica_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1 - Layout Responsivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/portabilidade/metrica_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2 - Equivalência Funcional por Navegador
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/portabilidade/metrica_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 - Defeitos Críticos de Adaptabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase3/portabilidade/metrica_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M4 - Defeitos Visuais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fase 4 - Execução da avaliação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fase 4 - Execução da avaliação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adequação Funcional
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Adequação Funcional
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1_2" id="__nav_5_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Métricas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1 - Cobertura dos Requisitos Funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2 - Validação de extração do Histórico Acadêmico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 - Consistência do Fluxograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M4 - Correção dos Cálculos Acadêmicos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M5 - Cenários de Planejamento Acadêmico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M6 - Recomendações academicamente válidas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M7 - Defeitos funcionais críticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/adequacao_funcional/metrica_8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M8 - Severidade média dos defeitos funcionais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portabilidade
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Portabilidade
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/portabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visão Geral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_2" id="__nav_5_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Métricas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Métricas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/portabilidade/metrica_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M1 - Layout Responsivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/portabilidade/metrica_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M2 - Equivalência Funcional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/portabilidade/metrica_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M3 - Defeitos Críticos de Adaptabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fase4/portabilidade/metrica_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M4 - Defeitos Visuais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apêndice
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Apêndice
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../declaracao_uso_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Declaração de Uso de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/contribuicao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tabela de Contribuição
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/listas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lista de Figuras, Tabelas e Similares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/configs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Configuração do ambiente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../referencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referências
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-objetivo-de-medicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Objetivo de Medição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-folha-de-abstracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Folha de Abstração
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-rastreabilidade-com-a-fase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Rastreabilidade com a Fase 1
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-questoes-e-hipoteses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Questões e Hipóteses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-metricas-selecionadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Métricas Selecionadas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5 Métricas Selecionadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagrama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagrama
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#251-requisitos-funcionais-essenciais-esperados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1 Requisitos Funcionais Essenciais Esperados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versões
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="2-objetivo-de-medicao-adequacao-funcional">2. Objetivo de Medição - Adequação Funcional</h1>
+<p>Esta página especifica o objetivo de medição da característica <strong>Adequação Funcional</strong> do <strong>No Fluxo UnB</strong>, seguindo a abordagem <strong>GQM (Goal, Question, Metric)</strong>. A especificação deriva diretamente da Fase 1, em que Adequação Funcional foi priorizada com maior pontuação na matriz Impacto × Risco por estar relacionada ao núcleo do produto: interpretar corretamente o histórico acadêmico do estudante, cruzar esses dados com o fluxograma curricular e apoiar o planejamento da graduação.</p>
+<p>De acordo com a ISO/IEC 25010, a Adequação Funcional envolve a capacidade de um produto prover funções que atendam às necessidades declaradas e implícitas dos usuários. No contexto do No Fluxo UnB, esta característica é analisada pelas subcaracterísticas <strong>Completude Funcional</strong>, <strong>Correção Funcional</strong> e <strong>Pertinência Funcional</strong>.</p>
+<hr />
+<h2 id="21-objetivo-de-medicao">2.1 Objetivo de Medição</h2>
+<p><a id="tabela-17"></a>
+<strong>Tabela 17: Objetivo de medição para Adequação Funcional.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Elemento GQM</th>
+<th>Definição para o No Fluxo UnB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Analisar</strong></td>
+<td>O sistema <strong>No Fluxo UnB</strong>, com foco no motor de leitura e processamento do histórico acadêmico em PDF, na visualização do fluxograma curricular, nos cálculos acadêmicos, na simulação de planejamento e nas funcionalidades de apoio ao estudante.</td>
+</tr>
+<tr>
+<td><strong>Com o propósito de</strong></td>
+<td>Avaliar se os requisitos funcionais essenciais estão presentes, operam corretamente e são apropriados para apoiar o planejamento acadêmico de estudantes da Universidade de Brasília.</td>
+</tr>
+<tr>
+<td><strong>Com respeito a</strong></td>
+<td><strong>Adequação Funcional</strong>, considerando Completude Funcional, Correção Funcional e Pertinência Funcional, conforme a ISO/IEC 25010.</td>
+</tr>
+<tr>
+<td><strong>Do ponto de vista de</strong></td>
+<td>Estudantes de graduação da UnB, equipe avaliadora do Grupo Hedy Lamarr e equipe de desenvolvimento do No Fluxo UnB.</td>
+</tr>
+<tr>
+<td><strong>No contexto de</strong></td>
+<td>Avaliação acadêmica de qualidade de produto de software na disciplina FGA0315 - Qualidade de Software 1, com base no sistema disponível em <a href="https://no-fluxo.crianex.com/">https://no-fluxo.crianex.com/</a> e nos objetos de avaliação definidos na Fase 1.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na abordagem GQM e na ISO/IEC 25010.</em></p>
+<h2 id="22-folha-de-abstracao">2.2 Folha de Abstração</h2>
+<p>A folha de abstração explicita como o objetivo será interpretado antes da coleta dos dados. Ela reduz ambiguidades entre o que será medido, por que será medido e como os resultados serão julgados.</p>
+<p><a id="tabela-18"></a>
+<strong>Tabela 18: Folha de abstração do objetivo de Adequação Funcional.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Objeto</strong></td>
+<td>Produto de software No Fluxo UnB, especialmente os módulos de leitura do histórico, processamento acadêmico, visualização do fluxograma, simulação de planejamento, exportação e apoio por assistente de IA.</td>
+</tr>
+<tr>
+<td><strong>Propósito</strong></td>
+<td>Avaliar a capacidade do sistema de entregar as funções esperadas para apoiar o planejamento acadêmico.</td>
+</tr>
+<tr>
+<td><strong>Foco da qualidade</strong></td>
+<td>Adequação Funcional: completude, correção e pertinência das funções.</td>
+</tr>
+<tr>
+<td><strong>Ponto de vista</strong></td>
+<td>Usuário final estudante, avaliadores de qualidade e equipe mantenedora do produto.</td>
+</tr>
+<tr>
+<td><strong>Contexto de uso</strong></td>
+<td>Estudantes da UnB acessando a aplicação web para interpretar histórico acadêmico, consultar fluxograma, verificar progresso e planejar disciplinas.</td>
+</tr>
+<tr>
+<td><strong>Hipótese global</strong></td>
+<td>Se o sistema apresentar alta cobertura de funções essenciais, acurácia mínima de 95% na leitura do histórico e baixa ocorrência de defeitos críticos, então a Adequação Funcional será considerada suficiente para apoiar decisões acadêmicas com confiança.</td>
+</tr>
+<tr>
+<td><strong>Fatores de variação</strong></td>
+<td>Curso avaliado, formato do histórico em PDF, versão da base curricular, navegador utilizado, disponibilidade dos serviços externos e estado da autenticação do usuário.</td>
+</tr>
+<tr>
+<td><strong>Restrições da avaliação</strong></td>
+<td>A avaliação não pretende validar todos os cursos, todos os modelos possíveis de histórico nem todos os cenários de exceção da UnB. O escopo fica limitado aos objetos e ambientes definidos na Fase 1.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em></p>
+<hr />
+<h2 id="23-rastreabilidade-com-a-fase-1">2.3 Rastreabilidade com a Fase 1</h2>
+<p>A Tabela 19 apresenta a relação direta entre as decisões tomadas na Fase 1 e o desdobramento deste objetivo GQM.</p>
+<p><a id="tabela-19"></a>
+<strong>Tabela 19: Rastreabilidade entre Fase 1 e objetivo de Adequação Funcional.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Definição da Fase 1</th>
+<th>Relação com este objetivo GQM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adequação Funcional foi a característica de maior prioridade na matriz Impacto × Risco, com 25 pontos.</td>
+<td>O objetivo de medição verifica se as funções centrais estão completas, corretas e úteis para o estudante.</td>
+</tr>
+<tr>
+<td>O propósito da avaliação é apoiar decisões técnicas e de evolução do No Fluxo UnB.</td>
+<td>As métricas foram definidas para produzir evidências acionáveis sobre falhas funcionais, lacunas e riscos de uso.</td>
+</tr>
+<tr>
+<td>O motor de leitura do histórico em PDF foi identificado como núcleo funcional do sistema.</td>
+<td>A métrica M2 mede a acurácia da extração do histórico, com limite mínimo alinhado à exigência de 95% mencionada na Fase 1.</td>
+</tr>
+<tr>
+<td>A visualização do fluxograma e o apoio ao planejamento acadêmico foram definidos como funções centrais.</td>
+<td>As métricas M3, M4, M5 e M6 avaliam consistência curricular, cálculos acadêmicos e conclusão de tarefas de planejamento.</td>
+</tr>
+<tr>
+<td>O público-alvo principal são estudantes de graduação da UnB.</td>
+<td>As questões avaliam se o sistema entrega valor funcional do ponto de vista do estudante que precisa planejar sua trajetória acadêmica.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em></p>
+<hr />
+<h2 id="24-questoes-e-hipoteses">2.4 Questões e Hipóteses</h2>
+<p>As questões foram formuladas para cobrir as três subcaracterísticas de Adequação Funcional presentes na ISO/IEC 25010. Cada questão possui uma hipótese associada, que será confrontada com os resultados obtidos na execução da avaliação.</p>
+<p><a id="tabela-20"></a>
+<strong>Tabela 20: Questões e hipóteses do objetivo de Adequação Funcional.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Questão</th>
+<th>Subcaracterística</th>
+<th>Hipótese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Q1</strong></td>
+<td>Em que medida o No Fluxo UnB disponibiliza os requisitos funcionais essenciais para apoiar o planejamento acadêmico do estudante?</td>
+<td>Completude Funcional</td>
+<td><strong>H1:</strong> O sistema disponibiliza pelo menos 90% dos requisitos funcionais essenciais identificados na Fase 1 e no levantamento de requisitos do produto.</td>
+</tr>
+<tr>
+<td><strong>Q2</strong></td>
+<td>Com que precisão o sistema interpreta o histórico acadêmico e apresenta informações curriculares corretas ao estudante?</td>
+<td>Correção Funcional</td>
+<td><strong>H2:</strong> A leitura do histórico e a apresentação dos dados curriculares atingem acurácia igual ou superior a 95%, sem defeitos críticos que comprometam a decisão acadêmica.</td>
+</tr>
+<tr>
+<td><strong>Q3</strong></td>
+<td>Em que grau as funcionalidades do sistema são apropriadas para executar tarefas reais de planejamento acadêmico?</td>
+<td>Pertinência Funcional</td>
+<td><strong>H3:</strong> Os cenários principais de planejamento podem ser concluídos com sucesso em pelo menos 90% das execuções avaliadas.</td>
+</tr>
+<tr>
+<td><strong>Q4</strong></td>
+<td>Qual é o impacto dos defeitos, lacunas ou inconsistências funcionais encontrados durante a avaliação?</td>
+<td>Adequação Funcional consolidada</td>
+<td><strong>H4:</strong> Os defeitos funcionais encontrados terão severidade média baixa ou moderada, sem ocorrência de mais de um defeito crítico.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em></p>
+<hr />
+<h2 id="25-metricas-selecionadas">2.5 Métricas Selecionadas</h2>
+<p>As métricas abaixo respondem diretamente às questões da Seção 2.4. Foram priorizadas métricas simples, objetivas e verificáveis, com fórmulas explícitas e fontes de evidência auditáveis.</p>
+<p><a id="tabela-21"></a>
+<strong>Tabela 21: Métricas do objetivo de Adequação Funcional.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Questão</th>
+<th>Métrica</th>
+<th>Tipo</th>
+<th>Fórmula / forma de medição</th>
+<th>Fonte de evidência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>M1</strong></td>
+<td>Q1</td>
+<td>Percentual de requisitos funcionais essenciais disponíveis</td>
+<td>Quantitativa</td>
+<td><code>(Nº de requisitos funcionais essenciais disponíveis e acessíveis / Nº total de requisitos funcionais essenciais definidos na Tabela 22) × 100</code></td>
+<td>Checklist funcional derivado de <code>documentacao/requisitos.md</code> e execução exploratória da aplicação.</td>
+</tr>
+<tr>
+<td><strong>M2</strong></td>
+<td>Q2</td>
+<td>Acurácia da extração do histórico acadêmico</td>
+<td>Quantitativa</td>
+<td><code>(Nº de informações do histórico extraídas corretamente / Nº total de informações esperadas no histórico de referência) × 100</code></td>
+<td>Históricos em PDF e textos extraídos de <code>test_historicos/</code>, dados extraídos pelo sistema e conferência com valores esperados dos scripts de teste.</td>
+</tr>
+<tr>
+<td><strong>M3</strong></td>
+<td>Q2</td>
+<td>Taxa de consistência do fluxograma, equivalências e pré-requisitos</td>
+<td>Quantitativa</td>
+<td><code>(Nº de disciplinas, equivalências, dependências e pré-requisitos exibidos corretamente / Nº total de itens curriculares verificados) × 100</code></td>
+<td>Base curricular, consultas de matrizes/disciplinas/equivalências, tela gerada pelo No Fluxo UnB e registros de verificação.</td>
+</tr>
+<tr>
+<td><strong>M4</strong></td>
+<td>Q2</td>
+<td>Taxa de correção dos cálculos acadêmicos</td>
+<td>Quantitativa</td>
+<td><code>(Nº de indicadores acadêmicos calculados corretamente / Nº total de indicadores acadêmicos verificados) × 100</code></td>
+<td>Valores esperados de curso, IRA, média ponderada, suspensões, pendências, integralização e progresso, conferidos com histórico e base curricular.</td>
+</tr>
+<tr>
+<td><strong>M5</strong></td>
+<td>Q3</td>
+<td>Taxa de sucesso em cenários de planejamento acadêmico</td>
+<td>Quantitativa</td>
+<td><code>(Nº de cenários concluídos sem impedimento funcional / Nº total de cenários executados) × 100</code></td>
+<td>Roteiros de teste, evidências de execução, registros de sucesso e falha.</td>
+</tr>
+<tr>
+<td><strong>M6</strong></td>
+<td>Q3</td>
+<td>Percentual de recomendações ou orientações academicamente válidas</td>
+<td>Quantitativa</td>
+<td><code>(Nº de recomendações válidas / Nº total de recomendações avaliadas) × 100</code></td>
+<td>Respostas do assistente de IA, histórico de referência, ementas ou informações curriculares disponíveis e regras acadêmicas aplicáveis.</td>
+</tr>
+<tr>
+<td><strong>M7</strong></td>
+<td>Q4</td>
+<td>Número de defeitos funcionais críticos encontrados</td>
+<td>Quantitativa</td>
+<td>Contagem de defeitos classificados como críticos, isto é, defeitos capazes de induzir uma decisão acadêmica incorreta ou impedir o uso de uma função central.</td>
+<td>Registro de defeitos, evidências de reprodução e classificação de severidade.</td>
+</tr>
+<tr>
+<td><strong>M8</strong></td>
+<td>Q4</td>
+<td>Severidade média dos defeitos funcionais</td>
+<td>Quantitativa ordinal</td>
+<td><code>Soma das severidades atribuídas aos defeitos / Nº total de defeitos funcionais encontrados</code>, em escala de 1 a 5.</td>
+<td>Registro de defeitos funcionais e escala de severidade definida nesta página.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em></p>
+<h3 id="diagrama">Diagrama</h3>
+<p><img alt="Representação de Estrutura GQM" src="../../assets/DiagramaAdequacao.drawio.png" /></p>
+<div align="center">
+  <a id="figura-10"></a>
+  <em>Figura 10 - Representação visual do GQM de Adequação Funcional.</em>
+  <em>Autor: Paulo Cerqueira.</em>
+</div>
+
+<blockquote>
+<p>Legenda: O: Objetivo, Q: Questão e M: Métrica relacionada.</p>
+</blockquote>
+<h3 id="251-requisitos-funcionais-essenciais-esperados">2.5.1 Requisitos Funcionais Essenciais Esperados</h3>
+<p>Para a métrica M1, o conjunto de requisitos funcionais essenciais foi definido com base na descrição do produto da Fase 1 e no arquivo <code>documentacao/requisitos.md</code> do repositório de referência do No Fluxo UnB.</p>
+<p><a id="tabela-22"></a>
+<strong>Tabela 22: Requisitos funcionais essenciais considerados na métrica M1.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Requisito funcional essencial</th>
+<th>Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>F1</strong></td>
+<td>Upload e leitura de histórico acadêmico em PDF</td>
+<td>É a entrada principal para personalizar a análise do estudante.</td>
+</tr>
+<tr>
+<td><strong>F2</strong></td>
+<td>Extração de disciplinas cursadas, aprovadas e reprovadas</td>
+<td>Permite identificar o estado acadêmico real do usuário.</td>
+</tr>
+<tr>
+<td><strong>F3</strong></td>
+<td>Consulta ao banco de dados de fluxograma, disciplinas e equivalências</td>
+<td>Conecta o histórico do estudante à matriz curricular oficial usada pela plataforma.</td>
+</tr>
+<tr>
+<td><strong>F4</strong></td>
+<td>Visualização do fluxograma curricular do curso com disciplinas cursadas destacadas</td>
+<td>É a entrega visual central da plataforma.</td>
+</tr>
+<tr>
+<td><strong>F5</strong></td>
+<td>Exibição de equivalências e dependências curriculares</td>
+<td>Apoia a escolha correta de disciplinas futuras.</td>
+</tr>
+<tr>
+<td><strong>F6</strong></td>
+<td>Indicação de número de reprovações ou tentativas por disciplina</td>
+<td>Ajuda o estudante a compreender seu percurso no curso.</td>
+</tr>
+<tr>
+<td><strong>F7</strong></td>
+<td>Cálculo de progresso acadêmico, IRA, média ponderada e carga horária</td>
+<td>Permite acompanhar a situação acadêmica de forma objetiva.</td>
+</tr>
+<tr>
+<td><strong>F8</strong></td>
+<td>Identificação de horas complementares cumpridas e pendentes</td>
+<td>Evita planejamento incompleto em relação à integralização curricular.</td>
+</tr>
+<tr>
+<td><strong>F9</strong></td>
+<td>Planejamento ou simulação de disciplinas futuras</td>
+<td>Relaciona diretamente o sistema ao planejamento acadêmico personalizado.</td>
+</tr>
+<tr>
+<td><strong>F10</strong></td>
+<td>Exportação em PDF da simulação do fluxograma</td>
+<td>Permite registrar e compartilhar o planejamento em formato padronizado.</td>
+</tr>
+<tr>
+<td><strong>F11</strong></td>
+<td>Simulação de troca de curso e aproveitamento de disciplinas</td>
+<td>Atende cenário de decisão acadêmica relevante.</td>
+</tr>
+<tr>
+<td><strong>F12</strong></td>
+<td>Persistência de dados e simulações para usuário logado</td>
+<td>Permite continuidade de uso e comparação de planejamentos.</td>
+</tr>
+<tr>
+<td><strong>F13</strong></td>
+<td>Cálculo de semestres cursados e restantes</td>
+<td>Ajuda o estudante a estimar sua trajetória até a conclusão.</td>
+</tr>
+<tr>
+<td><strong>F14</strong></td>
+<td>Identificação de trancamentos e mudanças de curso no histórico</td>
+<td>Evita interpretação incompleta do percurso acadêmico.</td>
+</tr>
+<tr>
+<td><strong>F15</strong></td>
+<td>Assistente de IA para apoio à escolha de cursos e disciplinas</td>
+<td>Complementa a tomada de decisão com recomendações alinhadas a interesses, histórico e matriz curricular.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026), com base na descrição do produto e em <code>documentacao/requisitos.md</code> do No Fluxo UnB.</em></p>
+<hr />
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, H. Dieter. <em>Goal Question Metric Paradigm</em>. In: MARCINIAK, John J. (Ed.). <em>Encyclopedia of Software Engineering</em>. New York: John Wiley &amp; Sons, 1994.</p>
+<p>INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. <em>ISO/IEC 25010:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models</em>. Geneva: ISO, 2011.</p>
+<p>NO FLUXO UNB. <em>No Fluxo UnB</em>. Disponível em: <a href="https://no-fluxo.crianex.com/">https://no-fluxo.crianex.com/</a>. Acesso em: 03 jun. 2026.</p>
+<p>NO FLUXO UNB. <em>Levantamento de Requisitos</em>. Repositório público do No Fluxo UnB. Disponível em: <a href="https://github.com/unb-mds/2025-1-NoFluxoUNB/blob/main/documentacao/requisitos.md">https://github.com/unb-mds/2025-1-NoFluxoUNB/blob/main/documentacao/requisitos.md</a>. Acesso em: 03 jun. 2026.</p>
+<p>FCTE QUALIDADE DE SOFTWARE 1. <em>2025-2 T01 Heddy Lamar - Objetivo de Medição: Adequação Funcional</em>. Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-2_T01_HEDDY-LAMAR/fase_2/obj_adequacao_funcional/">https://fcte-qualidade-de-software-1.github.io/2025-2_T01_HEDDY-LAMAR/fase_2/obj_adequacao_funcional/</a>. Acesso em: 03 jun. 2026.</p>
+<p>FCTE QUALIDADE DE SOFTWARE 1. <em>2025-2 T02 Radia Perlman - Característica: Adequação Funcional</em>. Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Radia_Perlman/fase2/02_adequacao_funcional/">https://fcte-qualidade-de-software-1.github.io/2025-2_T02_Radia_Perlman/fase2/02_adequacao_funcional/</a>. Acesso em: 03 jun. 2026.</p>
+</blockquote>
+<hr />
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<p><a id="tabela-23"></a>
+<strong>Tabela 23: Histórico de versões da página.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.2</code></td>
+<td>03/06/2026</td>
+<td>Criação da Representação visual do GQM de Adequação Funcional</td>
+<td><a href="https://github.com/paulocerqr">Paulo Cerqueira</a></td>
+<td>Grupo Hedy Lamarr</td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>03/06/2026</td>
+<td>Refinamento com base no levantamento de requisitos do No Fluxo UnB, nos testes de histórico disponíveis no repositório e na definição de evidências auditáveis por métrica.</td>
+<td><a href="https://github.com/lcsgborges">Lucas Guimarães</a></td>
+<td>Grupo Hedy Lamarr</td>
+</tr>
+<tr>
+<td><code>1.0</code></td>
+<td>03/06/2026</td>
+<td>Criação do objetivo de medição de Adequação Funcional, com objetivo GQM, folha de abstração, rastreabilidade com a Fase 1, questões, hipóteses</td>
+<td><a href="https://github.com/BrzGab">Gabriel Lopes</a></td>
+<td>Grupo Hedy Lamarr</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../00_aplicacao_gqm/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 1. Aplicação GQM">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                1. Aplicação GQM
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../02_obj_portabilidade/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 3. Objetivo de Medição - Portabilidade">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                3. Objetivo de Medição - Portabilidade
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Relatório de Avaliação da Qualidade do No Fluxo UnB — Versão 1.0 — Atualizado em: <span id="current-date-br">03/06/2026</span> — Grupo Hedy Lamarr
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.tabs.sticky", "navigation.tabs", "navigation.sections", "navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/current-date.js"></script>
+      
+    
+  </body>
+</html>
