@@ -63,6 +63,8 @@ Esta métrica responde à questão Q3 de Adequação Funcional: **"Em que grau a
 | P2     | "Quantos semestres ainda me faltam para concluir o curso?"     | **Não verificável** | O assistente não forneceu estimativa numérica de semestres. A resposta foi orientativa, sugerindo que o estudante consulte o SIGAA ou o coordenador, sem utilizar os dados do histórico carregado para produzir um cálculo concreto. | [M6_P[2]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[2]_[CLASSIFICACAO]_[2026-06-11].png)  |
 | P3     | "Estou em risco de jubilamento? O que devo fazer?"             | **Não verificável** | O assistente respondeu com informações gerais sobre jubilamento na UnB, sem avaliar a situação específica do estudante com base no histórico carregado. A resposta não permitiu validação objetiva contra as regras acadêmicas aplicáveis ao perfil do histórico de referência. | [M6_P[3]_[Nao verificável]_[2026-06-11].png](../../assets/dados/adequacao_funcional/metrica5e6/M6_P[3]_[CLASSIFICACAO]_[2026-06-11].png)  |
 
+Obs.: A resposta a tais perguntas foram classificadas como "Não verificável" devido ao fato do assistente de IA ter sido incapaz de responder às perguntas de forma personalizada, pois ele não possui acesso ao histórico do aluno. Deste modo, não se pode obter respostas customizadas.
+
 *Fonte: Elaborado pelo Grupo Hedy Lamarr (2026).*
 
 ### 3.1 Resumo da Verificação
